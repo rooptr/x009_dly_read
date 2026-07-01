@@ -221,22 +221,18 @@
             text-align: center;
             box-shadow: 4px 4px 0px var(--orange), 8px 8px 0px var(--black);
             z-index: 1000;
-            /* 5 second animation: slides down, waits, slides up */
-            animation: slideDownOut 5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+            transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
-        @keyframes slideDownOut {
-            0% { transform: translateX(-50%) translateY(-150px); }
-            10% { transform: translateX(-50%) translateY(0); }
-            80% { transform: translateX(-50%) translateY(0); }
-            100% { transform: translateX(-50%) translateY(-150px); }
+        .toast-popup.show {
+            transform: translateX(-50%) translateY(0);
         }
 
     </style>
 </head>
 <body>
     <!-- Hydration Reminder -->
-    <div class="toast-popup">WAIT! Make sure you hydrate before reading.</div>
+    <div id="hydrate-toast" class="toast-popup">WAIT! Make sure you hydrate before reading.</div>
 
     <div class="container">
         <!-- Date Header -->
@@ -262,10 +258,10 @@
 
             <!-- Toppings (Links) -->
             <div class="toppings">
-                <a href="et.pdf" class="topping t-et">Eco<br>Times</a>
-                <a href="bs.pdf" class="topping t-bs">Biz<br>Std</a>
-                <a href="fe.pdf" class="topping t-fe">Fin<br>Exp</a>
-                <a href="mint.pdf" class="topping t-mint">Mint</a>
+                <a href="et.pdf" class="topping t-et" onclick="showToast()">Eco<br>Times</a>
+                <a href="bs.pdf" class="topping t-bs" onclick="showToast()">Biz<br>Std</a>
+                <a href="fe.pdf" class="topping t-fe" onclick="showToast()">Fin<br>Exp</a>
+                <a href="mint.pdf" class="topping t-mint" onclick="showToast()">Mint</a>
             </div>
         </div>
     </div>
@@ -296,6 +292,14 @@
             const modal = document.getElementById('modal');
             modal.classList.remove('active');
             setTimeout(() => modal.style.display = 'none', 300);
+        }
+
+        function showToast() {
+            const toast = document.getElementById('hydrate-toast');
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3500);
         }
     </script>
 </body>
