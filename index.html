@@ -7,10 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <style>
         :root {
-            --magenta: #FF007F;
-            --cyan: #00FFFF;
-            --yellow: #FFEA00;
-            --black: #111;
+            --magenta: #E76F51; /* Muted Terracotta */
+            --cyan: #2A9D8F; /* Muted Teal */
+            --yellow: #E9C46A; /* Soft Gold */
+            --black: #264653; /* Dark Slate */
         }
         
         body, html {
@@ -56,7 +56,8 @@
             position: relative;
             width: 300px;
             height: 400px;
-            margin-top: 20px;
+            margin-top: 10px;
+            transform: rotate(12deg);
         }
 
         /* Pizza with chromatic aberration borders */
@@ -101,7 +102,9 @@
 
         /* --- EXTRAS BUTTON --- */
         .extras {
-            margin-top: 50px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            z-index: 50;
         }
 
         .extra-btn {
@@ -211,16 +214,20 @@
     <div class="container">
         <h1 id="date-header">Today's Edition</h1>
         
+        <div class="extras">
+            <button class="extra-btn" onclick="openModal()">Market Today</button>
+        </div>
+
         <div class="pizza-wrapper">
             <!-- Sketchy Pizza SVG Outline -->
             <svg class="slice-outline" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
                 <!-- Base slice (Golden Cheese) -->
-                <path d="M 15 45 Q 150 10 285 45 Q 295 55 285 65 L 175 365 Q 150 390 125 365 L 15 65 Q 5 55 15 45 Z" fill="#ffb703" stroke="#111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M 15 45 Q 150 10 285 45 Q 295 55 285 65 L 175 365 Q 150 390 125 365 L 15 65 Q 5 55 15 45 Z" fill="#ffb703" stroke="var(--black)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
                 <!-- Crust detail (Baked crust color) -->
-                <path d="M 15 45 Q 150 10 285 45 Q 295 55 285 65 L 265 60 Q 150 25 35 60 Z" fill="#fb8500" stroke="#111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M 25 70 Q 150 35 275 70" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+                <path d="M 15 45 Q 150 10 285 45 Q 295 55 285 65 L 265 60 Q 150 25 35 60 Z" fill="#fb8500" stroke="var(--black)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M 25 70 Q 150 35 275 70" fill="none" stroke="var(--black)" stroke-width="4" stroke-linecap="round"/>
                 <!-- Drippy cheese details -->
-                <path d="M 40 70 Q 45 80 40 90 M 260 70 Q 255 80 260 90 M 150 370 L 150 380 M 140 372 L 142 376 M 160 372 L 158 376 M 50 160 L 55 165 M 240 180 L 235 185 M 150 190 Q 155 200 150 210" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" />
+                <path d="M 40 70 Q 45 80 40 90 M 260 70 Q 255 80 260 90 M 150 370 L 150 380 M 140 372 L 142 376 M 160 372 L 158 376 M 50 160 L 55 165 M 240 180 L 235 185 M 150 190 Q 155 200 150 210" fill="none" stroke="var(--black)" stroke-width="3" stroke-linecap="round" />
             </svg>
 
             <!-- Toppings (Links) -->
@@ -230,10 +237,6 @@
                 <a href="fe.pdf" class="topping t-fe">Fin<br>Exp</a>
                 <a href="mint.pdf" class="topping t-mint">Mint</a>
             </div>
-        </div>
-
-        <div class="extras">
-            <button class="extra-btn" onclick="openModal()">Market Today</button>
         </div>
     </div>
 
