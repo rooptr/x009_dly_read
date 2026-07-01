@@ -28,7 +28,9 @@ jobs:
         run: python fetch_papers.py
 
       - name: Crop Market Box
-        run: pdftocairo -png -x 25 -y 220 -W 320 -H 250 bs.pdf market_box
+        run: |
+          pdftocairo -png -f 1 -l 1 -x 25 -y 220 -W 320 -H 250 bs.pdf crop
+          mv crop*.png market_box.png
 
       - name: Deploy to Netlify
         run: npx netlify-cli deploy --prod --dir=.
