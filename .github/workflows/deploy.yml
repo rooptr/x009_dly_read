@@ -19,10 +19,16 @@ jobs:
           python-version: '3.10'
 
       - name: Install Dependencies
-        run: pip install beautifulsoup4
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+          pip install beautifulsoup4
 
       - name: Fetch Today's Papers
         run: python fetch_papers.py
+
+      - name: Crop Market Box
+        run: pdftocairo -png -x 25 -y 220 -W 320 -H 250 bs.pdf market_box
 
       - name: Deploy to Netlify
         run: npx netlify-cli deploy --prod --dir=.

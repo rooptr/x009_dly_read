@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Today's Papers</title>
-    <!-- Import a beautiful hand-drawn font -->
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --magenta: #FF007F;
+            --cyan: #00FFFF;
+            --yellow: #FFEA00;
+            --black: #111;
+        }
+        
         body, html {
             margin: 0;
             padding: 0;
-            height: 100%;
-            background-color: #fdfdfd;
+            min-height: 100%;
+            /* Halftone dot pattern background */
+            background-color: #f0f0f0;
+            background-image: radial-gradient(#ccc 15%, transparent 16%), radial-gradient(#ccc 15%, transparent 16%);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
             font-family: 'Patrick Hand', cursive;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #111;
+            color: var(--black);
         }
         
         .container {
@@ -24,17 +34,22 @@
             flex-direction: column;
             align-items: center;
             position: relative;
+            padding: 20px;
         }
 
+        /* Chromatic Aberration Header */
         h1 {
-            font-size: 38px;
+            font-size: 48px;
             margin-bottom: 20px;
-            letter-spacing: 2px;
+            letter-spacing: 3px;
             text-transform: uppercase;
             text-align: center;
-            border-bottom: 3px solid #111;
-            border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-            padding-bottom: 5px;
+            background: #fff;
+            padding: 10px 30px;
+            border: 4px solid var(--black);
+            /* Spider-Verse style drop shadows */
+            box-shadow: 4px 4px 0px var(--magenta), -4px -4px 0px var(--cyan), 8px 8px 0px var(--black);
+            transform: rotate(-2deg);
         }
         
         .pizza-wrapper {
@@ -44,182 +59,151 @@
             margin-top: 20px;
         }
 
+        /* Pizza with chromatic aberration borders */
         .slice-outline {
             position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+            top: 0; left: 0; width: 100%; height: 100%;
             pointer-events: none;
-            z-index: 1;
-            filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.1));
+            z-index: 2;
+            filter: drop-shadow(4px 4px 0px var(--magenta)) drop-shadow(-3px -3px 0px var(--cyan));
         }
 
         .toppings {
             position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 2;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 3;
         }
 
+        /* Comic Book Toppings */
         a.topping {
             position: absolute;
-            width: 76px;
-            height: 76px;
-            border: 3px solid #111;
-            border-radius: 50% 40% 60% 45% / 45% 55% 40% 60%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            text-decoration: none;
-            color: #111;
-            font-size: 18px;
-            line-height: 1.1;
-            background-color: #fff;
-            transition: all 0.2s ease;
-            box-shadow: 3px 3px 0px rgba(0,0,0,0.9);
+            width: 76px; height: 76px;
+            border: 4px solid var(--black);
+            display: flex; align-items: center; justify-content: center;
+            text-align: center; text-decoration: none;
+            color: var(--black); font-size: 18px; font-weight: bold; line-height: 1.1;
+            background-color: var(--yellow);
+            transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            /* Comic shadow */
+            box-shadow: 4px 4px 0px var(--black);
         }
         
-        .t-et { top: 85px; left: 60px; transform: rotate(-5deg); border-radius: 40% 60% 55% 45% / 55% 45% 60% 40%; }
-        .t-bs { top: 100px; left: 155px; transform: rotate(8deg); border-radius: 60% 40% 45% 55% / 40% 60% 45% 55%; }
-        .t-fe { top: 175px; left: 100px; transform: rotate(-10deg); border-radius: 55% 45% 40% 60% / 60% 40% 55% 45%; }
-        .t-mint { top: 265px; left: 112px; transform: rotate(4deg); border-radius: 45% 55% 60% 40% / 45% 55% 40% 60%; }
+        .t-et { top: 85px; left: 60px; transform: rotate(-5deg); background-color: var(--magenta); color: #fff; border-radius: 40% 60% 55% 45% / 55% 45% 60% 40%; }
+        .t-bs { top: 100px; left: 155px; transform: rotate(8deg); background-color: var(--cyan); border-radius: 60% 40% 45% 55% / 40% 60% 45% 55%; }
+        .t-fe { top: 175px; left: 100px; transform: rotate(-10deg); background-color: var(--yellow); border-radius: 55% 45% 40% 60% / 60% 40% 55% 45%; }
+        .t-mint { top: 265px; left: 112px; transform: rotate(4deg); background-color: #fff; border-radius: 45% 55% 60% 40% / 45% 55% 40% 60%; }
 
         a.topping:hover {
-            background-color: #111;
-            color: #fff;
-            transform: scale(1.15) rotate(0deg);
-            box-shadow: 5px 5px 0px rgba(0,0,0,0.9);
-            border-radius: 50%;
+            transform: scale(1.2) rotate(0deg);
+            box-shadow: 6px 6px 0px var(--black), -3px -3px 0px var(--magenta);
             z-index: 10;
         }
 
-        /* --- WALKING ANIMATION CONTAINER --- */
-        .animated-container {
+        /* --- EXTRAS BUTTON --- */
+        .extras {
+            margin-top: 50px;
+        }
+
+        .extra-btn {
+            font-family: 'Patrick Hand', cursive;
+            font-size: 26px;
+            font-weight: bold;
+            background: var(--yellow);
+            border: 4px solid var(--black);
+            padding: 10px 30px;
+            cursor: pointer;
+            box-shadow: 5px 5px 0px var(--magenta), -3px -3px 0px var(--cyan), 8px 8px 0px var(--black);
+            transform: rotate(2deg);
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+        }
+
+        .extra-btn:hover {
+            transform: translate(-2px, -2px) rotate(0deg) scale(1.05);
+            box-shadow: 7px 7px 0px var(--magenta), -5px -5px 0px var(--cyan), 10px 10px 0px var(--black);
+        }
+
+        .extra-btn:active {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0px var(--black);
+        }
+
+        /* --- CLIPBOARD MODAL --- */
+        .modal-overlay {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: none; justify-content: center; align-items: center;
+            z-index: 100; opacity: 0; transition: opacity 0.3s ease;
+            backdrop-filter: blur(4px);
+        }
+
+        .modal-overlay.active { display: flex; opacity: 1; }
+        
+        .clipboard {
+            position: relative;
+            background: #8b5a2b; /* Wooden board */
+            width: 90%; max-width: 500px;
+            padding: 40px 20px 20px 20px;
+            border-radius: 10px;
+            border: 4px solid var(--black);
+            box-shadow: 10px 10px 0px var(--black);
+            transform: translateY(50px) rotate(-2deg);
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .modal-overlay.active .clipboard { transform: translateY(0) rotate(0deg); }
+
+        /* Silver Clip at top */
+        .clip {
             position: absolute;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            pointer-events: none;
+            top: -15px; left: 50%; transform: translateX(-50%);
+            width: 120px; height: 40px;
+            background: #ccc;
+            border: 3px solid var(--black);
+            border-radius: 5px;
+            box-shadow: 0px 4px 0px rgba(0,0,0,0.5);
             z-index: 10;
         }
         
-        .animated-walker {
-            position: absolute;
-            top: 0; left: 0;
-            offset-path: path('M 15 45 Q 150 10 285 45');
-            animation: crustWalk 12s linear infinite;
-        }
-
-        /* Forward movement and global fade */
-        @keyframes crustWalk {
-            0% { offset-distance: 0%; opacity: 0; }
-            10% { opacity: 1; }
-            90% { opacity: 1; }
-            100% { offset-distance: 100%; opacity: 0; } 
-        }
-
-        /* 16-Bit Baby Sprite Outline */
-        .baby-sprite {
-            filter: drop-shadow(2px 0 0 #111) drop-shadow(-2px 0 0 #111) drop-shadow(0 2px 0 #111) drop-shadow(0 -2px 0 #111);
-            transform: translateY(-20px); /* Lift him so feet are on the crust */
-            overflow: visible;
-        }
-
-        /* Smooth Limbs Animation for Retro Sprite */
-        @keyframes swing-leg-r {
-            0%, 100% { transform: rotate(-30deg); }
-            50% { transform: rotate(30deg); }
-        }
-        @keyframes swing-leg-l {
-            0%, 100% { transform: rotate(30deg); }
-            50% { transform: rotate(-30deg); }
-        }
-        @keyframes swing-arm-r {
-            0%, 100% { transform: rotate(30deg); }
-            50% { transform: rotate(-30deg); }
-        }
-        @keyframes swing-arm-l {
-            0%, 100% { transform: rotate(-30deg); }
-            50% { transform: rotate(30deg); }
-        }
-        @keyframes bob-body {
-            0%, 50%, 100% { transform: translateY(0); }
-            25%, 75% { transform: translateY(-2px); }
-        }
-
-        .leg-front { animation: swing-leg-r 1s infinite ease-in-out; }
-        .leg-back { animation: swing-leg-l 1s infinite ease-in-out; }
-        .arm-front { animation: swing-arm-r 1s infinite ease-in-out; }
-        .arm-back { animation: swing-arm-l 1s infinite ease-in-out; }
-        .walker-group { animation: bob-body 1s infinite ease-in-out; }
-
-
-        /* Speech Bubbles Stacked */
-        .speech-container {
-            position: absolute;
-            top: -65px;
-            left: 20px;
-        }
-
-        .bubble {
-            position: absolute; /* Stack exactly on top of each other */
-            top: 0; left: 0;
-            font-family: 'Patrick Hand', cursive;
-            font-size: 16px;
-            font-weight: bold;
-            color: #111;
+        /* The paper pinned to clipboard */
+        .paper {
             background: #fff;
-            padding: 2px 10px;
-            border: 2px solid #111;
-            border-radius: 12px;
-            opacity: 0;
-            white-space: nowrap;
-            box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+            padding: 15px;
+            border: 2px solid var(--black);
+            min-height: 200px;
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+            text-align: center;
         }
 
-        .bubble::after {
-            content: '';
+        .paper h2 {
+            margin-top: 0;
+            border-bottom: 2px dashed #ccc;
+            padding-bottom: 10px;
+            font-size: 28px;
+            color: #d32f2f;
+        }
+
+        .paper img {
+            max-width: 100%;
+            border: 2px solid #333;
+            /* Give the image a slight tilt */
+            transform: rotate(1deg);
+        }
+
+        .modal-close {
             position: absolute;
-            bottom: -6px;
-            left: 10px;
-            border-width: 6px 6px 0 0;
-            border-style: solid;
-            border-color: #111 transparent transparent transparent;
+            top: -20px; right: -20px;
+            width: 40px; height: 40px;
+            background: var(--magenta);
+            color: #fff;
+            border: 3px solid var(--black);
+            border-radius: 50%;
+            font-size: 20px; font-weight: bold;
+            cursor: pointer;
+            box-shadow: 2px 2px 0px var(--black);
+            font-family: 'Patrick Hand', cursive;
         }
-        .bubble::before {
-            content: '';
-            position: absolute;
-            bottom: -3px;
-            left: 11px;
-            border-width: 4px 4px 0 0;
-            border-style: solid;
-            border-color: #fff transparent transparent transparent;
-            z-index: 1;
-        }
-
-        .b1 { animation: say1 12s infinite; }
-        .b2 { animation: say2 12s infinite; }
-        .b3 { animation: say3 12s infinite; color: #d32f2f; } /* Red for the final scream */
-
-        /* Sequential pop up and disappear */
-        @keyframes say1 {
-            0%, 25% { opacity: 0; transform: scale(0.8); }
-            28%, 38% { opacity: 1; transform: scale(1); }
-            41%, 100% { opacity: 0; transform: scale(0.8); }
-        }
-        @keyframes say2 {
-            0%, 41% { opacity: 0; transform: scale(0.8); }
-            44%, 55% { opacity: 1; transform: scale(1); }
-            58%, 100% { opacity: 0; transform: scale(0.8); }
-        }
-        @keyframes say3 {
-            0%, 58% { opacity: 0; transform: scale(0.8); }
-            61%, 72% { opacity: 1; transform: scale(1); }
-            75%, 100% { opacity: 0; transform: scale(0.8); }
-        }
+        .modal-close:hover { transform: scale(1.1); }
 
     </style>
 </head>
@@ -230,9 +214,12 @@
         <div class="pizza-wrapper">
             <!-- Sketchy Pizza SVG Outline -->
             <svg class="slice-outline" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
-                <path d="M 15 45 Q 150 10 285 45 Q 295 55 285 65 L 175 365 Q 150 390 125 365 L 15 65 Q 5 55 15 45 Z" fill="#fff" stroke="#111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M 25 70 Q 150 35 275 70" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
-                <path d="M 40 70 Q 45 80 40 90 M 260 70 Q 255 80 260 90 M 150 370 L 150 380 M 140 372 L 142 376 M 160 372 L 158 376 M 50 160 L 55 165 M 240 180 L 235 185 M 150 190 Q 155 200 150 210" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" />
+                <!-- Base slice -->
+                <path d="M 15 45 Q 150 10 285 45 Q 295 55 285 65 L 175 365 Q 150 390 125 365 L 15 65 Q 5 55 15 45 Z" fill="#fff" stroke="#111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                <!-- Crust detail -->
+                <path d="M 25 70 Q 150 35 275 70" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+                <!-- Drippy cheese details -->
+                <path d="M 40 70 Q 45 80 40 90 M 260 70 Q 255 80 260 90 M 150 370 L 150 380 M 140 372 L 142 376 M 160 372 L 158 376 M 50 160 L 55 165 M 240 180 L 235 185 M 150 190 Q 155 200 150 210" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" />
             </svg>
 
             <!-- Toppings (Links) -->
@@ -242,61 +229,23 @@
                 <a href="fe.pdf" class="topping t-fe">Fin<br>Exp</a>
                 <a href="mint.pdf" class="topping t-mint">Mint</a>
             </div>
+        </div>
 
-            <!-- Animated Container -->
-            <div class="animated-container">
-                <div class="animated-walker">
-                    
-                    <!-- Stacked Sequential Speech Bubbles -->
-                    <div class="speech-container">
-                        <div class="bubble b1">PIHHH</div>
-                        <div class="bubble b2">PIHHH</div>
-                        <div class="bubble b3">PIHHHHH!</div>
-                    </div>
+        <div class="extras">
+            <button class="extra-btn" onclick="openModal()">Market Today</button>
+        </div>
+    </div>
 
-                    <!-- 16-Bit Style 2yo Baby Boy Walking (Smooth CSS Transforms) -->
-                    <svg class="baby-sprite" viewBox="0 0 40 40" width="50" height="50" shape-rendering="crispEdges">
-                        <g class="walker-group">
-                            <!-- Arm Back -->
-                            <g class="arm-back" style="transform-origin: 14px 19px;">
-                                <path d="M12 19 h4 v6 h-4 z" fill="#dfaa77"/>
-                            </g>
-                            
-                            <!-- Leg Back -->
-                            <g class="leg-back" style="transform-origin: 16px 26px;">
-                                <path d="M14 26 h4 v6 h-4 z" fill="#dfaa77"/>
-                                <path d="M14 32 h6 v2 h-6 z" fill="#dfaa77"/> <!-- foot -->
-                            </g>
-
-                            <!-- Torso & Head -->
-                            <g class="torso-head">
-                                <!-- Hair -->
-                                <path d="M14 4 h10 v4 h-10 z M12 6 h2 v4 h-2 z M24 6 h2 v2 h-2 z" fill="#654321"/>
-                                <!-- Head -->
-                                <path d="M14 8 h10 v10 h-10 z M24 10 h2 v6 h-2 z" fill="#ffcc99"/>
-                                <!-- Eye -->
-                                <path d="M21 10 h2 v2 h-2 z" fill="#000"/>
-                                <!-- Diaper (White) -->
-                                <path d="M14 18 h10 v8 h-10 z" fill="#fff"/>
-                                <path d="M12 18 h2 v6 h-2 z M24 18 h2 v4 h-2 z" fill="#fff"/>
-                                <!-- Diaper outline / shade -->
-                                <path d="M14 26 h10 v2 h-10 z" fill="#ccc"/>
-                            </g>
-                            
-                            <!-- Leg Front -->
-                            <g class="leg-front" style="transform-origin: 19px 26px;">
-                                <path d="M17 26 h4 v6 h-4 z" fill="#ffcc99"/>
-                                <path d="M17 32 h6 v2 h-6 z" fill="#ffcc99"/> <!-- foot -->
-                            </g>
-                            
-                            <!-- Arm Front -->
-                            <g class="arm-front" style="transform-origin: 18px 19px;">
-                                <path d="M16 19 h4 v6 h-4 z" fill="#ffcc99"/>
-                            </g>
-                        </g>
-                    </svg>
-
-                </div>
+    <!-- Clipboard Modal -->
+    <div id="modal" class="modal-overlay" onclick="closeModal(event)">
+        <div class="clipboard" onclick="event.stopPropagation()">
+            <div class="clip"></div>
+            <button class="modal-close" onclick="closeModal(event)">X</button>
+            <div class="paper">
+                <h2>The Markets On Tuesday</h2>
+                <!-- We load the image generated by the GitHub Action -->
+                <!-- If the image isn't there yet, we show an alt message -->
+                <img src="market_box-1.png" alt="Market data will appear here after the 8:15 AM cloud run!" onerror="this.onerror=null; this.src=''; this.alt='Market data will appear here tomorrow at 8:15 AM after the cloud script runs!'; this.style.border='none';">
             </div>
         </div>
     </div>
@@ -304,6 +253,18 @@
     <script>
         const options = { weekday: 'long', month: 'long', day: 'numeric' };
         document.getElementById('date-header').innerText = new Date().toLocaleDateString('en-US', options);
+
+        function openModal() {
+            const modal = document.getElementById('modal');
+            modal.style.display = 'flex';
+            setTimeout(() => modal.classList.add('active'), 10);
+        }
+
+        function closeModal(e) {
+            const modal = document.getElementById('modal');
+            modal.classList.remove('active');
+            setTimeout(() => modal.style.display = 'none', 300);
+        }
     </script>
 </body>
 </html>
