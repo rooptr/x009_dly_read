@@ -48,6 +48,7 @@
 
         /* Date Header */
         h1 {
+            position: relative;
             font-size: 48px; /* Restored large size */
             margin-top: 20px;
             margin-bottom: 20px;
@@ -59,6 +60,31 @@
             border: 3px solid var(--black);
             /* Spider-Verse style drop shadows */
             box-shadow: 3px 3px 0px var(--magenta), -3px -3px 0px var(--orange), 6px 6px 0px var(--black);
+        }
+
+        /* Comic Book Circular Sticker */
+        .comic-sticker {
+            position: absolute;
+            top: -25px;
+            right: -35px;
+            width: 80px;
+            height: 80px;
+            background-color: var(--yellow);
+            border: 4px dashed var(--black);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: var(--black);
+            transform: rotate(15deg);
+            box-shadow: 4px 4px 0px var(--magenta);
+            z-index: 20;
+            line-height: 1.1;
+            letter-spacing: 1px;
+            text-transform: none;
         }
         
         /* --- EXTRAS BUTTON (Now above pizza) --- */
@@ -336,8 +362,11 @@
     </div>
 
     <div class="container">
-        <!-- Date Header -->
-        <h1 id="date-header">Today's Edition</h1>
+        <!-- Date Header with Sticker -->
+        <h1 id="date-header">
+            <span id="date-text"></span>
+            <div class="comic-sticker">For<br>Deepti</div>
+        </h1>
         
         <!-- Market Button moved above Pizza -->
         <div class="extras">
@@ -414,8 +443,7 @@
 
     <script>
         const options = { weekday: 'long', month: 'long', day: 'numeric' };
-        const dateStr = new Date().toLocaleDateString('en-US', options);
-        document.getElementById('date-header').innerHTML = `Deepti's Daily Edition<br><span style="font-size: 24px; color: var(--sausage);">${dateStr}</span>`;
+        document.getElementById('date-text').innerText = new Date().toLocaleDateString('en-US', options);
 
         // Force browser to fetch the absolute latest PDFs and Images by appending a timestamp
         const cacheBuster = '?v=' + new Date().getTime();
