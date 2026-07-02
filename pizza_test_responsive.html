@@ -41,10 +41,79 @@
             background-size: 20px 20px;
             background-position: 0 0, 10px 10px;
             font-family: 'Patrick Hand', cursive;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             color: var(--black);
+            overflow-x: hidden;
+        }
+
+        /* ========================================
+           THERMAL RECEIPT STYLES
+           ======================================== */
+        .receipt-container {
+            width: min(90vw, 400px);
+            margin: 60px auto 100px auto;
+            background: #fffdf5;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1), 0 0 40px rgba(0,0,0,0.05) inset;
+            border-top: 10px solid #d32f2f;
+            padding: 30px 20px;
+            font-family: 'Courier New', Courier, monospace; /* Dot matrix/receipt look */
+            color: #333;
+            position: relative;
+            z-index: 10;
+        }
+        
+        /* Zig-zag bottom edge */
+        .receipt-container::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 0;
+            width: 100%;
+            height: 15px;
+            background: linear-gradient(-45deg, transparent 33.33%, #fffdf5 33.33%, #fffdf5 66.66%, transparent 66.66%),
+                        linear-gradient(45deg, transparent 33.33%, #fffdf5 33.33%, #fffdf5 66.66%, transparent 66.66%);
+            background-size: 15px 30px;
+            background-position: 0 100%;
+            filter: drop-shadow(0 4px 3px rgba(0,0,0,0.1));
+        }
+
+        .receipt-header, .receipt-footer {
+            text-align: center;
+        }
+
+        .receipt-header h2 {
+            margin: 0;
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        .receipt-divider {
+            text-align: center;
+            overflow: hidden;
+            white-space: nowrap;
+            margin: 15px 0;
+            opacity: 0.6;
+        }
+
+        .receipt-paper-title {
+            font-weight: bold;
+            text-decoration: underline;
+            margin-top: 25px;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .receipt-item {
+            margin-bottom: 12px;
+            line-height: 1.4;
+            display: flex;
+            align-items: flex-start;
+            font-size: 0.9em;
+        }
+
+        .receipt-item::before {
+            content: '- ';
+            margin-right: 5px;
         }
 
         /* ========================================
@@ -82,6 +151,7 @@
            BOX PARTS (lid + bottom)
            ======================================== */
         .box-part {
+            
             position: absolute;
             top: 0; left: 0;
             width: 100%; height: 100%;
@@ -91,25 +161,34 @@
             transform-style: preserve-3d;
         }
 
-        .box-bottom-img {
+        .box-bottom-img 
+        {
             background-image: url('box_bottom.png');
             z-index: 1;
         }
 
         .box-lid-img {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
             background-image: url('box_lid.png');
             z-index: 10;
             transform-origin: center center;
             transform: translateZ(0px);
             transform-style: preserve-3d;
-            filter: drop-shadow(0px 20px 30px rgba(0,0,0,0.5));
+            /* Strong, realistic black shadow falling to the right/bottom as it lifts */
+            filter: drop-shadow(30px 20px 25px rgba(0,0,0,0.85));
             overflow: hidden;
         }
 
         /* ========================================
            DATE RIBBON (on the lid)
            ======================================== */
-        .sticky-note-date {
+        .sticky-note-date 
+        {
             position: absolute;
             bottom: 28%;
             right: 5%;
@@ -136,14 +215,14 @@
            PIZZA CONTENT WRAPPER
            GSAP animates opacity + brightness on this.
            ======================================== */
-        .pizza-content-wrapper {
+        .pizza-content-wrapper 
+        {
             position: absolute;
             top: 5%; left: 5%;
             width: 90%; height: 90%;
             transform-origin: center center;
             z-index: 2;
-            opacity: 0;
-            filter: brightness(0);
+            opacity: 1; /* Always visible beneath the lid */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -153,7 +232,8 @@
         /* ========================================
            PIZZA SCALE LIMITER
            ======================================== */
-        .pizza-scale-limiter {
+        .pizza-scale-limiter 
+        {
             position: relative;
             width: 100%;
             height: 100%;
@@ -167,7 +247,8 @@
            Width 55% of content area. Aspect ratio 3:4.
            ALL children use % positioning relative to THIS.
            ======================================== */
-        .pizza-wrapper {
+        .pizza-wrapper 
+        {
             position: relative;
             width: 55%;
             aspect-ratio: 3 / 4;
@@ -176,7 +257,8 @@
         /* ========================================
            PIZZA SVG
            ======================================== */
-        .slice-outline {
+        .slice-outline 
+        {
             position: absolute;
             top: 0; left: 0;
             width: 100%; height: 100%;
@@ -188,7 +270,8 @@
         /* ========================================
            TOPPINGS CONTAINER
            ======================================== */
-        .toppings {
+        .toppings 
+        {
             position: absolute;
             top: 0; left: 0;
             width: 100%; height: 100%;
@@ -231,43 +314,74 @@
         }
 
         /* ========================================
-           MARKET SACHET BUTTON
+           MARKET SACHET BUTTON (REDESIGNED)
            ======================================== */
-        .sachet-btn {
+        .sachet-btn 
+        {
             position: absolute;
             top: 5%;
             right: -5%;
             width: 30%;
             aspect-ratio: 2 / 1;
-            background: #d32f2f;
-            border: clamp(2px, 0.5vw, 4px) solid #000;
-            border-radius: 0;
-            box-shadow: clamp(2px, 0.5vw, 4px) clamp(2px, 0.5vw, 4px) 0px #000;
-            color: #fff;
-            text-shadow: 1px 1px 0px #000, -1px -1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000; /* High visibility */
-            font-size: clamp(8px, 2.5vw, 14px);
-            font-weight: 900;
+            /* Premium golden/metallic gradient */
+            background: linear-gradient(135deg, #ffd700 25%, #fff8b0 40%, #ff8c00 55%, #ffd700 100%);
+            background-size: 300% 300%;
+            border: clamp(1px, 0.3vw, 2px) solid #000;
+            border-radius: clamp(4px, 1vw, 8px);
+            /* Comic shadow but slightly softer */
+            box-shadow: clamp(2px, 0.4vw, 4px) clamp(2px, 0.4vw, 4px) 0px rgba(0, 0, 0, 0.8);
+            color: #000 !important; /* Force pure black text */
+            font-size: calc(var(--box-size) * 0.02); /* Much smaller, responsive to the box */
+            font-weight: bold; /* Changed from 900 which made it too fat */
             text-transform: uppercase;
+            letter-spacing: 0px; /* Removed letter spacing to save width */
             display: flex;
             align-items: center;
             justify-content: center;
-            transform: rotate(25deg);
+            overflow: hidden;
+            transform: rotate(20deg);
             z-index: 5;
             cursor: pointer;
             padding: 0;
-            font-family: 'Courier New', Courier, monospace, sans-serif;
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+            font-family: 'Patrick Hand', 'Comic Sans MS', cursive;
+            
+            /* Continuous metallic shine and pulsing energy */
+            animation: 
+                sachet-shine 3s ease infinite, 
+                sachet-pulse 2s infinite alternate;
         }
 
+        /* The zig-zag/crimped edges of a sachet packet */
         .sachet-btn::before, .sachet-btn::after {
             content: '';
             position: absolute;
-            width: 4px;
+            width: 3px;
             height: 100%;
             background: transparent;
-            border-left: 2px dashed #000;
+            border-left: 2px dashed rgba(0,0,0,0.5);
+            z-index: 1;
         }
-        .sachet-btn::before { left: 4px; }
-        .sachet-btn::after { right: 4px; }
+        .sachet-btn::before { left: 2px; }
+        .sachet-btn::after { right: 2px; }
+
+        .sachet-btn:hover {
+            transform: rotate(20deg) scale(1.15) translate(-2px, -2px);
+            box-shadow: clamp(4px, 0.8vw, 8px) clamp(4px, 0.8vw, 8px) 0px #000;
+            /* Make it shine faster on hover */
+            animation: sachet-shine 1s linear infinite;
+        }
+
+        @keyframes sachet-shine {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes sachet-pulse {
+            0% { transform: rotate(20deg) scale(1); }
+            100% { transform: rotate(23deg) scale(1.05); }
+        }
 
         /* ========================================
            SCROLL DOWN HINT
@@ -309,7 +423,7 @@
         }
 
         @keyframes walk-across {
-            0%   { left: -20%; }
+            0%   { left: 10%; }
             100% { left: 110%; }
         }
 
@@ -591,11 +705,26 @@
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
 </head>
 <body>
+<body style="display: flex; flex-direction: column; align-items: center;">
     <!-- Hydration Reminder Overlay -->
     <div id="hydration-overlay" class="toast-overlay">
         <div class="toast-popup">WAIT DEEPTI! Make sure you hydrate before reading.</div>
     </div>
 
+    <!-- TOP HEADLINES RECEIPT -->
+    <div id="receipt-container" class="receipt-container">
+        <div class="receipt-header">
+            <h2>TODAY'S HEADLINES</h2>
+            <p id="receipt-date"></p>
+        </div>
+        <div class="receipt-divider">****************************************</div>
+        <div id="receipt-content">Loading today's headlines...</div>
+        <div class="receipt-divider">****************************************</div>
+        <div class="receipt-footer">
+            <p>Thank you for subscribing!</p>
+            <p>↓ Scroll down for your pizza ↓</p>
+        </div>
+    </div>
     
     <div class="gsap-track">
         <div class="pinned-scene">
@@ -674,7 +803,7 @@
                             </div>
 
                             <!-- SACHET MARKET BUTTON -->
-                            <button class="extra-btn sachet-btn" onclick="openModal()">MARKET</button>
+                            <button class="sachet-btn" onclick="openModal()">MARKET</button>
                         </div>
                     </div>
                 </div>
@@ -771,6 +900,49 @@
 
         gsap.registerPlugin(ScrollTrigger);
 
+        // Scroll hint fade logic
+        ScrollTrigger.create({
+            trigger: ".gsap-track",
+            start: "top 50%", 
+            onEnter: () => gsap.to(".scroll-down-hint", { opacity: 0, duration: 0.3 }),
+            onLeaveBack: () => gsap.to(".scroll-down-hint", { opacity: 1, duration: 0.3 })
+        });
+
+        // ==========================================
+        // FETCH HEADLINES FOR RECEIPT
+        // ==========================================
+        fetch('headlines.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('receipt-content');
+                container.innerHTML = '';
+                
+                let currentPaper = '';
+                
+                data.forEach(item => {
+                    if (item.paper !== currentPaper) {
+                        currentPaper = item.paper;
+                        const paperTitle = document.createElement('div');
+                        paperTitle.className = 'receipt-paper-title';
+                        paperTitle.textContent = currentPaper;
+                        container.appendChild(paperTitle);
+                    }
+                    
+                    const headline = document.createElement('div');
+                    headline.className = 'receipt-item';
+                    headline.textContent = item.title;
+                    container.appendChild(headline);
+                });
+                
+                // Set today's date
+                const options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
+                document.getElementById('receipt-date').textContent = new Date().toLocaleDateString('en-US', options);
+            })
+            .catch(error => {
+                document.getElementById('receipt-content').innerHTML = '<p><i>Fresh headlines are being baked...</i></p>';
+                console.error('Error fetching headlines:', error);
+            });
+
         const tl = gsap.timeline({
             scrollTrigger: {
                 trigger: ".gsap-track",
@@ -807,14 +979,9 @@
             duration: 6,
             ease: "power2.inOut" 
         }, 0); 
-
-        tl.to(".pizza-content-wrapper", {
-            opacity: 1,
-            visibility: "visible",
-            filter: "brightness(1)", 
-            duration: 4,
-            ease: "power1.inOut"
-        }, 2);
+        
+        // Note: .pizza-content-wrapper no longer needs an opacity/brightness animation,
+        // it simply sits under the lid and lets the realistic drop-shadow cast over it.
 
     </script>
 </body>
