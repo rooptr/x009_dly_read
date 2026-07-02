@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Edition</title>
+    <!-- Prevent browsers from caching the page so you always see today's version -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <!-- Auto-reload the tab every 1 hour (3600 seconds) in case they leave it open -->
+    <meta http-equiv="refresh" content="3600">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Poppy, eye-pleasing vibrant colors */
+            --magenta: #ff477e; /* vibrant coral */
+            --orange: #ff9f1c; /* warm orange (replaced blue/cyan) */
+            --yellow: #ffd166; /* bright sunny yellow */
+            --sausage: #b33939; /* tasty sausage color */
+            --black: #111;
+        }
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            min-height: 100%; /* Restored scrolling */
+            /* Halftone dot pattern background */
+            background-color: #f0f0f0;
+            background-image: radial-gradient(#ccc 15%, transparent 16%), radial-gradient(#ccc 15%, transparent 16%);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+            font-family: 'Patrick Hand', cursive;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--black);
+        }
+        
+        /* Removed .container */
+        .old-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding: 20px;
+        }
+
+        /* Date Header */
+        h1 {
+            position: relative;
+            font-size: 32px;
+            margin-top: 40px; /* Increased to make room for sticker on top */
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-align: center;
+            background: #fff;
+            padding: 8px 20px;
+            border: 3px solid var(--black);
+            box-shadow: 3px 3px 0px var(--magenta), -3px -3px 0px var(--orange), 6px 6px 0px var(--black);
+        }
+
+        /* Comic Book Circular Sticker on Pizza */
+        .comic-sticker {
+            position: absolute;
+            top: 10px; 
+            left: -10px; /* Top left of the pizza slice */
+            width: 80px;
+            height: 80px;
+            background-color: var(--yellow);
+            border: 4px dashed var(--black);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            color: var(--black);
+            transform: rotate(-15deg); /* Tilted the other way for left side */
+            box-shadow: 4px 4px 0px var(--magenta);
+            z-index: 20;
+            line-height: 1.1;
+            letter-spacing: 1px;
+            text-transform: none;
+        }
+        
+        /* --- EXTRAS BUTTON (Now above pizza) --- */
+        .extras {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            z-index: 10;
+        }
+
+        .extra-btn {
+            font-family: 'Patrick Hand', cursive;
+            font-size: 26px; /* Restored large size */
+            font-weight: bold;
+            background: #fff; /* White background to contrast with yellow pizza */
+            border: 3px solid var(--black);
+            padding: 10px 30px;
+            cursor: pointer;
+            box-shadow: 4px 4px 0px var(--magenta), -2px -2px 0px var(--orange), 6px 6px 0px var(--black);
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+        }
+
+        .extra-btn:hover {
+            transform: translate(-2px, -2px) scale(1.05);
+            box-shadow: 6px 6px 0px var(--magenta), -4px -4px 0px var(--orange), 8px 8px 0px var(--black);
+        }
+
+        .extra-btn:active {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0px var(--black);
+        }
+
+        /* --- PIZZA --- */
+        .pizza-wrapper {
+            position: relative;
+            width: 300px;
+            height: 400px;
+            margin-top: 10px;
+            /* Scaling removed so it's large again! */
+        }
+
+        /* Pizza with chromatic aberration borders */
+        .slice-outline {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none;
+            z-index: 2;
+            filter: drop-shadow(4px 4px 0px var(--magenta)) drop-shadow(-3px -3px 0px var(--orange));
+        }
+
+        .toppings {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 3;
+        }
+
+        /* Comic Book Toppings (Minimalist Sketch Theme) */
+        a.topping {
+            position: absolute;
+            width: 76px; height: 76px;
+            border: 4px solid var(--black);
+            display: flex; align-items: center; justify-content: center;
+            text-align: center; text-decoration: none;
+            color: var(--black); font-size: 18px; font-weight: bold; line-height: 1.1;
+            background-color: #fff;
+            transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            /* Comic shadow */
+            box-shadow: 4px 4px 0px var(--black);
+        }
+        
+        .t-et { top: 85px; left: 60px; transform: rotate(-5deg); border-radius: 40% 60% 55% 45% / 55% 45% 60% 40%; }
+        .t-bs { top: 100px; left: 155px; transform: rotate(8deg); border-radius: 60% 40% 45% 55% / 40% 60% 45% 55%; }
+        .t-fe { top: 175px; left: 100px; transform: rotate(-10deg); border-radius: 55% 45% 40% 60% / 60% 40% 55% 45%; }
+        .t-mint { top: 265px; left: 112px; transform: rotate(4deg); border-radius: 45% 55% 60% 40% / 45% 55% 40% 60%; }
+
+        a.topping:hover {
+            transform: scale(1.2) rotate(0deg);
+            box-shadow: 6px 6px 0px var(--black), -3px -3px 0px var(--magenta);
+            z-index: 10;
+            background-color: #d14343; /* slightly lighter sausage on hover */
+        }
+
+
+
+        /* --- V9: NW DATE RIBBON, COLORED SKETCHY PIZZA, TOP-RIGHT MARKET --- */
+        .gsap-track {
+            height: 300vh;
+            width: 100%;
+            background-color: var(--bg-color);
+        }
+        .pinned-scene {
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            perspective: 2500px;
+        }
+        
+        .master-box-container {
+            position: relative;
+            width: 90vw;
+            max-width: 600px;
+            aspect-ratio: 1 / 1;
+            transform-style: preserve-3d;
+            transform: scale(0.7) rotateX(15deg);
+        }
+
+        .box-part {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            transform-style: preserve-3d;
+        }
+
+        .box-bottom-img {
+            background-image: url('box_bottom.png');
+            z-index: 1;
+        }
+
+        .box-lid-img {
+            background-image: url('box_lid.png');
+            z-index: 10;
+            transform-origin: center center;
+            transform: translateZ(0px); 
+            transform-style: preserve-3d;
+            filter: drop-shadow(0px 20px 30px rgba(0,0,0,0.5));
+            overflow: hidden; /* Clips the ribbon cleanly */
+        }
+
+        .pizza-content-wrapper {
+            position: absolute;
+            top: 5%; left: 5%; width: 90%; height: 90%; 
+            transform-origin: center center;
+            z-index: 2;
+            opacity: 1; 
+            filter: brightness(0); 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: visible; 
+        }
+
+        .pizza-scale-limiter {
+            transform: scale(0.85); 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+
+        /* Diagonal Corner Ribbon */
+        .sticky-note-date {
+            position: absolute;
+            /* ⚠️ TWEAK THESE TWO VALUES TO MOVE THE RIBBON ⚠️ */
+            bottom: 170px; /* Increase this to move it further UP (North) */
+            right: 30px;  /* Make this more negative to move it further RIGHT (East) */
+
+            clip-path: polygon(0 0, 100% 0, calc(100% - 35px) 100%, 35px 100%);
+
+            width: 255px; 
+            text-align: center;
+            background: #f4d03f !important; 
+            padding: 5px 0 !important; 
+            border-top: 4px solid #111 !important;
+            border-bottom: 4px solid #111 !important;
+            border-left: none !important;
+            border-right: none !important;
+            font-size: 16px !important;
+            font-weight: bold;
+            color: #111 !important;
+            transform: rotate(-45deg) translateZ(1px); 
+            z-index: 25;
+            white-space: nowrap;
+            text-transform: uppercase;
+            font-family: monospace, sans-serif !important;
+        }
+.sachet-btn {
+            position: absolute;
+            top: 20px; /* Moved to Top */
+            right: -10px; /* Moved to Right of pizza slice */
+            width: 90px;
+            height: 45px;
+            background: #d32f2f !important; 
+            border: 4px solid #000 !important; 
+            border-radius: 0 !important; 
+            box-shadow: 4px 4px 0px #000 !important; 
+            color: #fff !important;
+            font-size: 14px !important;
+            font-weight: 900 !important;
+            text-transform: uppercase;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            transform: rotate(25deg);
+            z-index: 5;
+            cursor: pointer;
+            padding: 0 !important;
+            font-family: 'Courier New', Courier, monospace, sans-serif !important;
+        }
+
+        .sachet-btn::before, .sachet-btn::after {
+            content: '';
+            position: absolute;
+            width: 4px;
+            height: 100%;
+            background: transparent;
+            border-left: 2px dashed #000;
+        }
+        .sachet-btn::before { left: 4px; }
+        .sachet-btn::after { right: 4px; }
+
+        .scroll-down-hint {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--black);
+            animation: bounce 1.5s infinite;
+            z-index: 50;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translate(-50%, 0); }
+            50% { transform: translate(-50%, 15px); }
+        }
+
+        /* --- CLIPBOARD MODAL --- */
+        .modal-overlay {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: none; justify-content: center; align-items: center;
+            z-index: 100; opacity: 0; transition: opacity 0.3s ease;
+            backdrop-filter: blur(4px);
+        }
+
+        .modal-overlay.active { display: flex; opacity: 1; }
+        
+        .clipboard {
+            position: relative;
+            background: #8b5a2b; /* Wooden board */
+            width: 90%; max-width: 500px;
+            padding: 40px 20px 20px 20px;
+            border-radius: 10px;
+            border: 4px solid var(--black);
+            box-shadow: 10px 10px 0px var(--black);
+            /* Removed rotation so it's not tilted */
+            transform: translateY(50px);
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .modal-overlay.active .clipboard { transform: translateY(0); }
+
+        /* Silver Clip at top */
+        .clip {
+            position: absolute;
+            top: -15px; left: 50%; transform: translateX(-50%);
+            width: 120px; height: 40px;
+            background: #ccc;
+            border: 4px solid var(--black);
+            border-radius: 4px;
+            box-shadow: 6px 6px 0px var(--black);
+        }
+        
+        /* Gold Glittery Sticker */
+        .gold-sticker {
+            margin-top: 15px;
+            background: linear-gradient(45deg, #ffd700, #ffdf00, #d4af37, #ffd700);
+            background-size: 300% 300%;
+            border: 3px solid var(--black);
+            padding: 10px 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--black);
+            text-align: center;
+            box-shadow: 4px 4px 0px var(--black);
+            animation: glitter 3s ease infinite;
+            display: none; /* hidden until loaded */
+        }
+        
+        @keyframes glitter {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        /* The paper pinned to clipboard */
+        .paper {
+            background: #fff;
+            padding: 15px;
+            border: 2px solid var(--black);
+            min-height: 200px;
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .paper img {
+            max-width: 100%;
+            border: 2px solid #333;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: -20px; right: -20px;
+            width: 40px; height: 40px;
+            background: var(--magenta);
+            color: #fff;
+            border: 3px solid var(--black);
+            border-radius: 50%;
+            font-size: 20px; font-weight: bold;
+            cursor: pointer;
+            box-shadow: 2px 2px 0px var(--black);
+            font-family: 'Patrick Hand', cursive;
+        }
+        .modal-close:hover { transform: scale(1.1); }
+
+        /* --- HYDRATION TOAST --- */
+        .toast-overlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(4px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.4s ease;
+        }
+
+        .toast-overlay.visible {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .toast-popup {
+            background-color: var(--magenta);
+            color: #fff;
+            padding: 15px 30px;
+            border: 3px solid var(--black);
+            border-radius: 8px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 4px 4px 0px var(--orange), 8px 8px 0px var(--black);
+            transform: scale(0.8);
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .toast-overlay.visible .toast-popup {
+            transform: scale(1);
+        }
+
+        /* --- WALKING BABY SPRITE --- */
+        .animated-container {
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            pointer-events: none;
+            z-index: 5;
+        }
+
+        .animated-walker {
+            position: absolute;
+            bottom: -20px;
+            animation: walk-across 12s linear infinite;
+        }
+
+        @keyframes walk-across {
+            0% { transform: translateX(-50px); }
+            100% { transform: translateX(350px); }
+        }
+
+        .baby-sprite {
+            filter: drop-shadow(2px 0 0 var(--black)) drop-shadow(-2px 0 0 var(--black)) drop-shadow(0 2px 0 var(--black)) drop-shadow(0 -2px 0 var(--black));
+            transform: translateY(-20px);
+            overflow: visible;
+        }
+
+        @keyframes swing-leg-r { 0%, 100% { transform: rotate(-30deg); } 50% { transform: rotate(30deg); } }
+        @keyframes swing-leg-l { 0%, 100% { transform: rotate(30deg); } 50% { transform: rotate(-30deg); } }
+        @keyframes swing-arm-r { 0%, 100% { transform: rotate(30deg); } 50% { transform: rotate(-30deg); } }
+        @keyframes swing-arm-l { 0%, 100% { transform: rotate(-30deg); } 50% { transform: rotate(30deg); } }
+        @keyframes bob-body { 0%, 50%, 100% { transform: translateY(0); } 25%, 75% { transform: translateY(-2px); } }
+
+        .leg-front { animation: swing-leg-r 1s infinite ease-in-out; }
+        .leg-back { animation: swing-leg-l 1s infinite ease-in-out; }
+        .arm-front { animation: swing-arm-r 1s infinite ease-in-out; }
+        .arm-back { animation: swing-arm-l 1s infinite ease-in-out; }
+        .walker-group { animation: bob-body 1s infinite ease-in-out; }
+
+        .speech-container {
+            position: absolute;
+            top: -65px;
+            left: 20px;
+        }
+
+        .bubble {
+            position: absolute;
+            top: 0; left: 0;
+            font-family: 'Patrick Hand', cursive;
+            font-size: 16px;
+            font-weight: bold;
+            color: var(--black);
+            background: #fff;
+            padding: 2px 10px;
+            border: 2px solid var(--black);
+            border-radius: 12px;
+            opacity: 0;
+            white-space: nowrap;
+            box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+        }
+
+        .bubble::after {
+            content: ''; position: absolute; bottom: -6px; left: 10px;
+            border-width: 6px 6px 0 0; border-style: solid; border-color: var(--black) transparent transparent transparent;
+        }
+        .bubble::before {
+            content: ''; position: absolute; bottom: -3px; left: 11px;
+            border-width: 4px 4px 0 0; border-style: solid; border-color: #fff transparent transparent transparent; z-index: 1;
+        }
+
+        .b1 { animation: say1 12s infinite; }
+        .b2 { animation: say2 12s infinite; }
+        .b3 { animation: say3 12s infinite; color: #d32f2f; }
+
+        @keyframes say1 { 0%, 25% { opacity: 0; transform: scale(0.8); } 28%, 38% { opacity: 1; transform: scale(1); } 41%, 100% { opacity: 0; transform: scale(0.8); } }
+        @keyframes say2 { 0%, 41% { opacity: 0; transform: scale(0.8); } 44%, 55% { opacity: 1; transform: scale(1); } 58%, 100% { opacity: 0; transform: scale(0.8); } }
+        @keyframes say3 { 0%, 58% { opacity: 0; transform: scale(0.8); } 61%, 72% { opacity: 1; transform: scale(1); } 75%, 100% { opacity: 0; transform: scale(0.8); } }
+
+    </style>
+
+    <!-- GSAP, ScrollTrigger, & Lenis -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+</head>
+<body>
+    <!-- Hydration Reminder Overlay -->
+    <div id="hydration-overlay" class="toast-overlay">
+        <div class="toast-popup">WAIT DEEPTI! Make sure you hydrate before reading.</div>
+    </div>
+
+    
+    <div class="gsap-track">
+        <div class="pinned-scene">
+            <div class="master-box-container">
+                <div class="box-part box-bottom-img"></div>
+                
+                <div class="pizza-content-wrapper" id="pizza-contents">
+                    <div class="pizza-scale-limiter">
+
+                        <div class="pizza-wrapper">
+                            <!-- RESTORED SMOOTH SVG PIZZA WITH FULL COLORS! -->
+                            <svg class="slice-outline" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" style="filter: drop-shadow(4px 4px 0px rgba(0,0,0,0.3));">
+                                <!-- Cheese Body -->
+                                <path d="M 15 45 Q 150 10 285 45 Q 295 55 285 65 L 175 365 Q 150 390 125 365 L 15 65 Q 5 55 15 45 Z" fill="#fdfbf5" stroke="#111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <!-- Crust Edge -->
+                                <path d="M 15 45 Q 150 10 285 45 Q 295 55 285 65 L 265 60 Q 150 25 35 60 Z" fill="#e8dac5" stroke="#111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <!-- Cheese Detail Line -->
+                                <path d="M 25 70 Q 150 35 275 70" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+                                <!-- Sketchy detail lines -->
+                                <path d="M 40 70 Q 45 80 40 90 M 260 70 Q 255 80 260 90 M 150 370 L 150 380 M 140 372 L 142 376 M 160 372 L 158 376 M 50 160 L 55 165 M 240 180 L 235 185 M 150 190 Q 155 200 150 210" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" />
+                            </svg>
+
+                            <!-- Smooth Curvy Toppings (Colors in CSS) -->
+                            <div class="toppings">
+                                <a href="et.pdf" class="topping t-et">Eco<br>Times</a>
+                                <a href="bs.pdf" class="topping t-bs">Biz<br>Std</a>
+                                <a href="fe.pdf" class="topping t-fe">Fin<br>Exp</a>
+                                <a href="mint.pdf" class="topping t-mint">Mint</a>
+                            </div>
+
+                            <!-- ORIGINAL ANIMATED BABY SPRITE -->
+                            <!-- Moved baby much further left -->
+                            <div class="animated-container" style="position: absolute; bottom: 0; left: -15%; width: 80%;">
+                                <div class="animated-walker">
+                                    <div class="speech-container">
+                                        <div class="bubble b1">PIHHH</div>
+                                        <div class="bubble b2">PIHHH</div>
+                                        <div class="bubble b3">DEEPTI!</div>
+                                    </div>
+                                    <svg class="baby-sprite" viewBox="0 0 40 40" width="100" height="100" shape-rendering="crispEdges">
+                                        <g class="walker-group">
+                                            <g class="arm-back" style="transform-origin: 19px 24px;">
+                                                <rect x="17" y="24" width="4" height="6" fill="#dfaa77"/>
+                                                <rect x="17" y="30" width="4" height="2" fill="#dfaa77"/>
+                                            </g>
+                                            <g class="leg-back" style="transform-origin: 21px 30px;">
+                                                <rect x="19" y="30" width="4" height="6" fill="#dfaa77"/>
+                                                <rect x="19" y="36" width="6" height="2" fill="#dfaa77"/>
+                                            </g>
+                                            <g class="torso-head">
+                                                <rect x="16" y="8" width="10" height="4" fill="#654321"/>
+                                                <rect x="14" y="10" width="2" height="4" fill="#654321"/>
+                                                <rect x="26" y="10" width="2" height="2" fill="#654321"/>
+                                                
+                                                <rect x="16" y="12" width="10" height="10" fill="#ffcc99"/>
+                                                <rect x="26" y="14" width="2" height="6" fill="#ffcc99"/>
+                                                
+                                                <rect x="23" y="14" width="2" height="2" fill="#000"/>
+                                                
+                                                <rect x="16" y="22" width="10" height="8" fill="#fff"/>
+                                                <rect x="14" y="22" width="2" height="6" fill="#fff"/>
+                                                <rect x="26" y="22" width="2" height="4" fill="#fff"/>
+                                                
+                                                <rect x="16" y="30" width="10" height="2" fill="#ccc"/>
+                                            </g>
+                                            <g class="leg-front" style="transform-origin: 24px 30px;">
+                                                <rect x="22" y="30" width="4" height="6" fill="#ffcc99"/>
+                                                <rect x="22" y="36" width="6" height="2" fill="#ffcc99"/>
+                                            </g>
+                                            <g class="arm-front" style="transform-origin: 23px 24px;">
+                                                <rect x="21" y="24" width="4" height="6" fill="#ffcc99"/>
+                                                <rect x="21" y="30" width="4" height="2" fill="#ffcc99"/>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SACHET MARKET BUTTON -->
+                        <button class="extra-btn sachet-btn" onclick="openModal()">MARKET</button>
+                    </div>
+                </div>
+
+                <!-- TOP BOX (LID) -->
+                <div class="box-part box-lid-img">
+                    <div id="date-header" class="sticky-note-date">
+                        <span id="date-text"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-down-hint">↓ Scroll to slide lid ↓</div>
+        </div>
+    </div>
+<!-- Clipboard Modal -->
+    <div id="modal" class="modal-overlay" onclick="closeModal(event)">
+        <div class="clipboard" onclick="event.stopPropagation()">
+            <div class="clip"></div>
+            <button class="modal-close close-btn" onclick="closeModal(event)">X</button>
+            <div class="paper">
+                <img src="market_box.png" alt="Market data will appear here after the 8:15 AM cloud run!" onerror="this.onerror=null; this.src=''; this.alt='Market data will appear here tomorrow at 8:15 AM after the cloud script runs!'; this.style.border='none';">
+                <!-- Glittery Gold Sticker -->
+                <div id="gold-rate-display" class="gold-sticker">Loading Gold Rate...</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const options = { weekday: 'long', month: 'long', day: 'numeric' };
+        document.getElementById('date-text').innerText = new Date().toLocaleDateString('en-US', options);
+
+        // Force browser to fetch the absolute latest PDFs and Images by appending a timestamp
+        const cacheBuster = '?v=' + new Date().getTime();
+        document.querySelectorAll('.topping').forEach(link => {
+            link.href = link.getAttribute('href') + cacheBuster;
+        });
+        const marketImg = document.querySelector('.paper img');
+        if (marketImg) {
+            // Keep the original src but append the cachebuster
+            marketImg.src = marketImg.getAttribute('src').split('?')[0] + cacheBuster;
+        }
+
+        // Smooth Hydration Popup Logic
+        window.addEventListener('DOMContentLoaded', () => {
+            const toastOverlay = document.getElementById('hydration-overlay');
+            if (toastOverlay) {
+                // Show smoothly after a tiny delay
+                setTimeout(() => {
+                    toastOverlay.classList.add('visible');
+                }, 300);
+
+                // Hide smoothly after 4 seconds
+                setTimeout(() => {
+                    toastOverlay.classList.remove('visible');
+                    // Fully remove from view after transition completes
+                    setTimeout(() => {
+                        toastOverlay.style.display = 'none';
+                    }, 400); 
+                }, 4300);
+            }
+        });
+
+        function openModal() {
+            const modal = document.getElementById('modal');
+            modal.style.display = 'flex';
+            setTimeout(() => modal.classList.add('active'), 10);
+            
+            // Fetch the gold rate json
+            fetch('gold_rate.json' + cacheBuster)
+                .then(response => response.json())
+                .then(data => {
+                    const goldSticker = document.getElementById('gold-rate-display');
+                    goldSticker.innerHTML = `🪙 24K Gold: ${data.rate} / gm`;
+                    goldSticker.style.display = 'block';
+                })
+                .catch(err => console.error("Could not fetch gold rate", err));
+        }
+
+        function closeModal(e) {
+            const modal = document.getElementById('modal');
+            modal.classList.remove('active');
+            setTimeout(() => modal.style.display = 'none', 300);
+        }
+    </script>
+    <script>
+
+        const lenis = new Lenis({
+            duration: 1.2,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), 
+            smooth: true,
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        const tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".gsap-track",
+                start: "top top",
+                end: "bottom bottom",
+                scrub: 1.5,
+                pin: ".pinned-scene"
+            }
+        });
+
+        tl.to(".master-box-container", {
+            scale: window.innerWidth < 600 ? 1.0 : 1.2,
+            duration: 6,
+            ease: "sine.inOut"
+        }, 0);
+
+        tl.to(".scroll-down-hint", {
+            opacity: 0,
+            duration: 1
+        }, 0);
+
+        tl.to(".box-lid-img", {
+            z: 150, 
+            xPercent: -105, 
+            yPercent: 5, 
+            rotationZ: -8, 
+            rotationY: 10,
+            duration: 6,
+            ease: "sine.inOut" 
+        }, 0); 
+
+        tl.to(".pizza-content-wrapper", {
+            filter: "brightness(1)", 
+            duration: 4,
+            ease: "sine.inOut"
+        }, 1);
+
+    </script>
+</body>
+</html>
