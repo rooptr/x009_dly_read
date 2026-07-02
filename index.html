@@ -64,8 +64,8 @@
         /* Comic Book Circular Sticker */
         .comic-sticker {
             position: absolute;
-            top: -40px; /* Hanging off the top edge */
-            left: 20px; /* Safely inside the horizontal bounds */
+            top: 20px; /* Overlap top of pizza */
+            left: -30px; /* Overlap left edge */
             width: 80px;
             height: 80px;
             background-color: var(--yellow);
@@ -382,10 +382,9 @@
     </div>
 
     <div class="container">
-        <!-- Date Header with Sticker -->
+        <!-- Date Header -->
         <h1 id="date-header">
             <span id="date-text"></span>
-            <div class="comic-sticker">Deepti's<br>Daily<br>Edition</div>
         </h1>
         
         <!-- Market Button moved above Pizza -->
@@ -395,6 +394,7 @@
 
         <!-- Pizza Element -->
         <div class="pizza-wrapper">
+            <div class="comic-sticker">Deepti's<br>Daily<br>Edition</div>
             <!-- Sketchy Pizza SVG Outline -->
             <svg class="slice-outline" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
                 <!-- Base slice (Muted Cream) -->
