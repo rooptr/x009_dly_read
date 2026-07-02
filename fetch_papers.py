@@ -2,6 +2,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 import re
 import os
+import json
 
 papers = {
     "et.pdf": "https://dailyepaper.in/economic-times-newspaper-today-2026/",
@@ -40,6 +41,33 @@ def fetch_paper(filename, url):
     except Exception as e:
         print(f"Error fetching {filename}: {e}")
 
+def fetch_gold_rate():
+    print("\nFetching 24K Gold Rate from goodreturns.in ...")
+    url = "https://www.goodreturns.in/gold-rates/"
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    try:
+        html = urllib.request.urlopen(req).read()
+        soup = BeautifulSoup(html, 'html.parser')
+        
+        tables = soup.find_all('table')
+        for t in tables:
+            if '24K' in t.text and 'Gram' in t.text:
+                tds = t.find_all('td')
+                for td in tds:
+                    if '₹' in td.text:
+                        price = td.text.strip().replace(',', '')
+                        match = re.search(r'₹\s*(\d+)', price)
+                        if match:
+                            rate = f"₹{int(match.group(1)):,}"
+                            with open('gold_rate.json', 'w', encoding='utf-8') as f:
+                                json.dump({'rate': rate}, f)
+                            print(f"Success! Gold Rate is {rate}")
+                            return
+        print("Could not find the gold rate in the tables.")
+    except Exception as e:
+        print(f"Error fetching gold rate: {e}")
+
 if __name__ == "__main__":
     for filename, url in papers.items():
         fetch_paper(filename, url)
+    fetch_gold_rate()
