@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Today's Papers</title>
+    <title>Daily Edition</title>
+    <!-- Prevent browsers from caching the page so you always see today's version -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <!-- Auto-reload the tab every 1 hour (3600 seconds) in case they leave it open -->
+    <meta http-equiv="refresh" content="3600">
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -409,6 +415,17 @@
     <script>
         const options = { weekday: 'long', month: 'long', day: 'numeric' };
         document.getElementById('date-header').innerText = new Date().toLocaleDateString('en-US', options);
+
+        // Force browser to fetch the absolute latest PDFs and Images by appending a timestamp
+        const cacheBuster = '?v=' + new Date().getTime();
+        document.querySelectorAll('.topping').forEach(link => {
+            link.href = link.getAttribute('href') + cacheBuster;
+        });
+        const marketImg = document.querySelector('.paper img');
+        if (marketImg) {
+            // Keep the original src but append the cachebuster
+            marketImg.src = marketImg.getAttribute('src').split('?')[0] + cacheBuster;
+        }
 
         // Smooth Hydration Popup Logic
         window.addEventListener('DOMContentLoaded', () => {
