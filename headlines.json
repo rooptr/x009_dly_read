@@ -1,6 +1,11 @@
 [
   {
     "paper": "ECONOMIC TIMES",
+    "title": "F&amp;O Talk: Smallcap index better placed than Nifty, says Sudeep Shah; picks 9 stocks for next week",
+    "description": "SBI Securities expects Nifty's breakout to strengthen if it crosses 24,450, opening the door to 24,900. While small-caps continue outperforming, Bank Nifty retains a positive bias. The brokerage also highlights Aurobindo Pharma, DLF, Titan and Oberoi Realty among top picks."
+  },
+  {
+    "paper": "ECONOMIC TIMES",
     "title": "7 books for stock market investors recommended by Raamdeo Agrawal",
     "description": "Motilal Oswal Chairman Raamdeo Agrawal says purposeful reading shapes better investors and recommends seven timeless investing books, including works by Peter Lynch, Warren Buffett, Philip Fisher and Howard Marks, urging readers to internalise key lessons instead of chasing dozens of titles."
   },
@@ -23,11 +28,6 @@
     "paper": "ECONOMIC TIMES",
     "title": "Bitcoin trades near $62,000; inflation, geopolitical risks remain key market drivers",
     "description": "Bitcoin rebounded near $62,000 after recovering from last week's lows, supported by optimism over Federal Reserve policy. Ethereum and major altcoins also gained, though investors remain cautious amid inflation, geopolitical tensions, energy prices and mixed ETF investment flows."
-  },
-  {
-    "paper": "ECONOMIC TIMES",
-    "title": "Gold\u2019s sharp correction: What lies ahead for prices?",
-    "description": "Gold has corrected sharply from record highs as a stronger US dollar, elevated bond yields and expectations of prolonged higher interest rates weighed on prices. Experts view the decline as a technical correction, recommending staggered buying and long-term holding amid supportive structural demand."
   },
   {
     "paper": "ECONOMIC TIMES",
@@ -381,6 +381,21 @@
   },
   {
     "paper": "BUSINESS STANDARD",
+    "title": "IT Ministry summons Meta executives over ads promoting CSAM in India - Business Standard",
+    "description": "IT Ministry summons Meta executives over ads promoting CSAM in India\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "HDFC Bank's advances rise 15.4% YoY, deposits grow 14.7% in Q1FY27 - Business Standard",
+    "description": "HDFC Bank's advances rise 15.4% YoY, deposits grow 14.7% in Q1FY27\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Sooryavanshi breaks Tendulkar's record to become India's youngest debutant - Business Standard",
+    "description": "Sooryavanshi breaks Tendulkar's record to become India's youngest debutant\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
     "title": "EU upholds Google Android fine: Why the ruling matters beyond Europe - Business Standard",
     "description": "EU upholds Google Android fine: Why the ruling matters beyond Europe\u00a0\u00a0Business Standard"
   },
@@ -396,6 +411,16 @@
   },
   {
     "paper": "BUSINESS STANDARD",
+    "title": "India-Mali Launch Inaugural Export Promotion Forum to Boost Bilateral Trade and Unlock New Investment Opportunities - Business Standard",
+    "description": "India-Mali Launch Inaugural Export Promotion Forum to Boost Bilateral Trade and Unlock New Investment Opportunities\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Yes Bank reports 18% YoY rise in Q1FY27 loans; deposits up 14% - Business Standard",
+    "description": "Yes Bank reports 18% YoY rise in Q1FY27 loans; deposits up 14%\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
     "title": "India among lowest-cost solar markets, beats China on PV power cost: IRENA - Business Standard",
     "description": "India among lowest-cost solar markets, beats China on PV power cost: IRENA\u00a0\u00a0Business Standard"
   },
@@ -406,13 +431,13 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Banks strengthen deposit base as credit growth outpaces liabilities - Business Standard",
-    "description": "Banks strengthen deposit base as credit growth outpaces liabilities\u00a0\u00a0Business Standard"
+    "title": "JSW Steel commences Rayalaseema integrated steel project - Business Standard",
+    "description": "JSW Steel commences Rayalaseema integrated steel project\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "JSW Steel commences Rayalaseema integrated steel project - Business Standard",
-    "description": "JSW Steel commences Rayalaseema integrated steel project\u00a0\u00a0Business Standard"
+    "title": "Banks strengthen deposit base as credit growth outpaces liabilities - Business Standard",
+    "description": "Banks strengthen deposit base as credit growth outpaces liabilities\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -421,8 +446,13 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Home affordability holds in 6 of top 8 Indian cities; Mumbai, NCR lag - Business Standard",
-    "description": "Home affordability holds in 6 of top 8 Indian cities; Mumbai, NCR lag\u00a0\u00a0Business Standard"
+    "title": "Quality Power arm Mehru Electrical wins Rs 16-cr orders from Hitachi Energy India - Business Standard",
+    "description": "Quality Power arm Mehru Electrical wins Rs 16-cr orders from Hitachi Energy India\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "India semiconductor push gathers pace; Equirius flags full-stack transition - Business Standard",
+    "description": "India semiconductor push gathers pace; Equirius flags full-stack transition\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -436,6 +466,51 @@
   },
   {
     "paper": "BUSINESS STANDARD",
+    "title": "Goyal, Jaishankar and Vaishnaw to visit Brussels for TTC talks with EU - Business Standard",
+    "description": "Goyal, Jaishankar and Vaishnaw to visit Brussels for TTC talks with EU\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Home affordability holds in 6 of top 8 Indian cities; Mumbai, NCR lag - Business Standard",
+    "description": "Home affordability holds in 6 of top 8 Indian cities; Mumbai, NCR lag\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Godrej Consumer Products expects high-teens revenue growth in Q1 FY27 - Business Standard",
+    "description": "Godrej Consumer Products expects high-teens revenue growth in Q1 FY27\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "India targets $1 trn exports in FY27, eyes 17% goods export growth: Goyal - Business Standard",
+    "description": "India targets $1 trn exports in FY27, eyes 17% goods export growth: Goyal\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Govt allows 4 China-linked power equipment firms to bid for key projects - Business Standard",
+    "description": "Govt allows 4 China-linked power equipment firms to bid for key projects\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Syngene CEO Peter Bains resigns as part of leadership succession plan - Business Standard",
+    "description": "Syngene CEO Peter Bains resigns as part of leadership succession plan\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Govt raises onion buffer procurement price by 13% to support farmers - Business Standard",
+    "description": "Govt raises onion buffer procurement price by 13% to support farmers\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Knack Packaging IPO subscribed 83.33 times - Business Standard",
+    "description": "Knack Packaging IPO subscribed 83.33 times\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Nearly 50% of UDAN routes no longer operational while govt begins 2nd phase - Business Standard",
+    "description": "Nearly 50% of UDAN routes no longer operational while govt begins 2nd phase\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
     "title": "Indian investors pump record $2.6 bn into realty, account for 57% of flows - Business Standard",
     "description": "Indian investors pump record $2.6 bn into realty, account for 57% of flows\u00a0\u00a0Business Standard"
   },
@@ -446,18 +521,13 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "HCL Tech rallies 6% after securing $1.14bn deal from Fortune Global 50 firm - Business Standard",
-    "description": "HCL Tech rallies 6% after securing $1.14bn deal from Fortune Global 50 firm\u00a0\u00a0Business Standard"
+    "title": "Rajiv Kumar's biggest task: Restoring investor confidence in HDFC Bank - Business Standard",
+    "description": "Rajiv Kumar's biggest task: Restoring investor confidence in HDFC Bank\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Nifty July futures trade at premium - Business Standard",
-    "description": "Nifty July futures trade at premium\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "Why earthquakes of similar magnitude can have very different outcomes - Business Standard",
-    "description": "Why earthquakes of similar magnitude can have very different outcomes\u00a0\u00a0Business Standard"
+    "title": "Maersk places maiden India order for 1,000 containers with DCM Containers - Business Standard",
+    "description": "Maersk places maiden India order for 1,000 containers with DCM Containers\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -466,33 +536,8 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Syngene CEO Peter Bains resigns as part of leadership succession plan - Business Standard",
-    "description": "Syngene CEO Peter Bains resigns as part of leadership succession plan\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "Visa passkeys go live in India as IDFC First Bank becomes first issuer - Business Standard",
-    "description": "Visa passkeys go live in India as IDFC First Bank becomes first issuer\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "Hitachi Energy, CG Power, GE Vernova, Thermax tank up to 10%; here's why - Business Standard",
-    "description": "Hitachi Energy, CG Power, GE Vernova, Thermax tank up to 10%; here's why\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "HCL Technologies wins USD 1.4 million contact - Business Standard",
-    "description": "HCL Technologies wins USD 1.4 million contact\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "Knack Packaging IPO subscribed 83.33 times - Business Standard",
-    "description": "Knack Packaging IPO subscribed 83.33 times\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "Sun Pharmaceutical Industries Ltd spurts 2.14% - Business Standard",
-    "description": "Sun Pharmaceutical Industries Ltd spurts 2.14%\u00a0\u00a0Business Standard"
+    "title": "HCL Tech rallies 6% after securing $1.14bn deal from Fortune Global 50 firm - Business Standard",
+    "description": "HCL Tech rallies 6% after securing $1.14bn deal from Fortune Global 50 firm\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -501,18 +546,18 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Avenue Supermarts slips 5% post Q1 business update; stock down 8% in 2 days - Business Standard",
-    "description": "Avenue Supermarts slips 5% post Q1 business update; stock down 8% in 2 days\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
     "title": "Japanese market ends higher after early losses - Business Standard",
     "description": "Japanese market ends higher after early losses\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Rajiv Kumar's biggest task: Restoring investor confidence in HDFC Bank - Business Standard",
-    "description": "Rajiv Kumar's biggest task: Restoring investor confidence in HDFC Bank\u00a0\u00a0Business Standard"
+    "title": "Hitachi Energy, CG Power, GE Vernova, Thermax tank up to 10%; here's why - Business Standard",
+    "description": "Hitachi Energy, CG Power, GE Vernova, Thermax tank up to 10%; here's why\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Sun Pharmaceutical Industries Ltd spurts 2.14% - Business Standard",
+    "description": "Sun Pharmaceutical Industries Ltd spurts 2.14%\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -521,18 +566,28 @@
   },
   {
     "paper": "BUSINESS STANDARD",
+    "title": "Visa passkeys go live in India as IDFC First Bank becomes first issuer - Business Standard",
+    "description": "Visa passkeys go live in India as IDFC First Bank becomes first issuer\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "HCL Technologies wins USD 1.4 million contact - Business Standard",
+    "description": "HCL Technologies wins USD 1.4 million contact\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Metal stocks gain up to 4%; Systematix backs Jindal Steel, Jindal Stainless - Business Standard",
+    "description": "Metal stocks gain up to 4%; Systematix backs Jindal Steel, Jindal Stainless\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
     "title": "Govt clears \u20b952K cr military purchase proposals for missiles, air defence - Business Standard",
     "description": "Govt clears \u20b952K cr military purchase proposals for missiles, air defence\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "MEIL to pump in \u20b940,000 cr capex in 3 yrs, eyes \u20b92 trn topline in 5 yrs - Business Standard",
-    "description": "MEIL to pump in \u20b940,000 cr capex in 3 yrs, eyes \u20b92 trn topline in 5 yrs\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "India, Japan unveil 16 summit outcomes to deepen strategic partnership - Business Standard",
-    "description": "India, Japan unveil 16 summit outcomes to deepen strategic partnership\u00a0\u00a0Business Standard"
+    "title": "Avenue Supermarts slips 5% post Q1 business update; stock down 8% in 2 days - Business Standard",
+    "description": "Avenue Supermarts slips 5% post Q1 business update; stock down 8% in 2 days\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -541,43 +596,8 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Avoid reimbursement claims to reduce stress during hospitalisation - Business Standard",
-    "description": "Avoid reimbursement claims to reduce stress during hospitalisation\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "Vedanta demerged stocks correct after sharp rally - Business Standard",
-    "description": "Vedanta demerged stocks correct after sharp rally\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
     "title": "Moneyview, Chandan Steel get Sebi's approval to raise funds through IPOs - Business Standard",
     "description": "Moneyview, Chandan Steel get Sebi's approval to raise funds through IPOs\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "HCLTech wins $1.14 billion deal from Fortune Global 50 European client - Business Standard",
-    "description": "HCLTech wins $1.14 billion deal from Fortune Global 50 European client\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "JSW Steel starts construction of \u20b916,350-crore Andhra Pradesh steel project - Business Standard",
-    "description": "JSW Steel starts construction of \u20b916,350-crore Andhra Pradesh steel project\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "PB Fintech slides amid block deal buzz - Business Standard",
-    "description": "PB Fintech slides amid block deal buzz\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "OTT releases this week: Pritam and Pedro, Silo 3, Enola Holmes 3 and more - Business Standard",
-    "description": "OTT releases this week: Pritam and Pedro, Silo 3, Enola Holmes 3 and more\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "ICICI Bank plans first dollar bond sale in 9 years under RBI swap window - Business Standard",
-    "description": "ICICI Bank plans first dollar bond sale in 9 years under RBI swap window\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -586,18 +606,48 @@
   },
   {
     "paper": "BUSINESS STANDARD",
+    "title": "MEIL to pump in \u20b940,000 cr capex in 3 yrs, eyes \u20b92 trn topline in 5 yrs - Business Standard",
+    "description": "MEIL to pump in \u20b940,000 cr capex in 3 yrs, eyes \u20b92 trn topline in 5 yrs\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
     "title": "HDFC Bank reports healthy Q1 business growth; gross advances rise 15% YoY - Business Standard",
     "description": "HDFC Bank reports healthy Q1 business growth; gross advances rise 15% YoY\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Bank of Baroda slips 4%; down 23% from 52-wk high; should you buy on dips? - Business Standard",
-    "description": "Bank of Baroda slips 4%; down 23% from 52-wk high; should you buy on dips?\u00a0\u00a0Business Standard"
+    "title": "Union Bank stock plunges 7% post Q1 business update; details here - Business Standard",
+    "description": "Union Bank stock plunges 7% post Q1 business update; details here\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "US officials believed Israel plotted to kill Iran's Araghchi, negotiators - Business Standard",
-    "description": "US officials believed Israel plotted to kill Iran's Araghchi, negotiators\u00a0\u00a0Business Standard"
+    "title": "DDA plans major urban overhaul with 8-point development roadmap for Delhi - Business Standard",
+    "description": "DDA plans major urban overhaul with 8-point development roadmap for Delhi\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "JSW Steel starts construction of \u20b916,350-crore Andhra Pradesh steel project - Business Standard",
+    "description": "JSW Steel starts construction of \u20b916,350-crore Andhra Pradesh steel project\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "OTT releases this week: Pritam and Pedro, Silo 3, Enola Holmes 3 and more - Business Standard",
+    "description": "OTT releases this week: Pritam and Pedro, Silo 3, Enola Holmes 3 and more\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Vedanta demerged stocks correct after sharp rally - Business Standard",
+    "description": "Vedanta demerged stocks correct after sharp rally\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "PM Modi inaugurates Jodhpur airport terminal, launches modified UDAN scheme - Business Standard",
+    "description": "PM Modi inaugurates Jodhpur airport terminal, launches modified UDAN scheme\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "HCLTech wins $1.14 billion deal from Fortune Global 50 European client - Business Standard",
+    "description": "HCLTech wins $1.14 billion deal from Fortune Global 50 European client\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -606,18 +656,23 @@
   },
   {
     "paper": "BUSINESS STANDARD",
+    "title": "India, Japan unveil 16 summit outcomes to deepen strategic partnership - Business Standard",
+    "description": "India, Japan unveil 16 summit outcomes to deepen strategic partnership\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "PB Fintech slides amid block deal buzz - Business Standard",
+    "description": "PB Fintech slides amid block deal buzz\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
     "title": "9 former Axis Bank execs take top leadership roles across financial sector - Business Standard",
     "description": "9 former Axis Bank execs take top leadership roles across financial sector\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "DAC clears \u20b952K cr proposals for the armed forces with focus on air defence - Business Standard",
-    "description": "DAC clears \u20b952K cr proposals for the armed forces with focus on air defence\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "Union Bank of India's global business rises to Rs 23.79 lakh crore in Q1 FY26 - Business Standard",
-    "description": "Union Bank of India's global business rises to Rs 23.79 lakh crore in Q1 FY26\u00a0\u00a0Business Standard"
+    "title": "ICICI Bank plans first dollar bond sale in 9 years under RBI swap window - Business Standard",
+    "description": "ICICI Bank plans first dollar bond sale in 9 years under RBI swap window\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -626,18 +681,23 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Tata Electronics pips Foxconn by assembling $26.3 bn iPhones for exports - Business Standard",
-    "description": "Tata Electronics pips Foxconn by assembling $26.3 bn iPhones for exports\u00a0\u00a0Business Standard"
+    "title": "Avoid reimbursement claims to reduce stress during hospitalisation - Business Standard",
+    "description": "Avoid reimbursement claims to reduce stress during hospitalisation\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Indian Hotels well positioned to gain from demand recovery, expansion - Business Standard",
-    "description": "Indian Hotels well positioned to gain from demand recovery, expansion\u00a0\u00a0Business Standard"
+    "title": "DAC clears \u20b952K cr proposals for the armed forces with focus on air defence - Business Standard",
+    "description": "DAC clears \u20b952K cr proposals for the armed forces with focus on air defence\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Bajaj Housing Finance up 6% on strong Q1 business update; should you buy? - Business Standard",
-    "description": "Bajaj Housing Finance up 6% on strong Q1 business update; should you buy?\u00a0\u00a0Business Standard"
+    "title": "Bank of Baroda slips 4%; down 23% from 52-wk high; should you buy on dips? - Business Standard",
+    "description": "Bank of Baroda slips 4%; down 23% from 52-wk high; should you buy on dips?\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Union Bank of India's global business rises to Rs 23.79 lakh crore in Q1 FY26 - Business Standard",
+    "description": "Union Bank of India's global business rises to Rs 23.79 lakh crore in Q1 FY26\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -651,23 +711,8 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Union Bank stock plunges 7% post Q1 business update; details here - Business Standard",
-    "description": "Union Bank stock plunges 7% post Q1 business update; details here\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "Flows return to gold, silver ETFs as correction brings back shine - Business Standard",
-    "description": "Flows return to gold, silver ETFs as correction brings back shine\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
     "title": "NTPC Renewable Energy signs PPA with PTC India - Business Standard",
     "description": "NTPC Renewable Energy signs PPA with PTC India\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "IT Ministry summons Meta executives over ads promoting CSAM in India - Business Standard",
-    "description": "IT Ministry summons Meta executives over ads promoting CSAM in India\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -676,18 +721,13 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Govt allows 4 China-linked power equipment firms to bid for key projects - Business Standard",
-    "description": "Govt allows 4 China-linked power equipment firms to bid for key projects\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
     "title": "India-Israel Bilateral Investment Agreement Comes into Force, Strengthening Investment Protection and Economic Partnership - Business Standard",
     "description": "India-Israel Bilateral Investment Agreement Comes into Force, Strengthening Investment Protection and Economic Partnership\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "India's services PMI ease to 17-month low - Business Standard",
-    "description": "India's services PMI ease to 17-month low\u00a0\u00a0Business Standard"
+    "title": "Tata Electronics pips Foxconn by assembling $26.3 bn iPhones for exports - Business Standard",
+    "description": "Tata Electronics pips Foxconn by assembling $26.3 bn iPhones for exports\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -696,23 +736,18 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "China shares end higher as technology stocks rebound - Business Standard",
-    "description": "China shares end higher as technology stocks rebound\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "ToneTag unveils AI banking assistant for millions of small merchants - Business Standard",
-    "description": "ToneTag unveils AI banking assistant for millions of small merchants\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "Raymond Realty rallies on strong Q4 operational update - Business Standard",
-    "description": "Raymond Realty rallies on strong Q4 operational update\u00a0\u00a0Business Standard"
+    "title": "Indian Hotels well positioned to gain from demand recovery, expansion - Business Standard",
+    "description": "Indian Hotels well positioned to gain from demand recovery, expansion\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
     "title": "Govt's username feature scrutiny may help curb cyber fraud: 63SATS CEO - Business Standard",
     "description": "Govt's username feature scrutiny may help curb cyber fraud: 63SATS CEO\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "China shares end higher as technology stocks rebound - Business Standard",
+    "description": "China shares end higher as technology stocks rebound\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -726,21 +761,6 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Japanese enterprises accelerating growth of GCCs in India: Deloitte - Business Standard",
-    "description": "Japanese enterprises accelerating growth of GCCs in India: Deloitte\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "Biz loans to entrepreneurs outpace entity credit growth: TransUnion CIBIL - Business Standard",
-    "description": "Biz loans to entrepreneurs outpace entity credit growth: TransUnion CIBIL\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "Uno Minda Ltd gains for third straight session - Business Standard",
-    "description": "Uno Minda Ltd gains for third straight session\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
     "title": "25 years of A R Rahman's Airtel jingle: A timeless lesson in branding - Business Standard",
     "description": "25 years of A R Rahman's Airtel jingle: A timeless lesson in branding\u00a0\u00a0Business Standard"
   },
@@ -751,13 +771,28 @@
   },
   {
     "paper": "BUSINESS STANDARD",
+    "title": "Biz loans to entrepreneurs outpace entity credit growth: TransUnion CIBIL - Business Standard",
+    "description": "Biz loans to entrepreneurs outpace entity credit growth: TransUnion CIBIL\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Raymond Realty rallies on strong Q4 operational update - Business Standard",
+    "description": "Raymond Realty rallies on strong Q4 operational update\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
     "title": "Raymond Realty rallies on strong Q1 operational update - Business Standard",
     "description": "Raymond Realty rallies on strong Q1 operational update\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Sebi revises norms on handling unpaid client securities by brokers - Business Standard",
-    "description": "Sebi revises norms on handling unpaid client securities by brokers\u00a0\u00a0Business Standard"
+    "title": "Flows return to gold, silver ETFs as correction brings back shine - Business Standard",
+    "description": "Flows return to gold, silver ETFs as correction brings back shine\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Japanese enterprises accelerating growth of GCCs in India: Deloitte - Business Standard",
+    "description": "Japanese enterprises accelerating growth of GCCs in India: Deloitte\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -766,23 +801,18 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Volumes jump at Sumitomo Chemical India Ltd counter - Business Standard",
-    "description": "Volumes jump at Sumitomo Chemical India Ltd counter\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "Dabur expects strong Q1 profit growth as price hikes cushion inflation - Business Standard",
-    "description": "Dabur expects strong Q1 profit growth as price hikes cushion inflation\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
     "title": "Delhi CM withdraws work-from-home order, staggered office hours mandate - Business Standard",
     "description": "Delhi CM withdraws work-from-home order, staggered office hours mandate\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Rising discretionary spending, formalisation key growth drivers for Titan - Business Standard",
-    "description": "Rising discretionary spending, formalisation key growth drivers for Titan\u00a0\u00a0Business Standard"
+    "title": "Sebi revises norms on handling unpaid client securities by brokers - Business Standard",
+    "description": "Sebi revises norms on handling unpaid client securities by brokers\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "ToneTag unveils AI banking assistant for millions of small merchants - Business Standard",
+    "description": "ToneTag unveils AI banking assistant for millions of small merchants\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -791,18 +821,23 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "India-Mali Launch Inaugural Export Promotion Forum to Boost Bilateral Trade and Unlock New Investment Opportunities - Business Standard",
-    "description": "India-Mali Launch Inaugural Export Promotion Forum to Boost Bilateral Trade and Unlock New Investment Opportunities\u00a0\u00a0Business Standard"
+    "title": "Rising discretionary spending, formalisation key growth drivers for Titan - Business Standard",
+    "description": "Rising discretionary spending, formalisation key growth drivers for Titan\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Rewriting the Rules of Business Education: Stride School of Business Unveils Its AI-First Campus Infrastructure - Business Standard",
-    "description": "Rewriting the Rules of Business Education: Stride School of Business Unveils Its AI-First Campus Infrastructure\u00a0\u00a0Business Standard"
+    "title": "Dabur expects strong Q1 profit growth as price hikes cushion inflation - Business Standard",
+    "description": "Dabur expects strong Q1 profit growth as price hikes cushion inflation\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Crazy Snacks Ltd Announcements - Business Standard",
-    "description": "Crazy Snacks Ltd Announcements\u00a0\u00a0Business Standard"
+    "title": "Uno Minda Ltd gains for third straight session - Business Standard",
+    "description": "Uno Minda Ltd gains for third straight session\u00a0\u00a0Business Standard"
+  },
+  {
+    "paper": "BUSINESS STANDARD",
+    "title": "Volumes jump at Sumitomo Chemical India Ltd counter - Business Standard",
+    "description": "Volumes jump at Sumitomo Chemical India Ltd counter\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -811,13 +846,8 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Board of Arvind approves fund raising up to Rs 600 cr via equity issuance - Business Standard",
-    "description": "Board of Arvind approves fund raising up to Rs 600 cr via equity issuance\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "SC halts Delhi govt-ordered CAG audit of power distribution companies - Business Standard",
-    "description": "SC halts Delhi govt-ordered CAG audit of power distribution companies\u00a0\u00a0Business Standard"
+    "title": "Crazy Snacks Ltd Announcements - Business Standard",
+    "description": "Crazy Snacks Ltd Announcements\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -826,23 +856,8 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Amazon Data Services pre-leases 4 acres in Mumbai for data centre expansion - Business Standard",
-    "description": "Amazon Data Services pre-leases 4 acres in Mumbai for data centre expansion\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
     "title": "GDP calculations get new yardstick with PPI deflator from June quarter - Business Standard",
     "description": "GDP calculations get new yardstick with PPI deflator from June quarter\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "Fortis Healthcare signs pact with Dion Group for 300-bed Odisha hospital - Business Standard",
-    "description": "Fortis Healthcare signs pact with Dion Group for 300-bed Odisha hospital\u00a0\u00a0Business Standard"
-  },
-  {
-    "paper": "BUSINESS STANDARD",
-    "title": "Home ministry designates 23 Pakistan-based persons as terrorists under UAPA - Business Standard",
-    "description": "Home ministry designates 23 Pakistan-based persons as terrorists under UAPA\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
@@ -851,33 +866,108 @@
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "250 years of US state capitalism and myth of America's free-market model - Business Standard",
-    "description": "250 years of US state capitalism and myth of America's free-market model\u00a0\u00a0Business Standard"
+    "title": "Home ministry designates 23 Pakistan-based persons as terrorists under UAPA - Business Standard",
+    "description": "Home ministry designates 23 Pakistan-based persons as terrorists under UAPA\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "World Cup 2026 Round of 16 schedule: Teams, IST timings, venues, streaming - Business Standard",
-    "description": "World Cup 2026 Round of 16 schedule: Teams, IST timings, venues, streaming\u00a0\u00a0Business Standard"
+    "title": "Amazon Data Services pre-leases 4 acres in Mumbai for data centre expansion - Business Standard",
+    "description": "Amazon Data Services pre-leases 4 acres in Mumbai for data centre expansion\u00a0\u00a0Business Standard"
   },
   {
     "paper": "BUSINESS STANDARD",
-    "title": "Dark cloud looms over hotel revenues amid drying reservoirs, rising costs - Business Standard",
-    "description": "Dark cloud looms over hotel revenues amid drying reservoirs, rising costs\u00a0\u00a0Business Standard"
+    "title": "SC halts Delhi govt-ordered CAG audit of power distribution companies - Business Standard",
+    "description": "SC halts Delhi govt-ordered CAG audit of power distribution companies\u00a0\u00a0Business Standard"
   },
   {
-    "paper": "BUSINESS STANDARD",
-    "title": "Land as the Ultimate Wealth Creator: Peninsula Estates Brings the \"Gold Standard\" of Real Estate to Alibaug - Business Standard",
-    "description": "Land as the Ultimate Wealth Creator: Peninsula Estates Brings the \"Gold Standard\" of Real Estate to Alibaug\u00a0\u00a0Business Standard"
+    "paper": "MINT",
+    "title": "Why Blake Lively and Ryan Reynolds were missing from Taylor Swift and Travis Kelce's wedding",
+    "description": "Blake Lively and Ryan Reynolds were notably absent from Taylor Swift and Travis Kelce's wedding celebrations, with reports citing family commitments amid continued speculation about the status of their friendship with the singer."
   },
   {
-    "paper": "BUSINESS STANDARD",
-    "title": "Allcargo Global Share Price - Business Standard",
-    "description": "Allcargo Global Share Price\u00a0\u00a0Business Standard"
+    "paper": "MINT",
+    "title": "Quote of the day by Abraham Lincoln on America's 250th birthday: \u2018Those who deny freedom to others, deserve\u2026\u2019",
+    "description": "Abraham Lincoln argued that freedom is a universal human right, not a conditional privilege that one group can hoard for itself while denying it to another."
   },
   {
-    "paper": "BUSINESS STANDARD",
-    "title": "Morkel backs World Cup winners despite Vaibhav's selection pressure - Business Standard",
-    "description": "Morkel backs World Cup winners despite Vaibhav's selection pressure\u00a0\u00a0Business Standard"
+    "paper": "MINT",
+    "title": "Bengaluru daycare horror: Capgemini does not bear direct liability, says Karnataka child rights group",
+    "description": "The Karnataka State Commission for Protection of Child Rights (KSCPCR) said on Saturday that Capgemini \u201cdoes not bear direct liability in the incident\u201d of alleged abuse at its daycare facility."
+  },
+  {
+    "paper": "MINT",
+    "title": "Australia hikes student visa fee again- Indians will now pay  \u20b91.65 lakh | All you need to know",
+    "description": "Australia has increased the Subclass 500 student visa fee to AUD 2,500, effective 1 July 2026. Discover how this 25% hike impacts Indian students and compares to new rules in Canada, the UK, and the US."
+  },
+  {
+    "paper": "MINT",
+    "title": "Maruti Suzuki, Toyota India execs defend E20 petrol: \u2018No problem in terms of wear &amp; tear, corrosion'",
+    "description": "The cause of concern is what happens if E20 fuel is used in cars that have been manufactured and sold before 2023, which were primarily designed for E10? Read on to know what auto industry experts said."
+  },
+  {
+    "paper": "MINT",
+    "title": "Planning a Thailand trip? Indian embassy says carry  \u20b958,000 in cash -- New checklist here",
+    "description": "The Indian Embassy in Bangkok has issued a fresh travel advisory for Indian nationals visiting Thailand, outlining entry requirements following the end of visa-free travel. Here's what travellers need to know before departure."
+  },
+  {
+    "paper": "MINT",
+    "title": "India's Ethanol Blended Petrol programme dates back to 2003: A timeline from E5 to E85",
+    "description": "India's Ethanol Blended Petrol (EBP) programme is not new. It dates back to 2003. The programme had started early with five percent EBP in 20 states and four UTs of India."
+  },
+  {
+    "paper": "MINT",
+    "title": "Prince Harry to visit London without Meghan, children amid ongoing security concerns",
+    "description": "Prince Harry will travel to London next week without Meghan, Archie, and Lilibet, amid continuing concerns over security arrangements during visits to the UK.&nbsp;"
+  },
+  {
+    "paper": "MINT",
+    "title": "PM Modi extends July 4 wishes to Trump on \u2018behalf of 1.4 billion Indians\u2019 \u2014 \u2018May the next 250 years bring greater...\u2019",
+    "description": "\u201cMay the next 250 years bring even greater prosperity, peace and progress for America and take the India-US partnership to new heights,\u201d said PM Modi"
+  },
+  {
+    "paper": "MINT",
+    "title": "Tankers U-turn in Hormuz, with some taking Iran route instead",
+    "description": "The ships, including oil tankers, bulk carriers and vehicle carriers, were observed sailing toward the Strait of Hormuz, ship-tracking data show. Some had made it as far as the tip of the Musandam Peninsula that sticks out into the chokepoint, before making sharp reversals"
+  },
+  {
+    "paper": "MINT",
+    "title": "4th of July to see thunderstorms? Washington cancels parade as extreme heat upends America 250 festivities",
+    "description": "This weekend's America 250 celebrations face potential disruptions from severe weather. The extreme heat and pervasive humidity across the eastern United States are anticipated to spark thunderstorms in the Mid-Atlantic and Northeast starting Saturday afternoon."
+  },
+  {
+    "paper": "MINT",
+    "title": "Watch: New Indian grocery store in New Jersey sees massive rush, Internet calls it 'American sabzi mandi'",
+    "description": "A newly opened Indian grocery store in New Jersey has become the talk of social media after videos showed long queues and packed aisles during its grand opening. While many users celebrated the overwhelming response, others debated crowd behaviour, prompting mixed reactions online."
+  },
+  {
+    "paper": "MINT",
+    "title": "'Death threats' to PM Modi ahead of Melbourne visit, says report; Australian police probe",
+    "description": "The alleged death threat appeared beneath a Facebook post announcing the \u201cMelbourne Meets Modi\u201d community event, scheduled to be held at Marvel Stadium on 9 July."
+  },
+  {
+    "paper": "MINT",
+    "title": "Modi says India will keep expanding oil refining capacity",
+    "description": "India will continue to build new crude oil refineries in order to ensure supply chain security even as Western nations shut processing units, Prime Minister Narendra Modi said."
+  },
+  {
+    "paper": "MINT",
+    "title": "India, France turn to leader-level diplomacy to win AI infrastructure bets",
+    "description": "Macron and Modi are personally courting Big Tech CEOs like Musk, Son, Jassy and Nadella to secure billions in AI investment and data centre deals."
+  },
+  {
+    "paper": "MINT",
+    "title": "4th of July: Are banks, stock market, Walmart shut across US? Check what's open and close",
+    "description": "Major banks, including JPMorgan Chase, Bank of America and Wells Fargo, will remain open on Friday, July 3. Most banks close on July 4 for Independence Day, according to their holiday schedules."
+  },
+  {
+    "paper": "MINT",
+    "title": "\u2018Timing matters\u2019: Erika Kirk slams NYT op-ed on her speech saying Americans should have \u2018more kids than you can afford\u2019",
+    "description": "Erika Kirk said people shouldn't put off having kids \u2014 \u201cTiming matters because life is shorter than you might think, and you never know what could happen. The point is, don\u2019t put it off. Don\u2019t rush it or force it if it\u2019s not right, but don\u2019t put it off.\u201d"
+  },
+  {
+    "paper": "MINT",
+    "title": "Happy Independence Day 2026: 200+ wishes, messages and quotes for America's 4th of July",
+    "description": "The United States is celebrating a landmark moment in its history as it marks 250 years of Independence on July 4, 2026. From heartfelt wishes and patriotic greetings to inspiring quotes, here are the best messages to share with family and friends on America's Semiquincentennial."
   },
   {
     "paper": "MINT",
@@ -886,8 +976,8 @@
   },
   {
     "paper": "MINT",
-    "title": "World News Today Live Updates on July 4, 2026 : Bhutan not importing E20 fuel  from India, says \u2018high chance of major engine issues if...\u2019",
-    "description": "World News Today Live Updates on July 4, 2026: Stay informed on global events with our in-depth world news coverage, bringing you the latest developments across politics, economy, and culture. Discover insights into international affairs, breaking news, and the trends shaping our interconnected world, all in one place."
+    "title": "World News Today highlights on July 4, 2026 : Australia hikes student visa fee again- Indians will now pay  \u20b91.65 lakh | All you need to know",
+    "description": "World News Today highlights on July 4, 2026: Stay informed on global events with our in-depth world news coverage, bringing you the latest developments across politics, economy, and culture. Discover insights into international affairs, breaking news, and the trends shaping our interconnected world, all in one place."
   },
   {
     "paper": "MINT",
@@ -961,98 +1051,8 @@
   },
   {
     "paper": "MINT",
-    "title": "Mumbai rains LIVE: IMD issues fresh alert, says extremely heavy rainfall likely in parts of Maharashtra",
+    "title": "Mumbai rains LIVE: Red alert issued; five Mumbai-bound flights diverted to nearby airports",
     "description": "Mumbai rains LIVE: Maharashtra government warned of \u2018heavy rainfall\u2019 amid IMD's red alert and issue emergency helpline numbers for Mumbai, Thane, Palghar and Panvel."
-  },
-  {
-    "paper": "MINT",
-    "title": "Taylor Swift and Travis Kelce now husband and wife: From Bradley Cooper to Gigi Hadid, celebs spotted at the NYC wedding",
-    "description": "Taylor Swift and Travis Kelce got married in New York on Friday ahead of the Fourth of July. Their wedding was officiated by Adam Sandler. Check who else attended the high profile wedding amid tight security."
-  },
-  {
-    "paper": "MINT",
-    "title": "Taylor Swift-Travis Kelce all set to get married, guests begin arriving at Madison Square Garden \u2013 See more details here",
-    "description": "Taylor Swift and Travis Kelce's highly anticipated wedding celebrations have reportedly begun at New York's Madison Square Garden, with extensive security measures and a star-studded guest list expected."
-  },
-  {
-    "paper": "MINT",
-    "title": "Prosecutors seek extended custody of Siya, Chetan in Ketan Agarwal's murder case: 'They used coded language in chats'",
-    "description": "Police have sought an extension of custody for the two prime accused in Pune realtor Ketan Agarwal's murder case, saying they are still trying to decode chats containing language, nicknames, and emojis.&nbsp;"
-  },
-  {
-    "paper": "MINT",
-    "title": "Biohacker Bryan Johnson reveals autoimmune gastritis diagnosis: 'My stomach is eating itself'",
-    "description": "Tech entrepreneur and anti-ageing advocate Bryan Johnson has revealed that he has autoimmune gastritis, a chronic condition in which the immune system attacks the stomach lining."
-  },
-  {
-    "paper": "MINT",
-    "title": "IRS deadline looms: Millions of US taxpayers could claim COVID-era penalty refunds by July 10",
-    "description": "The first step is to obtain and review IRS tax account transcripts. Taxpayers should look for penalties, interest charges, payments, refund activity, or other account transactions recorded between 20 January 2020 and 10 July 2023."
-  },
-  {
-    "paper": "MINT",
-    "title": "Bengaluru daycare horror: IT firm offers Work-from-home, counselling to employees as probe continues",
-    "description": "In its statement, Capgemini said while the authorities conduct their investigation, \u201cwe have taken a number of concrete actions in the last 48 hours.\u201d"
-  },
-  {
-    "paper": "MINT",
-    "title": "France heatwave turns deadly: Deaths jump nearly 30% as record-breaking heat grips Europe",
-    "description": "France endured a rise of nearly 30 percent in the number of deaths recorded during the week starting June 22, health authorities said on Friday."
-  },
-  {
-    "paper": "MINT",
-    "title": "Trump's Mount Rushmore plan, fireworks for America 250 and why it's drawing criticism",
-    "description": "On the eve of Independence Day, Trump will give a speech beneath the giant granite heads of four of his legendary predecessors at the national monument in South Dakota."
-  },
-  {
-    "paper": "MINT",
-    "title": "Meta meets IT ministry on WhatsApp username concerns, to file response in 3 days",
-    "description": "The meeting comes two days after the Centre asked WhatsApp to pause the rollout of the feature and explain how it intends to address concerns that usernames could increase the risk of online fraud, Mint reported on Wednesday."
-  },
-  {
-    "paper": "MINT",
-    "title": "Mumbai weather: Red alert issued as IMD forecasts extremely heavy rainfall on Saturday and Sunday",
-    "description": "IMD has issued a red alert for Mumbai and adjoining districts for July 4-5, warning of heavy rainfall with isolated heavy spells after days of monsoon disruption.&nbsp;"
-  },
-  {
-    "paper": "MINT",
-    "title": "Iran begins week-long Ali Khamenei's funeral, but at what cost? Companies 'forced to pay' for food, soup, tea \u2014 report",
-    "description": "A section of people in Iran reportedly expressed anger over the expense of the week-long funeral of late Iranian Supreme Leader Ayatollah Ali Khamenei."
-  },
-  {
-    "paper": "MINT",
-    "title": "Monsoon advances across central and northwest India",
-    "description": "The active monsoon is expected to support kharif sowing and other agricultural operations. However, the IMD cautioned that areas receiving extremely heavy rainfall could face localised flooding, waterlogging and traffic disruptions over the coming days."
-  },
-  {
-    "paper": "MINT",
-    "title": "Govt directs Apple, Google to remove 7 apps allegedly misused to disable e-rickshaw batteries, says report\u2014Latest update",
-    "description": "MeitY has directed Google and Apple to remove seven apps linked to battery shutdowns in e-rickshaws following complaints of operational disruptions faced by drivers. Here are the latest developments\u2026&nbsp;"
-  },
-  {
-    "paper": "MINT",
-    "title": "Brutal US heat dome threatens July 4th, World Cup weekend; 100\u00b0F in New York City",
-    "description": "That\u2019s straining power systems across the region, with more than 71,000 customers without electricity just before 8:30 a.m. New York time, data from PowerOutage.com shows."
-  },
-  {
-    "paper": "MINT",
-    "title": "Bessent dismisses concerns over Trump's billions in crypto earnings: 'I don't think there's an appearance problem'",
-    "description": "US Treasury Secretary Scott Bessent stated that President Trump's recent crypto earnings of $1.4 billion do not present a conflict of interest, despite Democratic criticism. Details here."
-  },
-  {
-    "paper": "MINT",
-    "title": "Flights to Europe, North America, Australia to get cheaper? Air India cuts fuel surcharge on select routes",
-    "description": "The airline has lowered the fuel surcharge for passengers travelling to Europe to $125 from $205 charged in April"
-  },
-  {
-    "paper": "MINT",
-    "title": "Who is Vadym Yermolaiev? Ukrainian construction tycoon believed to be the target of Monaco bombing",
-    "description": "The French authorities said Vadym Yermolaiev and his wife were admitted to a hospital with \u201cserious injuries\u201d while their child was also wounded in the explosion."
-  },
-  {
-    "paper": "MINT",
-    "title": "Trump Accounts explained: Who are eligible for $1,000 bonus, how to sign up and avoid scams as it launches on 4 July",
-    "description": "Trump Account, formally known as 530A accounts, are a new type of investment account for children established under Trump's \u201cbig beautiful bill\u201d. The initiative introduces a new savings account that allows funds to be invested in the stock market for the benefit of a child."
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1061,23 +1061,18 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
+    "title": "From $68 billion to $199 billion by FY30: How GCCs are becoming India\u2019s next big economic engine - financialexpress.com",
+    "description": "From $68 billion to $199 billion by FY30: How GCCs are becoming India\u2019s next big economic engine\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
     "title": "Passenger vehicle sales jump 24% in June - financialexpress.com",
     "description": "Passenger vehicle sales jump 24% in June\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "Renewables up 24%, emissions up just 0.9%: India charts a different energy path - financialexpress.com",
-    "description": "Renewables up 24%, emissions up just 0.9%: India charts a different energy path\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
     "title": "Business News Today: Latest Stock Market Updates, Sensex, Nifty, BSE/NSE Live, IPO, Mutual Funds, Finance & Economy News, International News | The Financial Express - financialexpress.com",
     "description": "Business News Today: Latest Stock Market Updates, Sensex, Nifty, BSE/NSE Live, IPO, Mutual Funds, Finance & Economy News, International News | The Financial Express\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "3rd-Placed Teams\u2019 Rankings in FIFA World Cup 2026: Which Teams Are Likely to Get Into Round of 32 - financialexpress.com",
-    "description": "3rd-Placed Teams\u2019 Rankings in FIFA World Cup 2026: Which Teams Are Likely to Get Into Round of 32\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1091,11 +1086,6 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "ShareChat plans up to $400 million IPO after turning operationally profitable in Q1: Report - financialexpress.com",
-    "description": "ShareChat plans up to $400 million IPO after turning operationally profitable in Q1: Report\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
     "title": "Hero MotoCorp to invest Rs 3,200 crore in Andhra Pradesh expansion - financialexpress.com",
     "description": "Hero MotoCorp to invest Rs 3,200 crore in Andhra Pradesh expansion\u00a0\u00a0financialexpress.com"
   },
@@ -1106,11 +1096,6 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "US lifts curbs on Anthropic\u2019s powerful AI models \u2014 Will India regain access to Claude Mythos, Fable? - financialexpress.com",
-    "description": "US lifts curbs on Anthropic\u2019s powerful AI models \u2014 Will India regain access to Claude Mythos, Fable?\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
     "title": "Fri, 3 Jul 26 - The Financial Express - Epaper",
     "description": "Fri, 3 Jul 26\u00a0\u00a0The Financial Express - Epaper"
   },
@@ -1118,11 +1103,6 @@
     "paper": "FINANCIAL EXPRESS",
     "title": "Fri, 3 Jul 26 - The Financial Express - Epaper",
     "description": "Fri, 3 Jul 26\u00a0\u00a0The Financial Express - Epaper"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Among 1,200+ equity funds, only this Nippon India scheme turned Rs 10,000 SIP into Rs 1 crore in 15 years - financialexpress.com",
-    "description": "Among 1,200+ equity funds, only this Nippon India scheme turned Rs 10,000 SIP into Rs 1 crore in 15 years\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1131,8 +1111,18 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
+    "title": "Among 1,200+ equity funds, only this Nippon India scheme turned Rs 10,000 SIP into Rs 1 crore in 15 years - financialexpress.com",
+    "description": "Among 1,200+ equity funds, only this Nippon India scheme turned Rs 10,000 SIP into Rs 1 crore in 15 years\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
     "title": "Financial Express Bengaluru, Sun, 30 Mar 25 - The Financial Express - Epaper",
     "description": "Financial Express Bengaluru, Sun, 30 Mar 25\u00a0\u00a0The Financial Express - Epaper"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "Financial Express Ahmedabad, Sun, 28 Jun 26 - The Financial Express - Epaper",
+    "description": "Financial Express Ahmedabad, Sun, 28 Jun 26\u00a0\u00a0The Financial Express - Epaper"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1146,11 +1136,6 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "Defence stocks in focus: Why Kotak maps a new growth phase for MTAR, Zen Tech and Astra Microwave - financialexpress.com",
-    "description": "Defence stocks in focus: Why Kotak maps a new growth phase for MTAR, Zen Tech and Astra Microwave\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
     "title": "HDFC Bank plunges 20% in 1 year: Should investors buy the dip or wait? - financialexpress.com",
     "description": "HDFC Bank plunges 20% in 1 year: Should investors buy the dip or wait?\u00a0\u00a0financialexpress.com"
   },
@@ -1161,13 +1146,28 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
+    "title": "Financial Express Ahmedabad, Mon, 15 Jun 26 - The Financial Express - Epaper",
+    "description": "Financial Express Ahmedabad, Mon, 15 Jun 26\u00a0\u00a0The Financial Express - Epaper"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
     "title": "Financial Express Ahmedabad, Sat, 4 Jul 26 - The Financial Express - Epaper",
     "description": "Financial Express Ahmedabad, Sat, 4 Jul 26\u00a0\u00a0The Financial Express - Epaper"
   },
   {
     "paper": "FINANCIAL EXPRESS",
+    "title": "Financial Express Ahmedabad, Thu, 2 Jul 26 - The Financial Express - Epaper",
+    "description": "Financial Express Ahmedabad, Thu, 2 Jul 26\u00a0\u00a0The Financial Express - Epaper"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
     "title": "Financial Express Bengaluru, Thu, 2 Jul 26 - The Financial Express - Epaper",
     "description": "Financial Express Bengaluru, Thu, 2 Jul 26\u00a0\u00a0The Financial Express - Epaper"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "Rs 25,173-crore order book, 16x PE: Why Madhusudan Kela bought this stock - financialexpress.com",
+    "description": "Rs 25,173-crore order book, 16x PE: Why Madhusudan Kela bought this stock\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1181,48 +1181,78 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
+    "title": "Micro dramas becoming major money spinners - financialexpress.com",
+    "description": "Micro dramas becoming major money spinners\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "Fashion\u2019s ugly face - financialexpress.com",
+    "description": "Fashion\u2019s ugly face\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "\u2018I\u2019m not chasing virality, I am only chasing value\u2019, says actor & host Shekhar Suman - financialexpress.com",
+    "description": "\u2018I\u2019m not chasing virality, I am only chasing value\u2019, says actor & host Shekhar Suman\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "Centre lifts emergency gas curbs as Hormuz LNG supplies resume - financialexpress.com",
+    "description": "Centre lifts emergency gas curbs as Hormuz LNG supplies resume\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "Chick-fil-A\u2019s reign over? How a $4.2 billion sandwich rival just ended the chain\u2019s 11-year run at the top - financialexpress.com",
+    "description": "Chick-fil-A\u2019s reign over? How a $4.2 billion sandwich rival just ended the chain\u2019s 11-year run at the top\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "Delhi Gymkhana members, staff move Delhi HC against Centre\u2019s show-cause notice for eviction - financialexpress.com",
+    "description": "Delhi Gymkhana members, staff move Delhi HC against Centre\u2019s show-cause notice for eviction\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "Serena Williams\u2019 Wimbledon comeback ends early, tennis legend opts out of doubles - financialexpress.com",
+    "description": "Serena Williams\u2019 Wimbledon comeback ends early, tennis legend opts out of doubles\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "\u2018Trump Is Your President\u2019: Did White House mock Taylor Swift\u2019s wedding? - financialexpress.com",
+    "description": "\u2018Trump Is Your President\u2019: Did White House mock Taylor Swift\u2019s wedding?\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "Can heatwaves slow US economy? Over 842,000 homes lose power as America celebrates 250th anniversary - financialexpress.com",
+    "description": "Can heatwaves slow US economy? Over 842,000 homes lose power as America celebrates 250th anniversary\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "Arai says OEMs not receiving any E20 fuel related complaints at dealerships - financialexpress.com",
+    "description": "Arai says OEMs not receiving any E20 fuel related complaints at dealerships\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "Bihar faces Rs 50,000 crore contractor dues scandal; Opposition questions contingency fund blunder - financialexpress.com",
+    "description": "Bihar faces Rs 50,000 crore contractor dues scandal; Opposition questions contingency fund blunder\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "67.5% jump in trade, yet no FTA with Peru \u2018anytime soon\u2019: Piyush Goyal explains roadblocks - financialexpress.com",
+    "description": "67.5% jump in trade, yet no FTA with Peru \u2018anytime soon\u2019: Piyush Goyal explains roadblocks\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "At 15 years 99 days, Vaibhav Sooryavanshi becomes India\u2019s youngest international cricketer - financialexpress.com",
+    "description": "At 15 years 99 days, Vaibhav Sooryavanshi becomes India\u2019s youngest international cricketer\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "When 1979 Iranian revolution took oil prices from $13 per barrel to over $39 - financialexpress.com",
+    "description": "When 1979 Iranian revolution took oil prices from $13 per barrel to over $39\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
     "title": "England\u2019s reported Viagra use before Mexico clash explained: Why WADA allows the usage of drug - financialexpress.com",
     "description": "England\u2019s reported Viagra use before Mexico clash explained: Why WADA allows the usage of drug\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Why Sony is discarding PlayStation physical game discs and what gamers may lose - financialexpress.com",
-    "description": "Why Sony is discarding PlayStation physical game discs and what gamers may lose\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Centre cracks down on piracy, issues notice to Telegram over leaked movies and OTT content - financialexpress.com",
-    "description": "Centre cracks down on piracy, issues notice to Telegram over leaked movies and OTT content\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "3 Nippon India funds rank among 1209 mutual funds in 20-year returns, Rs 10,000 SIP turns up to Rs 1.96 Cr. Here\u2019s how they compare on return, risk and category - financialexpress.com",
-    "description": "3 Nippon India funds rank among 1209 mutual funds in 20-year returns, Rs 10,000 SIP turns up to Rs 1.96 Cr. Here\u2019s how they compare on return, risk and category\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Pocketless uniforms, frisking & sealed rooms: Inside Ayodhya Ram Temple\u2019s post-donation theft security overhaul - financialexpress.com",
-    "description": "Pocketless uniforms, frisking & sealed rooms: Inside Ayodhya Ram Temple\u2019s post-donation theft security overhaul\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "HDFC Bank Q1 Update: Advances jump 15.4%, deposits up 13% ahead of on earnings on July 18 - financialexpress.com",
-    "description": "HDFC Bank Q1 Update: Advances jump 15.4%, deposits up 13% ahead of on earnings on July 18\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Sluggish procurement: Govt again revises upward onion price to Rs 2125/quintal - financialexpress.com",
-    "description": "Sluggish procurement: Govt again revises upward onion price to Rs 2125/quintal\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Will Vaibhav Sooryavanshi Join Ranjitsinh, Rahane, and Kumble in an Elite Manchester Club? - financialexpress.com",
-    "description": "Will Vaibhav Sooryavanshi Join Ranjitsinh, Rahane, and Kumble in an Elite Manchester Club?\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Kavach ready: Indian Railways clears Rs 274-crore Malda upgrade \u2013 20 stations to shift to electronic interlocking - financialexpress.com",
-    "description": "Kavach ready: Indian Railways clears Rs 274-crore Malda upgrade \u2013 20 stations to shift to electronic interlocking\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1236,8 +1266,13 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "Southern Railway announces special weekly trains between Tirunelveli and Chennai Egmore in July - financialexpress.com",
-    "description": "Southern Railway announces special weekly trains between Tirunelveli and Chennai Egmore in July\u00a0\u00a0financialexpress.com"
+    "title": "Why Sony is discarding PlayStation physical game discs and what gamers may lose - financialexpress.com",
+    "description": "Why Sony is discarding PlayStation physical game discs and what gamers may lose\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "Interesting books to read this week: From corporate hustle to menopause and star-studded memoirs - financialexpress.com",
+    "description": "Interesting books to read this week: From corporate hustle to menopause and star-studded memoirs\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1261,6 +1296,11 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
+    "title": "\u2018History needs adventure, not rote learning,\u2019 says author Amish Tripathi - financialexpress.com",
+    "description": "\u2018History needs adventure, not rote learning,\u2019 says author Amish Tripathi\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
     "title": "Gujarat\u2019s rain delay poses fresh risk to India\u2019s key cash crops - financialexpress.com",
     "description": "Gujarat\u2019s rain delay poses fresh risk to India\u2019s key cash crops\u00a0\u00a0financialexpress.com"
   },
@@ -1276,13 +1316,13 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "Ronaldo\u2019s historic penalty, Ramos heroics \u2013 How Portugal advanced past Croatia; Spain & Switzerland march on - financialexpress.com",
-    "description": "Ronaldo\u2019s historic penalty, Ramos heroics \u2013 How Portugal advanced past Croatia; Spain & Switzerland march on\u00a0\u00a0financialexpress.com"
+    "title": "Oh, Cabo Verde! Unbelievable journey of African nation comes to an end against Mighty Messi - financialexpress.com",
+    "description": "Oh, Cabo Verde! Unbelievable journey of African nation comes to an end against Mighty Messi\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "Oh, Cabo Verde! Unbelievable journey of African nation comes to an end against Mighty Messi - financialexpress.com",
-    "description": "Oh, Cabo Verde! Unbelievable journey of African nation comes to an end against Mighty Messi\u00a0\u00a0financialexpress.com"
+    "title": "Is it dinner or a drink: The chilled Spanish gazpacho is easily adapted to an Indian summer and ingredients - financialexpress.com",
+    "description": "Is it dinner or a drink: The chilled Spanish gazpacho is easily adapted to an Indian summer and ingredients\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1301,13 +1341,18 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
+    "title": "Explained: The Badrinath-Kedarnath donation controversy, Congress\u2019 allegations, and what the temple board is doing - financialexpress.com",
+    "description": "Explained: The Badrinath-Kedarnath donation controversy, Congress\u2019 allegations, and what the temple board is doing\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
     "title": "One Radhakishan Damani stock trades at 200x PE. The other at 19x. Which looks more interesting? - financialexpress.com",
     "description": "One Radhakishan Damani stock trades at 200x PE. The other at 19x. Which looks more interesting?\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "Kavach and beyond: How domestic firms are pushing to develop next-gen railway siganalling tech - financialexpress.com",
-    "description": "Kavach and beyond: How domestic firms are pushing to develop next-gen railway siganalling tech\u00a0\u00a0financialexpress.com"
+    "title": "Centre cracks down on piracy, issues notice to Telegram over leaked movies and OTT content - financialexpress.com",
+    "description": "Centre cracks down on piracy, issues notice to Telegram over leaked movies and OTT content\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1326,13 +1371,13 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "Monsoon Tracker: IMD sounds season\u2019s first red alert for Mumbai, waterlogging hits Gujarat; El Nino strengthens - financialexpress.com",
-    "description": "Monsoon Tracker: IMD sounds season\u2019s first red alert for Mumbai, waterlogging hits Gujarat; El Nino strengthens\u00a0\u00a0financialexpress.com"
+    "title": "Ayatollah Khamenei\u2019s funeral begins in Iran: Who is representing India? - financialexpress.com",
+    "description": "Ayatollah Khamenei\u2019s funeral begins in Iran: Who is representing India?\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "\u2018It\u2019s the right of citizens to protest\u2019: Bombay HC pulls up Mumbai Police over externment order against activist for raising slogans - financialexpress.com",
-    "description": "\u2018It\u2019s the right of citizens to protest\u2019: Bombay HC pulls up Mumbai Police over externment order against activist for raising slogans\u00a0\u00a0financialexpress.com"
+    "title": "Monsoon Tracker: IMD sounds season\u2019s first red alert for Mumbai, waterlogging hits Gujarat; El Nino strengthens - financialexpress.com",
+    "description": "Monsoon Tracker: IMD sounds season\u2019s first red alert for Mumbai, waterlogging hits Gujarat; El Nino strengthens\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1346,43 +1391,13 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "India\u2019s youth unemployment problem is real. But it\u2019s bigger than India - financialexpress.com",
-    "description": "India\u2019s youth unemployment problem is real. But it\u2019s bigger than India\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Kolkata trams set for modern revival with AC Coaches, battery technology and new routes - financialexpress.com",
-    "description": "Kolkata trams set for modern revival with AC Coaches, battery technology and new routes\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Rs 1,041 crore MGNREGA reboot in Tripura: Focus shifts to durable roads, canals & assets to transform rural India - financialexpress.com",
-    "description": "Rs 1,041 crore MGNREGA reboot in Tripura: Focus shifts to durable roads, canals & assets to transform rural India\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Dr Reddy\u2019s, Sun Pharma, Divi\u2019s turn ex-dividend in July: Check full list and record dates - financialexpress.com",
-    "description": "Dr Reddy\u2019s, Sun Pharma, Divi\u2019s turn ex-dividend in July: Check full list and record dates\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
     "title": "Uber salaries revealed: AI reshapes hiring as the company offers up to $410,000 for top roles - financialexpress.com",
     "description": "Uber salaries revealed: AI reshapes hiring as the company offers up to $410,000 for top roles\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "India-NZ FTA in Jeopardy? Kiwi foreign minister\u2019s outburst puts spotlight on tighter rules for Indians - financialexpress.com",
-    "description": "India-NZ FTA in Jeopardy? Kiwi foreign minister\u2019s outburst puts spotlight on tighter rules for Indians\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "NPS for children: Key rules and estimated corpus by the time your child turns 18 - financialexpress.com",
-    "description": "NPS for children: Key rules and estimated corpus by the time your child turns 18\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Millets need value chain, not celebration - financialexpress.com",
-    "description": "Millets need value chain, not celebration\u00a0\u00a0financialexpress.com"
+    "title": "The AI classroom divide - financialexpress.com",
+    "description": "The AI classroom divide\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1398,16 +1413,6 @@
     "paper": "FINANCIAL EXPRESS",
     "title": "Allcargo Global Share Price - financialexpress.com",
     "description": "Allcargo Global Share Price\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Banking earnings blitz: HDFC Bank, ICICI Bank, and Axis Bank set for Q1FY27 results on July 18 - financialexpress.com",
-    "description": "Banking earnings blitz: HDFC Bank, ICICI Bank, and Axis Bank set for Q1FY27 results on July 18\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "New EPF rules: Check 5 valid reasons for partial PF withdrawal and how much you can get - financialexpress.com",
-    "description": "New EPF rules: Check 5 valid reasons for partial PF withdrawal and how much you can get\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1431,28 +1436,13 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "Trader suffers Rs 2.69 crore business loss, writes it off in books; Income Tax Dept rejects claim, ITAT says this - financialexpress.com",
-    "description": "Trader suffers Rs 2.69 crore business loss, writes it off in books; Income Tax Dept rejects claim, ITAT says this\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Indices extend winning streak to fourth week - financialexpress.com",
-    "description": "Indices extend winning streak to fourth week\u00a0\u00a0financialexpress.com"
+    "title": "The DPI doctrine: India\u2019s quiet bid to govern the global south\u2019s digital future - financialexpress.com",
+    "description": "The DPI doctrine: India\u2019s quiet bid to govern the global south\u2019s digital future\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
     "title": "Inside the $150 million federal funding powering America\u2019s 250th independence - financialexpress.com",
     "description": "Inside the $150 million federal funding powering America\u2019s 250th independence\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Kusumgar IPO details: Price band fixed; GMP jumps 33% ahead of launch - financialexpress.com",
-    "description": "Kusumgar IPO details: Price band fixed; GMP jumps 33% ahead of launch\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Indian Railways June freight loading climbs 4%, passenger traffic reaches 63.8 crore - financialexpress.com",
-    "description": "Indian Railways June freight loading climbs 4%, passenger traffic reaches 63.8 crore\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1466,13 +1456,18 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "Pune\u2019s dream circular road project HCMTR back on track; tenders fast-tracked for 36-km high capacity transit route - financialexpress.com",
-    "description": "Pune\u2019s dream circular road project HCMTR back on track; tenders fast-tracked for 36-km high capacity transit route\u00a0\u00a0financialexpress.com"
+    "title": "What Bihar official said on viral video of board exam papers found floating in rainwater - financialexpress.com",
+    "description": "What Bihar official said on viral video of board exam papers found floating in rainwater\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
     "title": "PM Modi launches Rs 480-crore Jodhpur Airport terminal \u2013 Aerobridges, faster check-in and Modified UDAN scheme - financialexpress.com",
     "description": "PM Modi launches Rs 480-crore Jodhpur Airport terminal \u2013 Aerobridges, faster check-in and Modified UDAN scheme\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "Top 5 mutual funds with the highest 20-year returns: 3 are from Nippon India - financialexpress.com",
+    "description": "Top 5 mutual funds with the highest 20-year returns: 3 are from Nippon India\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1486,31 +1481,6 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
-    "title": "Paytm in Europe: One 97 subsidiary gets Luxembourg regulator\u2019s nod for payment transaction - financialexpress.com",
-    "description": "Paytm in Europe: One 97 subsidiary gets Luxembourg regulator\u2019s nod for payment transaction\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "India\u2019s June Services PMI falls to 17-month low; domestic demand weakens - financialexpress.com",
-    "description": "India\u2019s June Services PMI falls to 17-month low; domestic demand weakens\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Meta\u2019s Pocket app brings vibe coding to everyone: Here\u2019s how to make games, apps with it - financialexpress.com",
-    "description": "Meta\u2019s Pocket app brings vibe coding to everyone: Here\u2019s how to make games, apps with it\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "AI upgraded the fraudster. Let\u2019s upgrade our defence - financialexpress.com",
-    "description": "AI upgraded the fraudster. Let\u2019s upgrade our defence\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "Nestle shares surge 2%, near 52-week high: Special dividend declared \u2013 Check record date, payout details - financialexpress.com",
-    "description": "Nestle shares surge 2%, near 52-week high: Special dividend declared \u2013 Check record date, payout details\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
     "title": "AI to get dedicated law - financialexpress.com",
     "description": "AI to get dedicated law\u00a0\u00a0financialexpress.com"
   },
@@ -1518,11 +1488,6 @@
     "paper": "FINANCIAL EXPRESS",
     "title": "India\u2019s ethanol, CBG blueprint to guide new global biofuel fellowship - financialexpress.com",
     "description": "India\u2019s ethanol, CBG blueprint to guide new global biofuel fellowship\u00a0\u00a0financialexpress.com"
-  },
-  {
-    "paper": "FINANCIAL EXPRESS",
-    "title": "\u2018The relationship is not reciprocal\u2019: Trump renews criticism of NATO burden-sharing ahead of Ankara summit - financialexpress.com",
-    "description": "\u2018The relationship is not reciprocal\u2019: Trump renews criticism of NATO burden-sharing ahead of Ankara summit\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1536,8 +1501,28 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
+    "title": "Pocketless uniforms, frisking & sealed rooms: Inside Ayodhya Ram Temple\u2019s post-donation theft security overhaul - financialexpress.com",
+    "description": "Pocketless uniforms, frisking & sealed rooms: Inside Ayodhya Ram Temple\u2019s post-donation theft security overhaul\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "What a business lunch can reveal - financialexpress.com",
+    "description": "What a business lunch can reveal\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
     "title": "IPO Watch: 3 new issues to open next week; Check fresh DRHP filings, SEBI approvals and more - financialexpress.com",
     "description": "IPO Watch: 3 new issues to open next week; Check fresh DRHP filings, SEBI approvals and more\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "No real fun in virtual games - financialexpress.com",
+    "description": "No real fun in virtual games\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "US at 250: How America\u2019s economy grew from 13 colonies to $30 trillion powerhouse - financialexpress.com",
+    "description": "US at 250: How America\u2019s economy grew from 13 colonies to $30 trillion powerhouse\u00a0\u00a0financialexpress.com"
   },
   {
     "paper": "FINANCIAL EXPRESS",
@@ -1551,7 +1536,22 @@
   },
   {
     "paper": "FINANCIAL EXPRESS",
+    "title": "Centre cracks down on Telegram over film and OTT piracy issues - financialexpress.com",
+    "description": "Centre cracks down on Telegram over film and OTT piracy issues\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
     "title": "\u2018Aiming to double GWP to Rs 5,000 crore in three years\u2019: Alok Rungta, MD & CEO of Generali Central Life Insurance - financialexpress.com",
     "description": "\u2018Aiming to double GWP to Rs 5,000 crore in three years\u2019: Alok Rungta, MD & CEO of Generali Central Life Insurance\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "HDFC Bank Q1 Update: Advances jump 15.4%, deposits up 13% ahead of on earnings on July 18 - financialexpress.com",
+    "description": "HDFC Bank Q1 Update: Advances jump 15.4%, deposits up 13% ahead of on earnings on July 18\u00a0\u00a0financialexpress.com"
+  },
+  {
+    "paper": "FINANCIAL EXPRESS",
+    "title": "Your queries on income tax: Shifting money earned abroad to India does not attract tax - financialexpress.com",
+    "description": "Your queries on income tax: Shifting money earned abroad to India does not attract tax\u00a0\u00a0financialexpress.com"
   }
 ]
