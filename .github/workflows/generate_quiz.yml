@@ -1,0 +1,41 @@
+name: Daily Quiz Generator
+
+on:
+  schedule:
+    # 00:00 UTC is 05:30 AM IST (Runs before the papers deploy)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  generate-quiz:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install beautifulsoup4
+
+      - name: Generate Quiz
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python generate_quiz.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add quiz.json
+          git commit -m "Auto-generate daily quiz questions" || exit 0
+          git push
