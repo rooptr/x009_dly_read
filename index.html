@@ -827,18 +827,22 @@
             const buttons = qDiv.querySelectorAll('.quiz-option');
             buttons.forEach(btn => btn.disabled = true);
             if (selectedIdx === correctIdx) buttons[selectedIdx].classList.add('correct');
-            else { buttons[selectedIdx].classList.add('wrong'); buttons[correctIdx].classList.add('correct'); }
+            else { 
+                buttons[selectedIdx].classList.add('wrong'); 
+                buttons[correctIdx].classList.add('correct'); 
+                window.addToFlashcards(qIndex, true);
+            }
             document.getElementById(`exp-${qIndex}`).style.display = 'block';
         };
 
-        window.addToFlashcards = function(qIndex) {
+        window.addToFlashcards = function(qIndex, isAutoPush = false) {
             const q = filteredQuizData[qIndex];
             const btn = document.getElementById(`add-flashcard-${qIndex}`);
-            if (btn) btn.innerHTML = "Saving...";
+            if (btn && !isAutoPush) btn.innerHTML = "Saving...";
             
             const cardData = {
                 id: "card_" + Date.now() + "_" + Math.floor(Math.random()*1000),
-                category: q.type ? q.type.toUpperCase() + " QUIZ" : "DAILY QUIZ",
+                category: isAutoPush ? "From News App" : (q.type ? q.type.toUpperCase() + " QUIZ" : "DAILY QUIZ"),
                 question: q.question,
                 answer: q.options[q.answerIndex],
                 explanation: q.explanation || "",
@@ -852,12 +856,12 @@
             })
             .then(() => {
                 if (btn) {
-                    btn.innerHTML = "✓ Saved";
+                    btn.innerHTML = isAutoPush ? "✓ Auto-Saved" : "✓ Saved";
                     btn.style.background = "#d4edda";
                 }
             })
             .catch(() => {
-                if (btn) btn.innerHTML = "❌ Failed";
+                if (btn && !isAutoPush) btn.innerHTML = "❌ Failed";
             });
         };
 
