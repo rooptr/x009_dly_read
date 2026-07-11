@@ -1,398 +1,458 @@
 [
   {
-    "question": "Fitch warns that the poor financial health of state-owned power distribution companies (Discoms) poses significant risks for power traders. From a Risk Management perspective, which strategy best mitigates the counterparty credit risk faced by these traders?",
+    "question": "An IPO that is subscribed 128.85 times, like Kusumgar, indicates extreme oversubscription. From a corporate finance perspective, what is the most direct implication of this level of oversubscription on the pricing efficiency and the cost of capital for the issuing firm?",
     "options": [
-      "Extending payment credit cycles to allow Discoms more operational flexibility.",
-      "Utilizing payment security mechanisms such as Letters of Credit backed by state government guarantees.",
-      "Increasing exposure to short-term spot market power sales to bypass long-term contracts.",
-      "Lowering tariffs to reduce the overall debt burden of the buying Discoms."
+      "It proves that the issuing firm's investment bankers achieved perfect pricing efficiency, maximizing the capital raised.",
+      "It suggests significant underpricing (money left on the table), indicating that the firm could have raised more capital or diluted less equity.",
+      "It automatically decreases the firm's post-IPO cost of debt due to immediate liquidity injections.",
+      "It represents an optimal capital allocation where supply and demand curves perfectly intersect at the offer price."
     ],
     "answerIndex": 1,
-    "explanation": "State-owned Discoms represent structural counterparty risks due to accumulated losses. A Letter of Credit (LC) backed by state government guarantees acts as a robust payment security mechanism, ensuring power traders receive payments even if the Discom defaults. Extending credit cycles increases exposure, while spot markets still carry clearing risks. Lowering tariffs erodes the trader's operating margins. This question tests Credit Risk Management. Exam Takeaway: Structured payment security mechanisms are vital when dealing with financially distressed, state-backed counterparties.",
+    "explanation": "Massive oversubscription (128.85x) is a classic indicator of underpricing in an Initial Public Offering (IPO). When an issue is heavily oversubscribed, it means the offer price was set significantly below what the market was willing to pay, leaving 'money on the table' that could have otherwise gone to the issuing company. While it guarantees a successful listing and strong secondary market performance, it represents an opportunity cost in terms of capital raised and dilution. Exam Takeaway: Extreme IPO oversubscription points to underpricing and represents a transfer of wealth from the issuing company to initial subscribers.",
     "type": "news"
   },
   {
-    "question": "A wealth manager advocates a 70:30 India-global portfolio to optimize risk-adjusted returns. According to Modern Portfolio Theory (MPT), what is the primary economic mechanism driving this asset allocation strategy?",
+    "question": "L&T Finance's MD & CEO Sudipta Roy stated that a 'weak monsoon poses limited risk' to the business. Which of the following strategic or operational shifts most logically supports this resilience against monsoon-related agricultural downturns?",
     "options": [
-      "Eliminating systematic risk inherent in the Indian domestic equities market.",
-      "Capturing uncorrelated returns to shift the efficient frontier upward and reduce concentration risk.",
-      "Guaranteeing higher absolute returns than a 100% domestic equity portfolio.",
-      "Hedging against domestic inflation by investing exclusively in foreign debt instruments."
+      "Increasing the portfolio concentration of tractor and direct crop loans in rural areas.",
+      "Diversifying the loan book toward urban consumer loans, SME financing, and retail two-wheeler loans.",
+      "Relying heavily on government-backed farm loan waivers to clear defaults.",
+      "Lowering the credit underwriting standards to attract high-risk borrowers during dry spells."
     ],
     "answerIndex": 1,
-    "explanation": "Modern Portfolio Theory shows that combining assets with low or imperfect correlation shifts the efficient frontier, maximizing expected return for a given level of risk. A 70:30 portfolio reduces domestic concentration risk and accesses global growth themes like AI without trying to eliminate systematic risk, which is undiversifiable. It does not guarantee higher absolute returns. This question tests Portfolio Management. Exam Takeaway: International diversification improves risk-adjusted performance by exploiting imperfect asset correlations.",
+    "explanation": "A financial institution can claim limited vulnerability to monsoons only if its portfolio is decoupled from direct agricultural performance. By diversifying away from pure crop and tractor loans toward urban retail, micro-enterprises, and non-farm rural lending, the company mitigates geographic and weather-related credit risks. Option A increases monsoon risk; Option C is an unreliable political dependency; Option D increases default risk. Exam Takeaway: Portfolio diversification away from climate-sensitive sectors is the most effective way for financial institutions to hedge against environmental risks.",
     "type": "news"
   },
   {
-    "question": "SBI Funds Management priced its IPO at a discount to its unlisted grey market value, creating mark-to-market losses for pre-IPO investors. What is the most likely strategic rationale for the issuer to underprice this public offering?",
+    "question": "Apollo Micro announced an agreement to acquire a 41.3% stake in Premier Explosives, causing its stock to jump 5%. In corporate finance, what type of transaction structure is a 41.3% acquisition, and what strategic control dynamics are typically associated with it?",
     "options": [
-      "To signal high quality and secure strong institutional subscription and positive post-listing momentum.",
-      "To deliberately depress the company's valuation to reduce future corporate tax liabilities.",
-      "To comply with regulatory caps that limit IPO pricing relative to historical book value.",
-      "To discourage retail participation and concentrate ownership among a few insiders."
-    ],
-    "answerIndex": 0,
-    "explanation": "Underpricing is a classic signaling mechanism in corporate finance. By leaving 'money on the table,' issuers signal high quality, reduce the 'winner's curse' for uninformed investors, and ensure robust secondary market demand and positive brand equity. It has no impact on corporate tax liabilities, nor is it mandated by regulatory book-value caps. This question tests Corporate Finance and IPO Strategy. Exam Takeaway: IPO underpricing is often strategically deployed to build investor goodwill and ensure post-listing trading momentum.",
-    "type": "news"
-  },
-  {
-    "question": "The World Bank raised India's FY27 growth forecast to 6.6%, citing benefits from trade agreements and reduced tariffs, despite weak external demand. In macroeconomics, how does a reduction in import tariffs primarily stimulate domestic economic growth?",
-    "options": [
-      "By directly increasing net exports through immediate currency depreciation.",
-      "By lowering the cost of imported capital goods and intermediate inputs, boosting domestic productivity.",
-      "By increasing government tariff revenues, which expands the fiscal surplus.",
-      "By restricting foreign competition to protect inefficient domestic monopolies."
-    ],
-    "answerIndex": 1,
-    "explanation": "Lowering tariffs reduces the cost of imported intermediate inputs and capital goods. This lowers production costs for domestic manufacturers, enhancing their productivity, competitiveness, and output. It does not increase tariff revenues or restrict competition. This question tests Macroeconomics and Trade Policy. Exam Takeaway: Trade liberalization boosts aggregate supply by reducing input costs and integrating domestic firms into global value chains.",
-    "type": "news"
-  },
-  {
-    "question": "Tata Electronics is scaling up to compete directly with Foxconn in assembling Apple iPhones in India. From a Supply Chain and Strategy perspective, what is the primary operational challenge Tata face in matches Foxconn's competitive advantage?",
-    "options": [
-      "Replicating Foxconn's highly integrated component ecosystem and deep manufacturing yield expertise.",
-      "Securing domestic consumer demand for high-end smartphones within India.",
-      "Navigating India's high import tariffs on finished consumer electronics.",
-      "Overcoming a lack of access to basic robotic assembly technology."
-    ],
-    "answerIndex": 0,
-    "explanation": "Foxconn's dominant position is protected by its massive scale, high manufacturing yields, and a deeply integrated component supply ecosystem. For Tata to compete, it must overcome learning curve disadvantages and build a localized component ecosystem, rather than just securing assembly technology or domestic market demand. This question tests Strategy and Supply Chain Management. Exam Takeaway: In high-tech manufacturing, competitive advantage is sustained by yield optimization and deep supplier ecosystem integration.",
-    "type": "news"
-  },
-  {
-    "question": "Goldman Sachs has banned its employees from trading financial and political prediction markets to avoid conflicts of interest. What type of operational risk is the investment bank primarily attempting to mitigate with this policy?",
-    "options": [
-      "Market risk arising from volatile movements in public equity indices.",
-      "Reputational and regulatory risk associated with insider trading or asymmetric information exploitation.",
-      "Liquidity risk from holding highly illiquid derivative contracts.",
-      "Credit risk stemming from potential counterparty defaults on prediction platforms."
-    ],
-    "answerIndex": 1,
-    "explanation": "By trading on political or financial outcomes where the bank may have non-public advisory insights, employees could trigger insider trading allegations or severe conflicts of interest. This poses massive reputational and regulatory compliance risks to the firm. It does not relate to market, liquidity, or credit risk of the bank's own portfolio. This question tests Risk Management and Professional Ethics. Exam Takeaway: Strict internal trading controls are essential to preserve institutional integrity and prevent market abuse allegations.",
-    "type": "news"
-  },
-  {
-    "question": "Sun Pharma is acquiring Organon for $11.75 billion, with the State Bank of India (SBI) joining a consortium of global banks to fund the transaction. From a corporate finance perspective, what is the most likely strategic reason for SBI to participate in this high-value, cross-border leveraged buyout (LBO) syndication?",
-    "options": [
-      "To assume the role of sole underwriter and absorb the entire default risk of the cross-border transaction.",
-      "To earn lucrative arrangement fees, diversify its corporate loan book, and establish international syndication capabilities.",
-      "To convert the debt into majority equity ownership of Organon immediately post-transaction.",
-      "To bypass domestic RBI capital adequacy and exposure limits by lending through international consortiums."
-    ],
-    "answerIndex": 1,
-    "explanation": "Participating in global syndicates allows domestic banks like SBI to participate in massive cross-border acquisitions without breaching single-borrower exposure limits. It diversifies their loan book, generates high non-interest fee income (such as underwriting and arrangement fees), and enhances global prestige. Option A is incorrect because syndication spreads risk among multiple banks rather than a sole underwriter. Option C is incorrect because lenders seek debt repayment rather than immediate equity dilution/control. Option D is incorrect because international lending is still subject to consolidated capital adequacy and regulatory frameworks. Concept tested: Debt syndication in cross-border M&A. Exam Takeaway: Large-scale M&A relies on debt syndication to distribute risk, earn fee income, and manage regulatory exposure limits.",
-    "type": "news"
-  },
-  {
-    "question": "Fitch has withdrawn its credit ratings for Reliance Capital after the firm decided to stop participating in the rating process. What is the most critical risk management implication for institutional investors holding Reliance Capital's outstanding debt instruments?",
-    "options": [
-      "The debt instruments are automatically classified as risk-free due to the absence of a negative rating.",
-      "Information asymmetry increases, potentially triggering investment mandate violations and forcing immediate asset sell-offs.",
-      "The cost of capital for Reliance Capital will automatically decrease due to reduced compliance and rating fees.",
-      "Fitch will continue to provide unsolicited, legally binding credit ratings with full access to internal management data."
-    ],
-    "answerIndex": 1,
-    "explanation": "When a company stops participating in ratings, the rating agency withdraws its coverage due to insufficient information. This sharply increases information asymmetry. Many institutional investors (like pension funds) have strict mandates prohibiting them from holding unrated debt, which can trigger forced liquidations. Option A is incorrect as unrated debt is treated as higher risk. Option C is incorrect because a lack of rating increases risk premiums and borrowing costs. Option D is incorrect because agencies cannot provide binding ratings without cooperation and data. Concept tested: Credit rating withdrawals and investment mandates. Exam Takeaway: Credit rating withdrawals increase information asymmetry and can trigger forced institutional sell-offs.",
-    "type": "news"
-  },
-  {
-    "question": "With the Asian Development Bank (ADB) cutting India's FY27 GDP growth forecast to 6.6%, how should an international corporate treasurer adjust their firm's capital budgeting and NPV calculations for long-term projects in India?",
-    "options": [
-      "Decrease the hurdle rate to make marginal projects appear more financially viable.",
-      "Increase the risk-free rate within the CAPM formula to reflect sovereign credit upgrades.",
-      "Revise downward the projected cash flow growth rates and stress-test the Weighted Average Cost of Capital (WACC).",
-      "Switch the valuation methodology exclusively to historical cost accounting to avoid future macro projections."
+      "A minority passive investment where the acquirer has no say in operational decisions and cannot equity-account the earnings.",
+      "A full statutory merger where the target company's legal entity is immediately dissolved.",
+      "A significant minority stake that typically grants joint control or significant influence, allowing equity accounting under accounting standards.",
+      "A hostile takeover that bypasses the board of directors entirely to force immediate consolidation."
     ],
     "answerIndex": 2,
-    "explanation": "A downward revision in sovereign GDP growth implies lower systemic demand, affecting top-line growth projections for corporate projects. Treasurers must lower cash flow growth assumptions and run sensitivity analyses on WACC to account for macroeconomic headwinds. Option A is incorrect because lowering hurdle rates during a growth slowdown misprices risk. Option B is incorrect because a growth cut does not justify a sovereign upgrade. Option D is incorrect because historical cost accounting is useless for forward-looking capital budgeting. Concept tested: Macroeconomic forecasting in corporate valuation. Exam Takeaway: Lower macroeconomic growth forecasts require downward revisions of projected cash flows and rigorous sensitivity testing.",
+    "explanation": "An acquisition of 41.3% represents a significant influence scenario (typically defined as holding between 20% and 50% of voting power). This allows the acquirer to use the equity method of accounting, reflecting a share of the target's profits on its own income statement. It does not dissolve the target (ruling out B), is not a passive minority stake (ruling out A), and does not automatically constitute a hostile takeover (ruling out D). Exam Takeaway: Acquiring a substantial minority stake (20%-50%) allows strategic influence and equity-method accounting without the cost of a 100% buyout.",
     "type": "news"
   },
   {
-    "question": "As tech workers increasingly abandon the US for their home countries due to visa issues, multinational tech firms are accelerating the setup of Global Capability Centers (GCCs) in smaller Indian cities. From a strategic operations perspective, what is the primary structural advantage of this geographic shift?",
+    "question": "According to the Petroleum Ministry, the Indian government is investing Rs 1 lakh crore in ethanol production and pushing E20 fuel over consumer choice (pure petrol or E10), citing logistical complexity. What economic and operational trade-off is the government prioritizing?",
     "options": [
-      "Eliminating regulatory compliance requirements since smaller cities are exempt from national labor laws.",
-      "Optimizing operating margins through lower real estate and talent costs while mitigating talent attrition seen in tier-1 hubs.",
-      "Relying entirely on physical infrastructure rather than cloud-based collaboration tools.",
-      "Ensuring that all intellectual property is transferred to local municipal authorities."
+      "Prioritizing consumer surplus and individual vehicle efficiency over national energy security.",
+      "Prioritizing supply chain simplification and import substitution over consumer choice and minor fuel efficiency losses.",
+      "Prioritizing high short-term tax revenues over long-term environmental sustainability.",
+      "Prioritizing microeconomic retail optimization over macroeconomic balance of payments."
     ],
     "answerIndex": 1,
-    "explanation": "Setting up GCCs in tier-2 and tier-3 Indian cities allows tech firms to capture significant cost arbitrage (real estate and wage inflation are lower than in tier-1 metros like Bangalore or Mumbai) while tapping into a wider pool of returning skilled talent. Attrition rates are also typically lower in smaller cities. Option A is incorrect because national labor laws apply uniformly. Option C is incorrect because GCCs rely heavily on advanced cloud infrastructure. Option D is incorrect because IP remains proprietary. Concept tested: Strategic location decisions and operational cost structures. Exam Takeaway: Tier-2 geographic expansion optimizes operating margins by reducing cost structures and talent attrition.",
+    "explanation": "By mandating E20 and eliminating the choice to buy pure petrol or E10, the government reduces supply chain complexity (segregating multiple fuel types at pumps is logistically expensive). It also reduces crude oil imports (improving the balance of payments), even though consumers face a minor drop in fuel efficiency and lose purchasing choice. This is a macro-level strategic trade-off. Exam Takeaway: Government mandates often trade consumer convenience and micro-efficiency for supply chain standardization and macroeconomic resilience.",
     "type": "news"
   },
   {
-    "question": "In response to tight range-bound movements in the Nifty index, institutional trading desks are increasingly utilizing calendar spreads. Which of the following best describes the structural mechanics and primary objective of a long calendar spread?",
+    "question": "Shapoorji Pallonji Group's kickoff of its refinancing initiative eased investor debt concerns. In corporate debt restructuring, how does successful refinancing primarily reduce default risk and improve the firm's financial position?",
     "options": [
-      "Selling a short-term option and buying a longer-term option with the same strike price to profit from accelerated near-term time decay.",
-      "Buying a short-term option and selling a longer-term option to maximize exposure to immediate delta movements.",
-      "Buying both call and put options of the same expiry to profit from an immediate, explosive volatility breakout.",
-      "Arbitraging price differences between different stock exchanges using high-frequency trading algorithms."
+      "By immediately wiping out the principal liability from the balance sheet.",
+      "By extending debt maturities and potentially lowering interest rates, thereby improving the debt service coverage ratio (DSCR).",
+      "By converting all outstanding debt into common equity, diluting existing promoters.",
+      "By forcing creditors to accept a write-down (haircut) on all outstanding obligations."
+    ],
+    "answerIndex": 1,
+    "explanation": "Refinancing involves replacing old debt with new debt, typically with longer maturities, lower interest rates, or better terms. This directly improves the Debt Service Coverage Ratio (DSCR) by reducing immediate cash outflows for principal and interest payments, easing liquidity pressures. It does not eliminate the debt (ruling out A), nor does it imply equity conversion (ruling out C) or a forced haircut (ruling out D). Exam Takeaway: Refinancing mitigates near-term insolvency risk by extending maturity profiles and optimizing debt service obligations.",
+    "type": "news"
+  },
+  {
+    "question": "Indian Bank decided to drop its capital-raising plan because its estimated hit from the Expected Credit Loss (ECL) framework was lower than previously calculated. Under Basel III and modern accounting standards, how does a lower ECL impact preserve a bank's Capital Adequacy Ratio (CAR) without raising new equity?",
+    "options": [
+      "It reduces the bank's total deposits, thereby lowering its liability profile.",
+      "It reduces the provision charges on the income statement, leaving more retained earnings to bolster Common Equity Tier 1 (CET1) capital.",
+      "It allows the bank to reclassify its non-performing assets (NPAs) as risk-free government bonds.",
+      "It eliminates the need for the bank to maintain any statutory liquidity ratio (SLR)."
+    ],
+    "answerIndex": 1,
+    "explanation": "Expected Credit Loss (ECL) provisions are expensed through the income statement. A lower-than-expected ECL hit means fewer provisions are deducted from earnings. This results in higher net profits, which flow into retained earnings on the balance sheet. Retained earnings are a core component of Common Equity Tier 1 (CET1) capital. Therefore, preserving these earnings eliminates the need to dilute equity through a fresh capital raise. Exam Takeaway: Lower credit provisions directly preserve internal capital generation, reducing the need for dilutive external equity issuance.",
+    "type": "news"
+  },
+  {
+    "question": "Indian Bank's MD & CEO Binod Kumar stated, 'We want to protect ROA and NIM rather than chase growth.' What strategic banking trade-off is the management prioritizing with this philosophy?",
+    "options": [
+      "Prioritizing high-volume, low-margin lending to capture market share.",
+      "Prioritizing profitability and credit quality over balance sheet expansion and aggressive asset growth.",
+      "Sacrificing liquidity to maximize short-term speculative trading gains.",
+      "Increasing leverage to artificially boost the Return on Equity (ROE) while ignoring asset quality."
+    ],
+    "answerIndex": 1,
+    "explanation": "Protecting Return on Assets (ROA) and Net Interest Margin (NIM) means the bank is focusing on high-yielding, high-quality loans and maintaining pricing discipline on deposits, rather than lowering lending rates or raising deposit rates to aggressively grow its loan book. This strategy prioritizes profitability and risk-adjusted returns over sheer asset size. Exam Takeaway: Prioritizing NIM and ROA over growth indicates a risk-averse, margin-focused strategy that values credit quality over market share.",
+    "type": "news"
+  },
+  {
+    "question": "Vedanta's stock plunged 5.59% on the London Stock Exchange (LSE) amid talks to buy a stake in Cairn. From an M&A perspective, what is the most likely reason for this immediate negative market reaction to the acquisition announcement?",
+    "options": [
+      "The market anticipated that the acquisition would be immediately accretive to Vedanta's earnings per share.",
+      "Investors feared synergy overestimation, overpayment (acquisition premium), or increased debt burden associated with the transaction.",
+      "The London Stock Exchange automatically penalizes companies that engage in cross-border energy transactions.",
+      "The market expected the acquisition to reduce Vedanta's overall financial leverage."
+    ],
+    "answerIndex": 1,
+    "explanation": "A drop in an acquirer's stock price upon the announcement of an acquisition is a common phenomenon in M&A. It typically reflects investor skepticism regarding the transaction's strategic fit, fears of overpayment (the 'winner's curse'), expected integration difficulties, or concerns over how the deal will be financed (e.g., debt accumulation or equity dilution). Exam Takeaway: Negative acquirer stock reactions often signal market skepticism regarding deal premium, execution risk, or balance sheet strain.",
+    "type": "news"
+  },
+  {
+    "question": "Blinkit maintains a 3-million order lead over competitors like Amazon and Flipkart in the quick commerce space. In operational strategy, which factor is the most critical driver of this sustainable competitive advantage in ultra-fast delivery?",
+    "options": [
+      "A centralized national distribution center located far outside major metropolitan areas.",
+      "A dense, hyper-local network of dark stores optimized for rapid micro-fulfillment and inventory turnover.",
+      "Relying solely on third-party logistics providers without any proprietary technology stack.",
+      "Offering a massive catalog of slow-moving, long-tail industrial goods."
+    ],
+    "answerIndex": 1,
+    "explanation": "The bottleneck in quick commerce is geographical distance. No matter how fast a courier rides, delivery within 10-15 minutes is impossible without hyper-local dark stores situated close to residential clusters. Blinkit's lead is protected by its established real estate footprint of dark stores and localized inventory predictive algorithms, which cannot be easily replicated overnight by broad-based e-commerce giants. Exam Takeaway: In quick commerce, density and proximity of micro-fulfillment centers (dark stores) create a formidable operational moat.",
+    "type": "news"
+  },
+  {
+    "question": "Alfa Laval (India) announced that its parent firm has raised the delisting offer price to Rs 2,850 a share. In corporate governance and restructuring, why would a promoter group voluntarily increase its delisting offer price?",
+    "options": [
+      "To comply with regulatory caps that forbid companies from buying back shares at low valuations.",
+      "To entice public shareholders to tender their shares, ensuring the promoter reaches the mandatory threshold required for successful delisting.",
+      "To artificially depress the stock price before executing a hostile takeover of its own subsidiary.",
+      "To reduce the parent company's overall ownership stake in the Indian entity."
+    ],
+    "answerIndex": 1,
+    "explanation": "To successfully delist a company in India, promoters must acquire a specific percentage of public shareholding (typically reaching 90% of total share capital). If public shareholders find the initial offer price too low, they will not tender their shares. Promoters raise the offer price to incentivize participation and clear the reverse book-building threshold. Exam Takeaway: Raising a delisting offer price is a strategic move to overcome shareholder holdout and achieve regulatory ownership thresholds.",
+    "type": "news"
+  },
+  {
+    "question": "The Reserve Bank of India (RBI) is facing a $100 billion unwinding challenge after its record defence of the rupee. From a central banking perspective, what is the primary balance-sheet risk associated with unwinding massive foreign exchange reserves that were accumulated to defend a domestic currency?",
+    "options": [
+      "Interest rate risk arising from the difference between domestic yields and foreign yields",
+      "Exchange rate valuation losses when the domestic currency depreciates",
+      "Liquidity risk due to the illiquidity of US Treasury markets",
+      "Default risk of foreign sovereign issuers holding AAA ratings"
     ],
     "answerIndex": 0,
-    "explanation": "A long calendar spread involves selling a short-term option and buying a longer-term option of the same strike. Because theta (time decay) accelerates faster as expiration approaches, the short-term option loses value quicker than the long-term option, allowing the trader to capture net premium decay in a range-bound market. Option B is incorrect because selling the longer-term option exposes the trader to negative theta dynamics. Option C describes a long straddle, which loses money in range-bound markets. Option D describes spatial arbitrage. Concept tested: Options trading strategies and time decay (Theta). Exam Takeaway: Calendar spreads leverage differences in the rate of options time decay across different maturities.",
+    "explanation": "Unwinding massive foreign exchange reserves typically involves selling foreign assets (like US Treasuries) and absorbing domestic currency. The primary risk is interest rate risk and carry cost. Central banks often earn lower yields on foreign reserve assets (e.g., US Treasuries) compared to the interest they must pay on the domestic debt instruments (like sterilization bonds) used to mop up excess domestic liquidity. This negative carry directly impacts the central bank's profitability. Other options are incorrect: a depreciating domestic currency actually creates valuation gains (not losses) on foreign assets; US Treasuries are highly liquid; and default risk on AAA sovereign debt is negligible. The core concept tested is Central Bank Balance Sheet Risk. Exam Takeaway: Large-scale FX intervention and subsequent sterilization create a negative interest rate carry that threatens central bank profitability.",
     "type": "news"
   },
   {
-    "question": "The India-Australia joint statement emphasizes strategic cooperation in uranium and critical minerals. For an electric vehicle (EV) battery manufacturer, how does securing long-term bilateral supply agreements for critical minerals affect their supply chain risk profile?",
+    "question": "Hitachi Energy is committing Rs 1,000 crore to expand manufacturing facilities in Chennai and Chengalpattu. From a corporate finance perspective, how should the firm evaluate the hurdle rate for this specific regional expansion?",
     "options": [
-      "It increases exposure to spot market price volatility and short-term supply shocks.",
-      "It mitigates geopolitical and supply-chain disruption risks while stabilizing long-term cost of goods sold (COGS).",
-      "It forces the company to maintain zero inventory, eliminating the need for working capital management.",
-      "It eliminates the need for research and development into alternative battery chemistries."
+      "Use the global parent's Weighted Average Cost of Capital (WACC) to maintain global strategic consistency.",
+      "Adjust the parent company's WACC by adding India's country risk premium and reflecting the specific asset beta of the local electrical infrastructure division.",
+      "Use the local risk-free rate of India as the hurdle rate because it is a low-risk physical asset expansion.",
+      "Apply the cost of debt of the Indian subsidiary since the expansion will be entirely funded by local bank loans."
     ],
     "answerIndex": 1,
-    "explanation": "Critical minerals like lithium and cobalt are subject to geopolitical tensions and volatile spot pricing. Securing bilateral, long-term supply agreements establishes a predictable supply chain, protects against export restrictions, and stabilizes input costs (COGS) for manufacturing. Option A is incorrect because long-term agreements reduce, rather than increase, exposure to spot volatility. Option C is incorrect because inventory buffer management is still required. Option D is incorrect because R&D remains essential to stay competitive. Concept tested: Strategic sourcing and supply chain risk mitigation. Exam Takeaway: Bilateral supply agreements for critical inputs reduce geopolitical risk and stabilize manufacturing cost structures.",
+    "explanation": "According to corporate finance theory, a project's hurdle rate must reflect its specific systematic risk and geographic risk. Therefore, the parent company's WACC must be adjusted upward by India's country risk premium (CRP) and adjusted for the specific asset beta of the local industrial/electrical infrastructure division rather than using the parent's diversified beta. Other options are incorrect: using the parent's unadjusted WACC ignores localized country risk; using the risk-free rate ignores project risk; and using the cost of debt ignores the overall capital structure and the cost of equity. The core concept tested is Hurdle Rate Adjustment for Foreign Direct Investment. Exam Takeaway: Project hurdle rates must reflect the specific systematic risk of the project's geography and industry sector, not the parent's historical cost of capital.",
     "type": "news"
   },
   {
-    "question": "S H Kelkar and Company reported a 14% year-on-year revenue growth to Rs 660-crore for Q1 FY27. If an analyst observes that the company's accounts receivable grew by 35% over the same period, what is the most critical accounting concern regarding the quality of earnings?",
+    "question": "According to reports, SBI Funds Management does not own the 'SBI' brand and pays a 2% royalty on revenues to State Bank of India. How does this royalty structure affect the asset management company's (AMC) operating leverage and operating margin during a market downturn?",
     "options": [
-      "The company is aggressively writing off its assets, leading to artificially depressed net income.",
-      "The revenue growth might be driven by loose credit policies or channel stuffing, implying poor cash conversion.",
-      "The company has transitioned from accrual accounting to cash-basis accounting during the quarter.",
-      "Operating cash flows are growing at a faster rate than accounting revenues."
+      "It decreases operating leverage and stabilizes operating margins because royalties are a variable cost.",
+      "It increases operating leverage and increases margin volatility because royalties are a fixed cost.",
+      "It has no impact on operating leverage because royalties are paid out of net income, not operating income.",
+      "It increases operating leverage because royalties are paid as a percentage of assets under management (AUM) rather than revenues."
+    ],
+    "answerIndex": 0,
+    "explanation": "Since the 2% royalty is structured as a percentage of revenues (which are variable), it acts as a variable cost. In corporate finance, a higher proportion of variable costs relative to fixed costs decreases operating leverage. Consequently, during a market downturn when revenues drop, the royalty expense decreases proportionally, which helps stabilize operating margins compared to a scenario with high fixed licensing fees. Other options are incorrect because royalties on revenues are not fixed costs, they directly impact operating income (EBIT) before net income, and the prompt specifies the royalty is on revenues. The core concept tested is Operating Leverage and Cost Structure. Exam Takeaway: Variable cost structures, such as revenue-linked royalties, reduce operating leverage and shield operating margins during market downturns.",
+    "type": "news"
+  },
+  {
+    "question": "An analysis of Asian small-cap schemes shows that Indian funds are dominating the top spots, driven by a massive surge of retail inflows. If an Indian small-cap mutual fund experiences sudden, massive retail inflows during a market peak, which risk management challenge is the fund manager most likely to face?",
+    "options": [
+      "High tracking error relative to large-cap benchmarks.",
+      "Liquidity mismatch and capacity constraints leading to style drift or cash drag.",
+      "An automatic margin call from the clearing house due to net cash positions.",
+      "A decline in the fund's absolute expense ratio due to regulatory caps."
     ],
     "answerIndex": 1,
-    "explanation": "When accounts receivable grow at a significantly faster rate than revenues (35% vs 14%), it suggests the company is selling on highly generous credit terms to boost revenue figures (channel stuffing) or is struggling to collect cash. This indicates low-quality earnings and potential cash flow stress. Option A is incorrect because high receivables do not represent asset write-offs. Option C is incorrect because public firms must use accrual accounting. Option D is incorrect because high receivables growth typically depresses operating cash flow. Concept tested: Quality of earnings and working capital analysis. Exam Takeaway: Disproportionate growth in accounts receivable relative to revenue signals potential channel stuffing and weak cash generation.",
+    "explanation": "Small-cap stocks have limited float and lower liquidity. When massive retail inflows flood a small-cap fund, the manager cannot easily deploy capital into small-cap stocks without moving market prices unfavorably (high market impact costs). This forces the manager to either hold cash (cash drag, which hurts returns) or buy larger-cap stocks (style drift). Other options are incorrect: tracking error to large-cap benchmarks is irrelevant for a small-cap fund; clearing houses do not issue margin calls for holding excess cash; and expense ratio changes are regulatory, not an active investment risk. The core concept tested is Mutual Fund Capacity Constraints and Liquidity Risk. Exam Takeaway: Massive inflows into illiquid asset classes force portfolio managers to balance cash drag against style drift.",
     "type": "news"
   },
   {
-    "question": "Which regulatory body in India is responsible for protecting the interests of investors in securities and promoting the development of the securities market?",
+    "question": "ONGC plans to build a 1.75 million metric ton (MT) strategic petroleum reserve (SPR) at Mangalore. From a corporate strategy and risk management perspective, how does a strategic petroleum reserve alter ONGC's financial exposure to crude oil price volatility?",
+    "options": [
+      "It acts as a physical hedge, reducing the sensitivity of ONGC's upstream operating cash flows to global oil price drops.",
+      "It increases the firm's operating leverage by converting variable extraction costs into fixed storage costs.",
+      "It creates a long-term inventory holding cost that can lead to capital lock-up, while acting as a national macroeconomic buffer rather than a direct corporate cash flow hedge.",
+      "It eliminates the need for financial derivatives like futures and options to hedge oil price risk."
+    ],
+    "answerIndex": 2,
+    "explanation": "A strategic petroleum reserve (SPR) is primarily a macroeconomic tool designed to ensure energy security against supply disruptions, rather than a corporate hedging instrument to protect ONGC's upstream margins from price drops. Building and maintaining a 1.75 MT reserve locks up significant capital in non-productive inventory and incurs high carrying and storage costs. Other options are incorrect: an SPR does not hedge ONGC's upstream revenues against falling prices; it does not change extraction operating leverage; and it does not eliminate the need for financial hedging. The core concept tested is Strategic Inventory vs. Financial Hedging. Exam Takeaway: Strategic reserves serve national security and supply continuity, but impose capital lock-up and inventory carrying costs on the executing corporation.",
+    "type": "news"
+  },
+  {
+    "question": "Financial Express explains how weather derivatives can help manage climate risks. If an agricultural processing firm wants to hedge against the risk of a warmer-than-average winter reducing crop yields using Heating Degree Day (HDD) index contracts, what position should they take?",
+    "options": [
+      "Buy HDD call options, which pay out when the number of HDDs is higher than the strike level.",
+      "Sell HDD put options, which yield a premium if the winter is exceptionally cold.",
+      "Buy HDD put options (or sell HDD futures), which pay out when the number of HDDs is lower than the contract standard.",
+      "Buy Cooling Degree Day (CDD) futures, as CDD contracts are the primary tool used for winter hedging."
+    ],
+    "answerIndex": 2,
+    "explanation": "Heating Degree Days (HDDs) measure how cold a period is; fewer HDDs mean a warmer winter. If a firm wants to hedge against a warmer-than-average winter (which means fewer HDDs), they need a position that pays out when HDDs are low. Thus, they should buy HDD put options or short HDD futures. Other options are incorrect: buying HDD call options pays out in cold winters (high HDDs); selling put options exposes the firm to downside risk during warm winters; and CDD contracts are used for summer cooling demand, not winter heating. The core concept tested is Weather Derivatives and Hedging. Exam Takeaway: Hedging weather risk requires aligning the derivative payoff (such as HDD put options) with the adverse climate event (low HDD counts during warm winters).",
+    "type": "news"
+  },
+  {
+    "question": "Exide Industries expects Q3 revenue contribution from its new lithium-ion cell manufacturing plant in Bengaluru. During the initial commercial production phase of a capital-intensive high-tech facility, which accounting treatment of pre-operative and trial-run expenses is correct under modern accounting standards (like Ind AS / IFRS)?",
+    "options": [
+      "All trial-run production costs and revenues from selling trial-run output must be capitalized into the cost of the property, plant, and equipment (PPE).",
+      "Pre-operative expenses must be expensed immediately in the P&L, while revenues from trial-run sales are recognized as deferred revenue.",
+      "Under current standards (e.g., IAS 16/Ind AS 16 amendments), proceeds from selling items produced during testing, and the related costs, must be recognized in the profit or loss statement, not capitalized as a reduction of PPE cost.",
+      "The entire cost of the plant is depreciated from the day construction begins, regardless of when commercial production starts."
+    ],
+    "answerIndex": 2,
+    "explanation": "Under recent amendments to IAS 16 (and corresponding Ind AS 16), companies are no longer permitted to deduct from the cost of property, plant, and equipment (PPE) any proceeds from selling items produced while bringing that asset to the location and condition necessary for it to be capable of operating. Instead, such sales proceeds and the associated production costs must be recognized directly in the profit or loss statement. Other options are incorrect as they reflect outdated accounting treatments or incorrect depreciation rules (depreciation only starts when the asset is available for use). The core concept tested is Capitalization of Property, Plant, and Equipment. Exam Takeaway: Modern accounting standards require trial-run revenues and expenses to be recognized in the income statement rather than capitalized into the asset's historical cost.",
+    "type": "news"
+  },
+  {
+    "question": "Market experts caution investors: 'Don't bank only on price-to-earning (P/E) ratio.' In which of the following scenarios is a low trailing P/E ratio most likely to be a value trap rather than an indicator of an undervalued stock?",
+    "options": [
+      "A fast-growing technology company reinvesting all its earnings into high-NPV R&D projects.",
+      "A highly cyclical steel manufacturing company at the absolute peak of its economic cycle.",
+      "A utility company with stable, regulated cash flows and a high dividend payout ratio.",
+      "A consumer staples firm experiencing a temporary supply chain disruption that depressed current-year earnings."
+    ],
+    "answerIndex": 1,
+    "explanation": "Cyclical companies (like steel or paper manufacturers) exhibit low P/E ratios at the peak of their economic cycle because their current earnings are temporarily inflated. As the cycle turns downward, earnings plummet, and the P/E ratio rises or the stock price collapses, making the initial low P/E a classic 'value trap.' Other options are incorrect: high-growth tech firms typically have high P/E ratios; stable utility companies have sustainable low-to-moderate P/Es; and temporary disruptions lower earnings, which actually inflates the current P/E ratio. The core concept tested is Cyclical Valuation and Value Traps. Exam Takeaway: Low P/E ratios in highly cyclical industries often signal peak earnings and impending downturns, rather than undervaluation.",
+    "type": "news"
+  },
+  {
+    "question": "Which regulatory body in India is primarily responsible for regulating the securities market and protecting the interests of investors in securities?",
     "options": [
       "Reserve Bank of India (RBI)",
       "Securities and Exchange Board of India (SEBI)",
       "Insurance Regulatory and Development Authority (IRDAI)",
-      "Association of Mutual Funds in India (AMFI)"
+      "Pension Fund Regulatory and Development Authority (PFRDA)"
     ],
     "answerIndex": 1,
-    "explanation": "The Securities and Exchange Board of India (SEBI) is the designated regulator for the securities market in India, established to protect investor interests and regulate market intermediaries. The RBI regulates the banking system and monetary policy, IRDAI oversees insurance, and AMFI is an industry association rather than a regulatory body. Exam Takeaway: SEBI is the apex regulator for the Indian capital markets.",
+    "explanation": "The Securities and Exchange Board of India (SEBI) was established to regulate the Indian securities market, protect retail and institutional investors, and promote orderly development. While the RBI manages the banking sector and monetary policy, SEBI oversees stock exchanges, brokers, and listed companies. Exam Takeaway: SEBI is the apex regulator for capital markets in India.",
     "type": "apti"
   },
   {
-    "question": "Under monetary policy operations, what is the term used for the rate at which the Reserve Bank of India (RBI) lends money to commercial banks in the event of any shortfall of funds?",
+    "question": "What is the term used for the interest rate at which the Reserve Bank of India (RBI) lends money to commercial banks in India for short-term requirements?",
     "options": [
       "Reverse Repo Rate",
+      "Statutory Liquidity Ratio (SLR)",
       "Repo Rate",
-      "Bank Rate",
-      "Statutory Liquidity Ratio"
-    ],
-    "answerIndex": 1,
-    "explanation": "The Repo Rate (Repurchase Rate) is the key policy rate at which the central bank lends short-term money to commercial banks against government securities. Reverse Repo is the rate at which RBI borrows from banks, Bank Rate applies to long-term lending without collateral, and SLR is a reserve requirement. Exam Takeaway: Repo rate is the primary tool used by RBI to control inflation and liquidity.",
-    "type": "apti"
-  },
-  {
-    "question": "Which of the following Excel formulas will sum the values in the range A1 to A10 only if the corresponding cell in range B1 to B10 is greater than 100?",
-    "options": [
-      "=SUM(A1:A10, \">100\")",
-      "=SUMIF(B1:B10, \">100\", A1:A10)",
-      "=SUMIF(A1:A10, \">100\", B1:B10)",
-      "=SUMPRODUCT(A1:A10, B1:B10 > 100)"
-    ],
-    "answerIndex": 1,
-    "explanation": "The SUMIF function uses the syntax SUMIF(range, criteria, [sum_range]). Here, B1:B10 is the range being evaluated against the criterion \">100\", and A1:A10 is the actual range of cells to sum. Option C reverses the criteria and sum ranges, while Option A is syntactically incorrect. Exam Takeaway: Excel's SUMIF requires the criteria range to be specified before the sum range.",
-    "type": "apti"
-  },
-  {
-    "question": "In a Discounted Cash Flow (DCF) model, what is the appropriate discount rate typically used to find the Enterprise Value of a firm with both debt and equity?",
-    "options": [
-      "Cost of Equity (Ke)",
-      "Cost of Debt (Kd)",
-      "Weighted Average Cost of Capital (WACC)",
-      "Risk-Free Rate (Rf)"
+      "Cash Reserve Ratio (CRR)"
     ],
     "answerIndex": 2,
-    "explanation": "To value the entire enterprise (which belongs to both debt and equity holders), the free cash flows to the firm (FCFF) must be discounted by the Weighted Average Cost of Capital (WACC). Cost of Equity is used when discounting Free Cash Flows to Equity (FCFE) to find Equity Value. Exam Takeaway: Enterprise Value calculations require discounting with WACC, whereas Equity Value uses Cost of Equity.",
+    "explanation": "The Repo Rate (Repurchase Rate) is the key policy rate used by the central bank to inject liquidity into the banking system. When commercial banks face a shortage of funds, they borrow from the RBI against government securities at this rate. Reverse Repo is the rate at which RBI borrows from banks. Exam Takeaway: Repo Rate is the primary tool used by RBI to control inflation and credit flow.",
+    "type": "apti"
+  },
+  {
+    "question": "Which of the following Excel formulas is used to calculate the net present value of an investment by using a discount rate and a series of future periodic cash flows?",
+    "options": [
+      "=PV()",
+      "=NPV()",
+      "=IRR()",
+      "=FV()"
+    ],
+    "answerIndex": 1,
+    "explanation": "The =NPV() function in Excel calculates the net present value of an investment using a discount rate and a series of future cash flows. Note that in Excel, the NPV formula assumes cash flows occur at the end of each period, meaning any initial outlay at period 0 must be added outside the formula. Exam Takeaway: Use =NPV() for periodic cash flows, but manually add the initial outflow if it occurs at time zero.",
+    "type": "apti"
+  },
+  {
+    "question": "In a Discounted Cash Flow (DCF) model, what does the 'Weighted Average Cost of Capital' (WACC) represent?",
+    "options": [
+      "The rate of return required by debt holders only",
+      "The average interest rate paid on bank loans",
+      "The discount rate used to find the present value of future cash flows",
+      "The total cost of issuing new common stock"
+    ],
+    "answerIndex": 2,
+    "explanation": "WACC represents the average rate of return a company is expected to pay to all its security holders, including debt and equity investors. In DCF modeling, it serves as the discount rate to bring future free cash flows back to their present value. Exam Takeaway: WACC is the hurdle rate used to discount Free Cash Flow to Firm (FCFF).",
     "type": "apti"
   },
   {
     "question": "Which financial ratio measures a company's ability to cover its short-term obligations using only its most liquid assets, excluding inventory?",
     "options": [
       "Current Ratio",
-      "Quick Ratio (Acid-Test Ratio)",
+      "Quick Ratio (Acid-Test)",
       "Debt-to-Equity Ratio",
-      "Gross Profit Margin"
+      "Return on Equity (ROE)"
     ],
     "answerIndex": 1,
-    "explanation": "The Quick Ratio is calculated as (Current Assets - Inventory) / Current Liabilities. It excludes inventory because inventory can take time to convert into cash. The Current Ratio includes inventory, while Debt-to-Equity is a solvency ratio, and Gross Profit Margin is a profitability metric. Exam Takeaway: The Quick Ratio is a more stringent test of short-term liquidity than the Current Ratio.",
+    "explanation": "The Quick Ratio, or Acid-Test Ratio, is calculated as (Current Assets - Inventory) / Current Liabilities. It excludes inventory because inventory can take a significant amount of time to convert into cash. The Current Ratio, by contrast, includes all current assets. Exam Takeaway: The Quick Ratio is a conservative metric for testing immediate liquidity.",
     "type": "apti"
   },
   {
-    "question": "What is the primary difference between Free Cash Flow to Firm (FCFF) and Free Cash Flow to Equity (FCFE)?",
+    "question": "Which of the following is considered a non-cash expense and is added back to Net Income when calculating Free Cash Flow?",
     "options": [
-      "FCFF includes capital expenditures, while FCFE does not.",
-      "FCFF represents cash available to all capital providers, while FCFE represents cash available only to shareholders after debt service.",
-      "FCFF is calculated from Net Income, while FCFE is calculated from Operating Income.",
-      "There is no difference; they are two terms for the same metric."
-    ],
-    "answerIndex": 1,
-    "explanation": "FCFF represents the cash flow available to both debt and equity holders because it is calculated before interest expenses. FCFE is calculated after net borrowing and interest payments, meaning it belongs solely to the equity shareholders. Exam Takeaway: FCFF is capital structure neutral, whereas FCFE accounts for leverage.",
-    "type": "apti"
-  },
-  {
-    "question": "Which of the following keyboard shortcuts is used in Microsoft Excel to insert a new worksheet in the current workbook?",
-    "options": [
-      "Ctrl + N",
-      "Alt + Shift + F1",
-      "Ctrl + W",
-      "Shift + F11"
-    ],
-    "answerIndex": 3,
-    "explanation": "Pressing Shift + F11 instantly inserts a new worksheet into your active workbook. Ctrl + N opens a completely new workbook, Ctrl + W closes the active workbook, and Alt + Shift + F1 is an alternative shortcut but Shift + F11 is the standard universal shortcut for inserting sheets. Exam Takeaway: Shift + F11 is the fastest shortcut to insert a new tab in Excel.",
-    "type": "apti"
-  },
-  {
-    "question": "If a company has a Net Profit Margin of 10%, Asset Turnover of 1.5, and an Equity Multiplier of 2.0, what is its Return on Equity (ROE) using the DuPont Analysis framework?",
-    "options": [
-      "15%",
-      "20%",
-      "30%",
-      "5%"
+      "Capital Expenditures",
+      "Dividends Paid",
+      "Depreciation and Amortization",
+      "Accounts Receivable"
     ],
     "answerIndex": 2,
-    "explanation": "Under the DuPont framework, ROE is calculated as Net Profit Margin * Asset Turnover * Equity Multiplier. Plugging in the numbers: 10% * 1.5 * 2.0 = 15% * 2.0 = 30%. Exam Takeaway: DuPont analysis breaks down ROE into profitability, asset efficiency, and financial leverage.",
+    "explanation": "Depreciation and Amortization are accounting allocations of historical costs and do not involve an actual cash outflow in the current period. Therefore, they are added back to Net Income in the cash flow statement and Free Cash Flow calculations. Exam Takeaway: Always add back non-cash expenses like depreciation to reconcile net income to actual cash flow.",
     "type": "apti"
   },
   {
-    "question": "Which of the following is considered a 'cash outflow' under the Cash Flow from Investing Activities section of the Cash Flow Statement?",
+    "question": "What does a high Price-to-Earnings (P/E) ratio typically imply about investor expectations for a stock?",
     "options": [
-      "Payment of dividends to shareholders",
-      "Repayment of long-term bank loans",
-      "Purchase of property, plant, and equipment (PP&E)",
-      "Interest paid on debt"
+      "Investors expect low growth in the future",
+      "The company is highly leveraged and risky",
+      "Investors expect high future earnings growth",
+      "The company is about to go bankrupt"
     ],
     "answerIndex": 2,
-    "explanation": "Purchasing PP&E is a capital expenditure, which is classified as an investing activity cash outflow. Dividend payments and loan repayments are classified under Financing Activities. Interest paid can be under Operating or Financing depending on the accounting standard, but never Investing. Exam Takeaway: Capital expenditure (CapEx) is the most common investing cash outflow.",
+    "explanation": "A high P/E ratio indicates that investors are willing to pay a premium today because they expect the company to achieve strong earnings growth in the future. It can also sometimes indicate that a stock is overvalued. Exam Takeaway: P/E ratios reflect the market's growth expectations and sentiment toward a company's future earnings.",
     "type": "apti"
   },
   {
-    "question": "What does a high Price-to-Earnings (P/E) ratio typically suggest about a company's stock?",
-    "options": [
-      "The company is currently experiencing financial distress.",
-      "Investors expect high future earnings growth.",
-      "The stock is definitely undervalued.",
-      "The company has a very low level of debt."
-    ],
-    "answerIndex": 1,
-    "explanation": "A high P/E ratio indicates that investors are willing to pay a premium today because they anticipate strong earnings growth in the future. It does not automatically mean the stock is undervalued, nor does it indicate financial distress or debt levels. Exam Takeaway: P/E ratios reflect market expectations of future growth and profitability.",
-    "type": "apti"
-  },
-  {
-    "question": "Which of the following financial institutions is known as the 'Lender of Last Resort' in India?",
-    "options": [
-      "State Bank of India (SBI)",
-      "National Bank for Agriculture and Rural Development (NABARD)",
-      "Reserve Bank of India (RBI)",
-      "Small Industries Development Bank of India (SIDBI)"
-    ],
-    "answerIndex": 2,
-    "explanation": "The Reserve Bank of India (RBI) acts as the lender of last resort. This means that when commercial banks face extreme liquidity crises and cannot raise funds from other sources, they can turn to the RBI for emergency funding. Exam Takeaway: The central bank provides liquidity backstops to maintain financial system stability.",
-    "type": "apti"
-  },
-  {
-    "question": "In corporate valuation, what does 'Terminal Value' represent in a DCF model?",
-    "options": [
-      "The value of the firm's cash flows during the initial explicit forecast period.",
-      "The salvage value of the firm's physical assets if liquidated today.",
-      "The present value of all cash flows beyond the explicit forecast period.",
-      "The total amount of debt the company must repay at maturity."
-    ],
-    "answerIndex": 2,
-    "explanation": "Terminal Value captures the value of a business's cash flows beyond the explicit projection period (typically 5-10 years), assuming the business will continue to operate as a going concern forever. Exam Takeaway: Terminal Value often accounts for 60% to 80% of the total enterprise value in a DCF.",
-    "type": "apti"
-  },
-  {
-    "question": "What is the keyboard shortcut to toggle between relative, absolute, and mixed references (adding the $ sign) for a cell formula in Excel?",
+    "question": "Which Excel keyboard shortcut is used to absolute reference a cell or range (inserting '$' signs) in a formula on Windows?",
     "options": [
       "F2",
       "F4",
       "F9",
-      "Ctrl + Shift + L"
+      "Ctrl + L"
     ],
     "answerIndex": 1,
-    "explanation": "Pressing the F4 key while editing a cell reference in Excel cycles through absolute ($A$1), mixed (A$1, $A1), and relative (A1) references. F2 is used to edit a cell, F9 recalculates formulas, and Ctrl + Shift + L toggles filters. Exam Takeaway: F4 is the essential shortcut for locking cell coordinates in formulas.",
+    "explanation": "Pressing the F4 key while editing a cell reference in Excel cycles through absolute references ($A$1), mixed references (A$1, $A1), and relative references (A1). This is a crucial shortcut for building financial models efficiently. Exam Takeaway: F4 is the go-to shortcut to lock cell coordinates in financial modeling.",
     "type": "apti"
   },
   {
-    "question": "Which of the following transactions will increase a company's Current Ratio, assuming the initial current ratio is greater than 1.0?",
+    "question": "In corporate finance, what is the 'Terminal Value' in a DCF valuation model?",
     "options": [
-      "Paying off accounts payable with cash",
-      "Purchasing inventory on credit",
-      "Collecting cash from accounts receivable",
-      "Purchasing equipment with cash"
-    ],
-    "answerIndex": 0,
-    "explanation": "When the current ratio is greater than 1.0, reducing both current assets and current liabilities by the same absolute amount (paying off accounts payable with cash) mathematically increases the ratio. Collecting receivables changes the asset mix but not the total current assets. Purchasing equipment with cash reduces current assets, which lowers the ratio. Exam Takeaway: Equal decreases to current assets and current liabilities increase a current ratio that is already greater than 1.",
-    "type": "apti"
-  },
-  {
-    "question": "Which of the following is an example of an 'Unsystematic Risk' that can be diversified away in a portfolio?",
-    "options": [
-      "An increase in nationwide inflation rates",
-      "A sudden change in the central bank's policy interest rates",
-      "A labor strike at a specific manufacturing company's factory",
-      "A global geopolitical conflict affecting oil prices"
-    ],
-    "answerIndex": 2,
-    "explanation": "Unsystematic risk is company- or industry-specific risk. A strike at a specific factory only affects that company and can be mitigated by holding a diversified portfolio. Inflation, interest rates, and global conflicts are systematic risks that affect the entire market. Exam Takeaway: Diversification eliminates unsystematic (specific) risk, but not systematic (market) risk.",
-    "type": "apti"
-  },
-  {
-    "question": "What does the 'Beta' of a stock measure in the Capital Asset Pricing Model (CAPM)?",
-    "options": [
-      "The historical dividend yield of the stock relative to peers.",
-      "The volatility of the stock's returns relative to the overall market.",
-      "The ratio of the company's debt to its total equity.",
-      "The growth rate of the company's operating cash flows."
+      "The value of the firm's cash flows at the end of the first year",
+      "The estimated value of a company beyond the explicit forecast period",
+      "The liquidation value of the company's physical assets",
+      "The total value of debt that must be paid off at maturity"
     ],
     "answerIndex": 1,
-    "explanation": "Beta measures the systematic risk or sensitivity of a stock's returns relative to the returns of the broader market index (which has a Beta of 1.0). A Beta greater than 1.0 implies the stock is more volatile than the market. Exam Takeaway: Beta is the metric used to quantify market-related systematic risk.",
+    "explanation": "Since a firm is assumed to operate indefinitely, it is impractical to project cash flows individually forever. Terminal Value captures the value of all cash flows beyond the explicit projection period (typically 5-10 years) using a perpetual growth model or an exit multiple. Exam Takeaway: Terminal Value often accounts for 60% to 80% of the total calculated value in a DCF model.",
     "type": "apti"
   },
   {
-    "question": "In Excel, which function should you use if you want to search for a value in the leftmost column of a table and return a value in the same row from another column?",
-    "options": [
-      "HLOOKUP",
-      "INDEX",
-      "VLOOKUP",
-      "MATCH"
-    ],
-    "answerIndex": 2,
-    "explanation": "VLOOKUP (Vertical Lookup) searches for a value in the first column of a table array and returns a value in the same row from a specified column index. HLOOKUP does this horizontally across rows. INDEX and MATCH together can do this but INDEX alone does not fit this exact definition. Exam Takeaway: VLOOKUP is the standard tool for vertical data retrieval based on left-column keys.",
-    "type": "apti"
-  },
-  {
-    "question": "Which of the following correctly describes the relationship between bond prices and market interest rates?",
-    "options": [
-      "They move in the same direction; when rates rise, bond prices rise.",
-      "They move in opposite directions; when rates rise, bond prices fall.",
-      "They are completely independent of each other.",
-      "They only move together when the bond is close to maturity."
-    ],
-    "answerIndex": 1,
-    "explanation": "Bond prices and interest rates have an inverse relationship. When market interest rates rise, newly issued bonds offer higher coupon payments, making existing bonds with lower coupons less valuable, which drives their price down. Exam Takeaway: Bond prices fall when interest rates rise, and vice versa.",
-    "type": "apti"
-  },
-  {
-    "question": "What does the term 'Working Capital' represent?",
-    "options": [
-      "The total amount of long-term debt a firm holds.",
-      "The excess of a company's current assets over its current liabilities.",
-      "The value of a firm's physical plant, property, and equipment.",
-      "The cash reserves kept exclusively for paying corporate taxes."
-    ],
-    "answerIndex": 1,
-    "explanation": "Working Capital (specifically Net Working Capital) is calculated as Current Assets minus Current Liabilities. It represents the operating liquidity available to a business for its day-to-day operations. Exam Takeaway: Working capital measures a firm's operational efficiency and short-term financial health.",
-    "type": "apti"
-  },
-  {
-    "question": "Which of the following is NOT a component of the 'Three Financial Statements' that form the core of financial reporting?",
+    "question": "Which financial statement provides a snapshot of a company's financial position, including assets, liabilities, and equity, at a specific point in time?",
     "options": [
       "Income Statement",
+      "Cash Flow Statement",
       "Balance Sheet",
-      "Statement of Cash Flows",
-      "Statement of General Ledger"
+      "Statement of Retained Earnings"
     ],
-    "answerIndex": 3,
-    "explanation": "The three core financial statements are the Income Statement, the Balance Sheet, and the Statement of Cash Flows. The General Ledger is an internal accounting record used to compile these statements, not a standalone public financial statement. Exam Takeaway: The core financial reporting package consists of the Balance Sheet, Income Statement, and Cash Flow Statement.",
+    "answerIndex": 2,
+    "explanation": "The Balance Sheet presents a company's financial position at a single point in time, showing what it owns (assets), what it owes (liabilities), and the owners' residual interest (equity). The Income and Cash Flow statements cover performance over a period of time. Exam Takeaway: The Balance Sheet is a point-in-time snapshot governed by the equation Assets = Liabilities + Equity.",
+    "type": "apti"
+  },
+  {
+    "question": "What is the primary difference between Enterprise Value (EV) and Equity Value?",
+    "options": [
+      "Enterprise Value represents the value of equity only, while Equity Value includes debt",
+      "Enterprise Value represents the total value of the operating business to all capital providers, while Equity Value represents the value available only to shareholders",
+      "Enterprise Value is calculated using book values, while Equity Value uses market values",
+      "There is no difference; they are synonymous terms"
+    ],
+    "answerIndex": 1,
+    "explanation": "Enterprise Value (EV) is the total value of the firm's core operations to both debt and equity holders, calculated as Equity Value + Net Debt. Equity Value represents the value of the firm attributable only to the shareholders. Exam Takeaway: Enterprise Value is capital-structure neutral, whereas Equity Value is capital-structure dependent.",
+    "type": "apti"
+  },
+  {
+    "question": "Which of the following is a major component of the Cash Flow from Financing Activities section in a Cash Flow Statement?",
+    "options": [
+      "Cash received from customers",
+      "Cash paid for purchasing property, plant, and equipment (PP&E)",
+      "Cash received from issuing new equity or bonds",
+      "Cash paid for inventory"
+    ],
+    "answerIndex": 2,
+    "explanation": "Financing activities involve transactions with the company's capital providers (debt and equity). Issuing equity, issuing or repaying debt, and paying dividends are all financing cash flows. Cash from customers is an operating activity, and purchasing PP&E is an investing activity. Exam Takeaway: Financing cash flows reflect how a business funds its capital structure.",
+    "type": "apti"
+  },
+  {
+    "question": "In Excel, which function should you use to find a value in the leftmost column of a table and return a value in the same row from a specified column?",
+    "options": [
+      "INDEX",
+      "MATCH",
+      "VLOOKUP",
+      "HLOOKUP"
+    ],
+    "answerIndex": 2,
+    "explanation": "VLOOKUP (Vertical Lookup) searches for a target value in the first column of a selected range and returns a value in the same row from a column specified by an index number. While INDEX and MATCH together are more flexible, VLOOKUP is the classic tool for this specific task. Exam Takeaway: VLOOKUP is a standard data retrieval function that operates from left to right.",
+    "type": "apti"
+  },
+  {
+    "question": "What is the term used to describe the risk associated with general market movements that cannot be diversified away?",
+    "options": [
+      "Idiosyncratic Risk",
+      "Systematic Risk",
+      "Unsystematic Risk",
+      "Specific Risk"
+    ],
+    "answerIndex": 1,
+    "explanation": "Systematic risk (also called market risk) is inherent to the entire market or market segment and cannot be eliminated through diversification. Examples include interest rate changes, recessions, and geopolitical events. Unsystematic risk is company-specific and can be diversified away. Exam Takeaway: Beta measures a stock's sensitivity to systematic risk.",
+    "type": "apti"
+  },
+  {
+    "question": "Which of the following formulas represents the basic DuPont Analysis framework for Return on Equity (ROE)?",
+    "options": [
+      "ROE = Net Profit Margin * Asset Turnover * Equity Multiplier",
+      "ROE = Gross Margin * Debt-to-Equity * Current Ratio",
+      "ROE = Operating Margin * Inventory Turnover * Return on Assets",
+      "ROE = Net Income / Total Assets"
+    ],
+    "answerIndex": 0,
+    "explanation": "The classic three-step DuPont Analysis breaks down ROE into three components: Net Profit Margin (profitability), Asset Turnover (efficiency), and the Equity Multiplier (financial leverage). This allows analysts to understand exactly what is driving a company's return. Exam Takeaway: DuPont analysis helps identify whether a high ROE is driven by profitability, operational efficiency, or high leverage.",
+    "type": "apti"
+  },
+  {
+    "question": "Under the Basel III norms, what is the primary objective of the Liquidity Coverage Ratio (LCR)?",
+    "options": [
+      "To ensure banks maintain high capital adequacy ratios against risky loans",
+      "To ensure banks hold sufficient high-quality liquid assets (HQLA) to survive a 30-day severe stress scenario",
+      "To limit the maximum leverage ratio of investment banks",
+      "To regulate the interest rates banks charge on retail loans"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Liquidity Coverage Ratio (LCR) is a key Basel III standard designed to ensure that financial institutions have an adequate stock of unencumbered High-Quality Liquid Assets (HQLA) that can be easily and immediately converted into cash to meet their liquidity needs for a 30-calendar-day liquidity stress scenario. Exam Takeaway: LCR ensures short-term resilience against sudden liquidity crises.",
+    "type": "apti"
+  },
+  {
+    "question": "If a company has a Cost of Equity of 12%, a Cost of Debt of 6%, a Tax Rate of 30%, and a Debt-to-Equity ratio of 1:1, what is its Weighted Average Cost of Capital (WACC)?",
+    "options": [
+      "9.0%",
+      "8.1%",
+      "7.2%",
+      "10.2%"
+    ],
+    "answerIndex": 1,
+    "explanation": "With a Debt-to-Equity ratio of 1:1, the weights of Debt and Equity are each 50% (0.50). The after-tax cost of debt is 6% * (1 - 0.30) = 4.2%. WACC = (Weight of Equity * Cost of Equity) + (Weight of Debt * After-tax Cost of Debt) = (0.50 * 12%) + (0.50 * 4.2%) = 6% + 2.1% = 8.1%. Exam Takeaway: Always remember to use the after-tax cost of debt when calculating WACC.",
+    "type": "apti"
+  },
+  {
+    "question": "Which of the following describes the 'Beta' of a stock in the Capital Asset Pricing Model (CAPM)?",
+    "options": [
+      "The standard deviation of the stock's excess returns",
+      "A measure of the stock's volatility relative to the overall market",
+      "The expected dividend yield of the stock",
+      "The ratio of the stock's price to its book value"
+    ],
+    "answerIndex": 1,
+    "explanation": "Beta measures the systematic risk of a security or portfolio relative to the market as a whole. A Beta of 1.0 indicates the stock moves in tandem with the market; a Beta greater than 1.0 indicates higher volatility than the market, and less than 1.0 indicates lower volatility. Exam Takeaway: Beta is the metric for systematic risk in the CAPM formula.",
+    "type": "apti"
+  },
+  {
+    "question": "Which of the following transactions would result in an increase in a firm's working capital?",
+    "options": [
+      "Purchasing inventory with cash",
+      "Collecting cash from an outstanding accounts receivable",
+      "Issuing long-term debt to obtain cash",
+      "Paying off an outstanding account payable with cash"
+    ],
+    "answerIndex": 2,
+    "explanation": "Working capital is calculated as Current Assets minus Current Liabilities. Issuing long-term debt increases cash (a current asset) without increasing current liabilities (since the debt is long-term), thereby increasing working capital. The other options merely swap one current asset for another or reduce both current assets and current liabilities by the same amount. Exam Takeaway: Working capital is altered when transactions involve a mix of current and non-current accounts.",
+    "type": "apti"
+  },
+  {
+    "question": "What does a negative Free Cash Flow to Firm (FCFF) typically indicate for a rapidly growing startup?",
+    "options": [
+      "The company is fundamentally unprofitable and will fail",
+      "The company is investing heavily in capital expenditures and working capital to fuel growth",
+      "The company has zero equity value",
+      "The company is paying out too much in dividends"
+    ],
+    "answerIndex": 1,
+    "explanation": "For young, fast-growing companies, negative FCFF is common and often healthy. It indicates that the cash generated from operations is being fully reinvested into capital expenditures (CapEx) and net working capital to scale the business. Exam Takeaway: Context is key; negative cash flow can reflect aggressive growth investment rather than poor performance.",
     "type": "apti"
   }
 ]
