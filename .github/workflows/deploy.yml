@@ -49,7 +49,7 @@ jobs:
           cp *.pdf .pdf-forensics/ 2>/dev/null || true
           ulimit -v 2097152
           ulimit -f 2097152
-          freshclam --quiet || true
+          sudo freshclam --stdout --quiet || true
           for pdf in *.pdf; do
             [ -e "$pdf" ] || continue
             clamscan --no-summary --infected "$pdf"
