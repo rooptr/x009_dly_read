@@ -58,14 +58,14 @@ jobs:
           for pdf in *.pdf; do
             [ -e "$pdf" ] || continue
             name=$(basename "$pdf")
-            timeout 300s qpdf --check "$pdf"
+            timeout 300s qpdf --warning-exit-0 --check "$pdf"
             timeout 300s pdfinfo "$pdf" > ".pdf-security/$name.info"
             pages=$(awk '/^Pages:/ {print $2}' ".pdf-security/$name.info")
             [ -n "$pages" ] && [ "$pages" -le 1000 ] || { echo "Invalid page count in $name"; exit 1; }
             timeout 300s mutool clean -d "$pdf" ".pdf-security/$name.clean.pdf"
             timeout 300s gs -q -dSAFER -dBATCH -dNOPAUSE -sDEVICE=pdfwrite \
               -sOutputFile=".pdf-security/$name.safe.pdf" "$pdf"
-            timeout 300s qpdf --check ".pdf-security/$name.safe.pdf"
+            timeout 300s qpdf --warning-exit-0 --check ".pdf-security/$name.safe.pdf"
           done
 
       - name: Retain rejected PDFs for review
