@@ -492,11 +492,11 @@
 
         <!-- Newspaper Buttons (Vertical) -->
         <div class="newspaper-stack">
-            <a href="et.pdf" class="sticky-btn">Economic Times</a>
-            <a href="bs.pdf" class="sticky-btn">Business Standard</a>
-            <a href="fe.pdf" class="sticky-btn">Financial Express</a>
-            <a href="mint.pdf" class="sticky-btn">Mint</a>
-            <a href="eenadu.pdf" class="sticky-btn" style="background:#fff3e0;">Eenadu</a>
+            <a href="viewer.html?file=et.pdf" class="sticky-btn">Economic Times</a>
+            <a href="viewer.html?file=bs.pdf" class="sticky-btn">Business Standard</a>
+            <a href="viewer.html?file=fe.pdf" class="sticky-btn">Financial Express</a>
+            <a href="viewer.html?file=mint.pdf" class="sticky-btn">Mint</a>
+            <a href="viewer.html?file=eenadu.pdf" class="sticky-btn" style="background:#fff3e0;">Eenadu</a>
         </div>
     </div>
 
@@ -756,6 +756,8 @@
         function openQuiz() {
             document.getElementById('quiz-overlay').classList.add('active');
             document.body.style.overflow = 'hidden';
+            shuffleQuizData();
+            if (allQuizData.length > 0) filterQuiz(currentFilter);
         }
         function closeQuiz(e) {
             document.getElementById('quiz-overlay').classList.remove('active');
@@ -763,6 +765,7 @@
         }
 
         let allQuizData = [];
+        let shuffledQuizData = [];
         let filteredQuizData = [];
         let currentQuestion = 0;
         let currentFilter = 'all';
@@ -779,10 +782,26 @@
                     (typeof q.explanation === 'string' && q.explanation.length <= 10000)));
         }
 
+        function shuffleArray(items) {
+            const shuffled = [...items];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        function shuffleQuizData() {
+            // One shuffled source keeps All, News, and Apti independently
+            // randomized while preserving each question's category.
+            shuffledQuizData = shuffleArray(allQuizData);
+        }
+
         fetch('quiz.json' + cacheBuster)
             .then(r => r.json())
             .then(data => {
                 allQuizData = validateQuizData(data);
+                shuffleQuizData();
                 filterQuiz('all');
             })
             .catch(() => {
@@ -799,8 +818,8 @@
             });
 
             // Filter data
-            if (type === 'all') filteredQuizData = allQuizData;
-            else filteredQuizData = allQuizData.filter(q => q.type === type);
+            if (type === 'all') filteredQuizData = shuffledQuizData;
+            else filteredQuizData = shuffledQuizData.filter(q => q.type === type);
 
             renderQuiz();
         }

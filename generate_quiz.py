@@ -246,6 +246,7 @@ def gemini_request(url, payload, label="API call", max_retries=3):
 
 def generate_quiz(headlines_data):
     import random
+    from datetime import date
     
     # CRITICAL FIX: Gemini 2.5 Flash enters a massive 8,000-token "thought loop" if given 300+ headlines to evaluate at once.
     # To fix this, we randomly sample 60 headlines from the pool. 
@@ -262,12 +263,30 @@ def generate_quiz(headlines_data):
         print("GEMINI_API_KEY not found in environment variables. Skipping quiz generation.")
         return
 
+    # Give the model a small memory of the previous run so it can avoid
+    # recycling the same evergreen questions on consecutive days.
+    previous_questions = []
+    try:
+        with open('quiz.json', 'r', encoding='utf-8') as quiz_file:
+            previous_quiz = json.load(quiz_file)
+        previous_questions = [
+            str(item.get('question', '')).strip()
+            for item in previous_quiz
+            if isinstance(item, dict) and item.get('question')
+        ][-80:]
+    except (FileNotFoundError, json.JSONDecodeError, TypeError):
+        pass
+
+    random_seed = f"{date.today().isoformat()}-{random.randint(10000, 99999)}"
+    previous_questions_block = json.dumps(previous_questions, ensure_ascii=False)
+
     prompt1 = f"""
     ROLE
     You are a finance professor at a top MBA program.
 
     OBJECTIVE
-    Create an advanced MBA quiz based on today's headlines.
+    Create a fresh, content-aware MBA quiz based on today's headlines.
+    RANDOMIZATION SEED: {random_seed}
 
     INPUT
     Today's headlines (provided below as JSON).
@@ -281,15 +300,18 @@ def generate_quiz(headlines_data):
        - entertainment
        - local events
        - international diplomacy without business impact
-    2. Select the top 20 most complex financial events from the remaining list. (CRITICAL: Do NOT individually evaluate or score headlines in your reasoning steps. Simply select the 20 best).
-    3. Selection Criteria: Only select headlines that have massive Strategic Importance, Market Impact, and MBA Learning Value. Quality takes priority over quantity.
+    2. Select the best distinct events from the remaining list. Do not let one company, regulator, sector, or macro theme dominate the batch.
+    3. Selection Criteria: Strategic importance, market impact, and MBA learning value. Prefer specific new developments over generic facts or recurring institutional explainers.
     4. If fewer than 20 headlines contain enough context to generate genuinely challenging reasoning questions, generate fewer questions rather than lowering the quality.
     5. Generate one multiple-choice question per selected headline.
 
     QUESTION REQUIREMENTS
     - Every question MUST require strategic reasoning, financial analysis, or inference based on current affairs.
     - The questions should sound like realistic Tier-1 finance interview questions (e.g. Goldman Sachs, Moody's, Oxane). Do not make them sound stupid or overly simple.
-    - Difficulty requirements: A mix of mostly Medium to Difficult questions, with a few Easy questions.
+    - Difficulty requirements: Keep the same mostly Medium-to-Difficult level, with a few Easy questions. Do not make a question easier merely to create variety.
+    - Every question must test a different primary idea. Do not create two questions whose answer or reasoning is essentially the same.
+    - Avoid repeating a question, answer pattern, named institution, or evergreen fact from the previous quiz unless today's headline contains a materially new development.
+    - RBI and SEBI must both appear in the overall daily quiz, but never as the same basic definition question repeatedly. Use them through varied applications such as monetary-policy transmission, liquidity, banking supervision, market disclosure, IPOs, insider trading, mutual funds, investor protection, settlement, or market structure.
     - Each question must primarily test ONE MBA domain: Corporate Finance, Strategy, Macroeconomics, Operations, Marketing, Economics, Accounting, Business Analytics, Organizational Behaviour, Risk Management, M&A, Supply Chain.
     - Explanation must include: 1. Why the correct answer is correct. 2. Why the other options are incorrect. 3. The core concept being tested. Maximum 120 words.
     - Include a very short "Exam Takeaway" at the very end of the explanation summarizing the key learning point.
@@ -311,6 +333,11 @@ def generate_quiz(headlines_data):
     BEGIN_UNTRUSTED_HEADLINES_JSON
     {{headlines_data_placeholder}}
     END_UNTRUSTED_HEADLINES_JSON
+
+    PREVIOUS QUIZ QUESTIONS TO AVOID REPEATING (UNTRUSTED TEXT)
+    BEGIN_PREVIOUS_QUESTIONS
+    {previous_questions_block}
+    END_PREVIOUS_QUESTIONS
     """
 
     url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent"
@@ -376,26 +403,26 @@ def generate_quiz(headlines_data):
 
     print(f"\nPass 1 Complete: Generated {len(news_questions)} news questions.")
     print("\nGenerating MBA-level Daily Quiz using Gemini (Pass 2/2: Aptitude)...")
-    random_seed = random.randint(10000, 99999)
     prompt2 = f"""
     ROLE
     You are an elite MBA placement interview coach preparing candidates for Tier-1 finance roles at firms like Moody's, Oxane Partners, and Goldman Sachs.
     OBJECTIVE
-    Generate a 20-question multiple-choice aptitude test.
+    Generate a fresh 20-question multiple-choice aptitude test.
     RANDOMIZATION SEED: {random_seed}
     
     DIFFICULTY & QUALITY REQUIREMENTS
     - Make all questions Easy but highly relevant to what every finance student should know.
     - Focus on Financial Awareness, Current Affairs, and General Knowledge (GK) about the financial world.
-    - Include questions about regulatory bodies like RBI and SEBI, current interest rates, and recent financial facts.
+    - Rotate across regulators, markets, accounting, valuation, banking, companies, instruments, economics, Excel, and business analysis.
+    - Include at least two regulator questions in the aptitude set: at least one RBI question and at least one SEBI question. They must test different applied concepts, not the definitions of RBI or SEBI and not the same concept used in the previous quiz.
     - Include fundamental finance aptitude topics such as cash flow, DCF modeling, financial ratios, and Excel.
     - DO NOT make the questions too complex; they should test foundational knowledge expected in early MBA interviews.
     - DO NOT start the explanation with "This question tests..." or similar robotic phrasing. Write it naturally.
     - Include a very short "Exam Takeaway" at the very end of the explanation summarizing the key learning point.
     
     DISTRIBUTION (20 Questions Total)
-    The quiz should be a diverse mix covering these specific topics:
-    - Current Financial Affairs, Facts, RBI & SEBI updates, and interest rates.
+    The quiz should be a diverse mix covering these topics without repeating a topic or answer pattern:
+    - Current Financial Affairs and important financial facts, including applied RBI and SEBI concepts.
     - Foundational DCF Modeling, Valuation Basics, & Cash Flow.
     - Financial Ratios, Mechanics, & Advanced Excel.
     
@@ -409,6 +436,17 @@ def generate_quiz(headlines_data):
         "explanation": "A natural explanation covering why it is correct, why others are wrong, and the concept tested."
       }}
     ]
+
+    ANTI-REPETITION RULES
+    - Do not reuse any question, answer, or near-identical concept from the previous quiz below.
+    - Do not place RBI or SEBI in the first two positions, and do not place both regulator questions next to each other.
+    - Never ask a bare identification/definition question such as "What does RBI/SEBI stand for?" or "Which regulator oversees this market?" Prefer a short scenario requiring the learner to choose the correct policy action, compliance implication, market effect, or investor-protection response.
+    - Do not write filler questions just to reach 20; preserve the requested difficulty and educational value.
+
+    PREVIOUS QUIZ QUESTIONS TO AVOID REPEATING (UNTRUSTED TEXT)
+    BEGIN_PREVIOUS_QUESTIONS
+    {previous_questions_block}
+    END_PREVIOUS_QUESTIONS
     """
     
     print("Waiting for Gemini to write 20 randomized aptitude questions...")
