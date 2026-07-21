@@ -1,338 +1,314 @@
 [
   {
-    "question": "The Securities and Exchange Board of India (SEBI) has recently cautioned listed companies against 'Boss Scams' involving CEO impersonation. From a Risk Management and Internal Control perspective, which of the following represents the most robust administrative control to mitigate this specific risk?",
+    "question": "The India-UK Comprehensive Economic and Trade Agreement (CETA) has officially come into force, allowing zero-duty consignments of Indian coffee and jewellery to reach the UK. From a multinational corporate strategy and international trade perspective, how is this tariff reduction most likely to affect the supply chain and pricing strategy of an Indian jewellery exporter targeting the UK market?",
     "options": [
-      "Mandating annual cybersecurity awareness training for all executive assistants.",
-      "Implementing a dual-authorization protocol requiring out-of-band verbal verification for any non-standard payment instruction above a set threshold.",
-      "Upgrading the company's external email gateway to automatically block emails originating from external domains.",
-      "Requiring the Chief Information Officer (CIO) to personally sign off on all outgoing corporate wire transfers."
+      "It allows the exporter to maintain high FOB prices while absorbing the tariff margin as pure operating profit without changing UK retail pricing.",
+      "It decreases the landed cost of goods sold (COGS), giving the exporter the flexibility to either lower retail prices to gain market share or retain the savings to boost gross margins.",
+      "It eliminates the need for hedging currency risk since zero-duty trade automatically stabilizes the GBP-INR exchange rate.",
+      "It requires the exporter to shift from an FOB (Free on Board) shipping model to a DDP (Delivered Duty Paid) model to legally qualify for the tariff exemption."
     ],
     "answerIndex": 1,
-    "explanation": "While technical filters and training are helpful, 'Boss Scams' (business email compromise) exploit human psychology and authority. The most robust control is a strict administrative process: a dual-authorization protocol requiring out-of-band verification (e.g., calling the CEO on a known, pre-established phone number rather than replying to the email or chat request) before executing non-standard payments. Blocking all external emails is operationally unfeasible, training alone does not stop sophisticated spear-phishing, and involving the CIO in daily treasury operations is an inefficient segregation of duties. Concept tested: Internal Controls and Risk Mitigation. Exam Takeaway: Administrative controls like out-of-band verification are critical to breaking the social engineering chain in executive impersonation frauds.",
+    "explanation": "The elimination of import tariffs via a bilateral trade agreement like the India-UK CETA directly reduces the landed cost of goods sold (COGS) for the importer. For an Indian exporter, this creates a strategic choice: they can pass the savings onto UK consumers via lower prices to aggressively capture market share (price penetration), or maintain retail price points and pocket the tariff savings to expand their gross profit margins. It does not eliminate currency risk, nor does it mandate a shift to DDP terms. The choice of Incoterms remains a commercial negotiation. Exam Takeaway: Tariff reductions lower landed COGS, offering strategic flexibility between price competitiveness and margin expansion.",
     "type": "news"
   },
   {
-    "question": "An analysis of Asian small-cap mutual funds reveals that Indian schemes, such as the DSP BlackRock Micro Cap Fund, have dominated performance tables. From an Investment Management and Portfolio Strategy perspective, what is the primary structural risk of managing a highly successful, rapidly growing small-cap or micro-cap fund?",
+    "question": "According to ICRA, mid-cap and small-cap mutual fund schemes continue to be retail favorites in India despite widespread valuation fears. From a behavioral finance and risk management perspective, what is the primary systemic risk associated with persistent retail inflows into relatively illiquid small-cap funds during periods of high valuation?",
     "options": [
-      "A natural decline in the fund's expense ratio due to economies of scale.",
-      "Liquidity risk and capacity constraints, forcing the manager to either hold excessive cash or style-drift into mid-cap stocks.",
-      "An automatic regulatory reclassification of the fund into a large-cap category.",
-      "A decrease in the portfolio's active share as more capital flows in."
+      "A sudden market correction could trigger heavy retail redemptions, forcing fund managers to sell illiquid small-cap stocks at a steep discount, leading to a downward liquidity spiral.",
+      "The increased inflows will force fund managers to hold excess cash, which automatically guarantees outperformance during a market rally due to cash drag.",
+      "SEBI regulations will automatically freeze all redemptions if a small-cap fund's cash reserves fall below 50% of its total assets under management.",
+      "Retail investors will face immediate tax penalties for holding units in funds that invest in companies with a market capitalization below Rs 5,000 crore."
     ],
-    "answerIndex": 1,
-    "explanation": "Small-cap and micro-cap stocks have limited market capitalization and daily trading volumes. As a fund's Assets Under Management (AUM) swell due to stellar returns and new inflows, the manager faces capacity constraints. They cannot easily deploy large sums of cash into illiquid micro-caps without causing massive price impact (slippage). Consequently, they are forced to either hold cash (dragging down returns) or 'style-drift' by investing in larger, more liquid mid-cap stocks, altering the fund's risk profile. Concept tested: Fund Capacity and Liquidity Risk. Exam Takeaway: Rapid AUM growth in illiquid asset classes inevitably leads to liquidity constraints and style drift, challenging the sustainability of historical outperformance.",
+    "answerIndex": 0,
+    "explanation": "Small-cap stocks inherently have lower trading volumes and liquidity compared to large-caps. When retail inflows flood these funds during peak valuations, portfolio managers are forced to buy expensive, illiquid shares. If the market turns, panic-driven retail redemptions will force fund managers to sell these illiquid assets into a falling market. This forced selling creates a liquidity spiral, severely depressing asset prices and disproportionately hurting the fund's Net Asset Value (NAV). Cash drag actually hurts performance during rallies, and there are no SEBI rules freezing redemptions at 50% cash or tax penalties based on market-cap thresholds. Exam Takeaway: Mismatches between asset liquidity and mutual fund redemption terms can trigger devastating liquidity spirals during market downturns.",
     "type": "news"
   },
   {
-    "question": "Tata's Westside is planning its biggest expansion push yet by adding 100 stores annually. From a Retail Strategy and Operations perspective, which operational risk is most critical to manage when aggressively scaling a physical fashion retail footprint at this velocity?",
+    "question": "A major private lender, Axis Bank, saw its share price decline by 5% following its Q1 financial results as analysts downgraded future estimates. In banking operations, if a bank reports loan growth that outpaces its deposit growth amid tight systemic liquidity, what is the most likely structural impact on its balance sheet and profitability?",
     "options": [
-      "A decline in the company's overall debt-to-equity ratio due to lease capitalization.",
-      "Supply chain misalignment and inventory stock-outs or markdowns caused by long lead times and localized demand variance.",
-      "An increase in the credit risk associated with customer accounts receivable.",
-      "A transition from a vertically integrated model to a pure-play franchise model."
+      "The Credit-to-Deposit (CD) ratio decreases, improving the bank's Net Interest Margin (NIM) due to lower cost of funds.",
+      "The Credit-to-Deposit (CD) ratio increases, putting downward pressure on the Net Interest Margin (NIM) as the bank relies on costlier wholesale funding.",
+      "The bank's Capital Adequacy Ratio (CAR) automatically increases because deposits are classified as high-risk assets.",
+      "The statutory liquidity ratio (SLR) requirement is waived by the RBI to allow more credit creation."
     ],
     "answerIndex": 1,
-    "explanation": "Aggressive physical expansion (100 stores/year) requires massive coordination in supply chain logistics. If the supply chain cannot scale synchronously, the retailer faces stock-outs of high-demand fashion items or, conversely, overstocking of slow-moving inventory that must be heavily discounted (markdowns), destroying margins. Lease capitalization increases liabilities rather than reducing debt-to-equity. Westside operates primarily on cash/card transactions, making accounts receivable credit risk negligible. Concept tested: Retail Supply Chain Scaling and Inventory Management. Exam Takeaway: Rapid physical retail expansion shifts the strategic bottleneck from real estate acquisition to supply chain responsiveness and inventory optimization.",
+    "explanation": "When loan growth outpaces deposit growth, a bank's Credit-to-Deposit (CD) ratio increases. To fund this loan growth in a tight liquidity environment, the bank cannot rely solely on low-cost CASA (Current Account Savings Account) deposits. Instead, it must raise high-cost wholesale deposits or certificate of deposits. This increases the overall cost of funds, which compresses the Net Interest Margin (NIM) and leads to earnings downgrades by analysts. CAR is based on risk-weighted assets, not deposit classifications, and SLR requirements are never waived for credit expansion. Core Concept: Credit-to-Deposit Dynamics and Margin Compression. Exam Takeaway: When credit growth outpaces deposit growth, banks must use expensive wholesale funding, compressing NIMs.",
     "type": "news"
   },
   {
-    "question": "A multinational parent firm decides to raise its delisting offer price to Rs 2,850 per share to take its Indian subsidiary private. From an M&A and corporate strategy perspective, what is the most likely tactical reason for a parent company to voluntarily increase its initial delisting offer price?",
+    "question": "The government is considering keeping a Rs 7,500 crore outlay for IT hardware under the Production Linked Incentive (PLI) scheme, setting a Rs 500 crore investment threshold for foreign firms over 4 years and Rs 20 crore for domestic firms over 5 years. From a strategic and supply chain perspective, why does the government establish asymmetric investment thresholds between foreign and domestic firms?",
     "options": [
-      "To artificially lower the subsidiary's cost of capital prior to final delisting",
-      "To circumvent the reverse book-building process mandated by Indian securities regulations",
-      "To incentivize public shareholders to tender their shares and cross the regulatory 90% ownership threshold",
-      "To align the subsidiary's historical book value with its current market capitalization"
+      "To discourage foreign direct investment (FDI) and ensure the entire supply chain is owned by domestic players.",
+      "To leverage the scale and technology of global MNCs while lowering entry barriers to foster a domestic manufacturing ecosystem.",
+      "To comply with WTO rules that mandate foreign companies must always invest 25 times more than domestic firms.",
+      "To guarantee that domestic firms have higher profit margins than foreign competitors in the local market."
     ],
-    "answerIndex": 2,
-    "explanation": "To successfully delist a company in India, the promoter's holding must reach at least 90% of the total share capital. If public shareholders believe the initial offer price is too low, they will not tender their shares, causing the delisting attempt to fail. Raising the delisting price is a strategic move to incentivize retail and institutional public shareholders to tender, ensuring the promoter crosses the 90% threshold. It does not bypass reverse book-building, lower capital costs, or align book value. The core concept tested is delisting dynamics and shareholder threshold requirements. Exam Takeaway: Promoters voluntarily raise delisting offer prices primarily to secure the high shareholder participation required to meet regulatory delisting thresholds.",
+    "answerIndex": 1,
+    "explanation": "The asymmetric thresholds in PLI schemes are designed strategically to achieve dual goals: attracting global scale and technology from large multinational corporations (MNCs) who have the capital to meet high thresholds (Rs 500 crore), while simultaneously nurturing the domestic ecosystem by lowering the financial entry barrier (Rs 20 crore) for smaller, capital-constrained domestic firms. This structure helps build a comprehensive tier-1 and tier-2 supplier network. WTO rules do not mandate such specific investment ratios, and the threshold does not guarantee profit margins. Core Concept: Industrial Policy and Supply Chain Ecosystem Design. Exam Takeaway: Dual-threshold PLI structures attract global anchor tenants while enabling domestic players to integrate into the supply chain.",
     "type": "news"
   },
   {
-    "question": "JSW Steel's joint MD & CEO recently stated that the company expects to fund most of its upcoming capital expenditures (capex) through internal accruals. According to the Pecking Order Theory of corporate finance, what does this capital structure decision signal to the financial markets?",
+    "question": "Vodafone Idea's lending banks are aligning on the company's financial projections but are seeking a 'promoter promise' (equity infusion commitment) before structuring debt refinancing. From a credit risk management perspective, why do lenders demand sponsor equity commitments alongside aligned business projections?",
     "options": [
-      "The firm's management believes the equity market is currently overvaluing their stock.",
-      "The firm has sufficient operating cash flows and seeks to avoid the asymmetric information costs associated with external financing.",
-      "The firm plans to aggressively increase its debt-to-equity ratio to maximize tax shields.",
-      "The firm is experiencing a decline in profitable investment opportunities and is returning capital to shareholders."
+      "Equity commitments act as a debt-service reserve account that guarantees tax exemption for the lenders.",
+      "Sponsor equity acts as a first-loss cushion and demonstrates alignment of interest, reducing moral hazard in highly leveraged turnarounds.",
+      "Lenders are legally required by SEBI to hold equity in any telecom company they lend to.",
+      "Promoter equity commitments automatically convert the bank's existing debt into voting common stock."
     ],
     "answerIndex": 1,
-    "explanation": "The Pecking Order Theory states that firms prioritize their sources of financing: first preferring internal finance (retained earnings/accruals), followed by debt, and finally external equity as a last resort. Funding capex through internal accruals signals that the firm has robust operating cash flows and wants to avoid the transaction costs, monitoring, and negative signaling (asymmetric information) associated with issuing new debt or equity. It does not signal overvaluation or a desire to increase leverage. The core concept tested is capital structure theory. Exam Takeaway: Prioritizing internal accruals over external debt or equity minimizes information asymmetry costs and signals financial strength.",
+    "explanation": "Lenders demand promoter equity commitments (skin in the game) because financial projections are inherently uncertain, especially in distressed turnarounds. Sponsor equity acts as a crucial buffer (first-loss capital) that absorbs initial operational losses before lenders face haircuts. It also reduces moral hazard by ensuring promoters remain committed to reviving the firm rather than abandoning it to creditors. Lenders are not required by SEBI to hold equity, nor do promoter commitments automatically convert debt to stock. Core Concept: Credit Risk Mitigation and Sponsor Alignment. Exam Takeaway: Promoter equity commitments reduce credit risk by aligning incentives and providing a capital cushion.",
     "type": "news"
   },
   {
-    "question": "Fitch Ratings recently announced the withdrawal of its credit ratings on Reliance Capital because the company decided to stop participating in the rating process. From a risk management and debt capital markets perspective, what is the most direct implication of a 'withdrawn rating due to non-cooperation' for remaining creditors?",
+    "question": "According to dating services like Aisle, Truly Madly, and Sirf Coffee, dating apps in India are seeing a massive surge of paying users in smaller cities outperforming growth rates in tier-1 metros. From a customer acquisition and marketing strategy standpoint, what does this trend indicate about the evolution of consumer willingness-to-pay (WTP) in non-metro markets?",
     "options": [
-      "The debt instruments are automatically converted into equity shares to protect bondholders.",
-      "Information asymmetry increases, making it harder for creditors to monitor credit risk and potentially triggering covenant defaults.",
-      "The cost of debt for the issuer immediately drops because the agency fees are eliminated.",
-      "The issuer is legally barred from borrowing from commercial banks or issuing commercial paper."
+      "Tier-1 metros have reached absolute market saturation, resulting in zero customer lifetime value (LTV) for new cohorts.",
+      "Non-metro consumers have a lower average revenue per user (ARPU), making them unprofitable despite high growth rates.",
+      "Digital payment penetration and social normalization have unlocked latent demand in underpenetrated markets, offering high marginal LTV.",
+      "Dating apps are executing a predatory pricing strategy in small cities to eliminate local offline matchmaking competitors."
     ],
-    "answerIndex": 1,
-    "explanation": "When a credit rating is withdrawn because an issuer stops participating, the credit rating agency ceases its surveillance. This sharply increases information asymmetry for investors and lenders, as they lose independent credit risk updates. Many institutional investment mandates and debt covenants require active credit ratings; thus, a withdrawal can trigger technical defaults, accelerate debt repayment, or force institutional sell-offs. It does not lead to automatic equity conversion or drop the cost of debt. The core concept tested is credit rating dynamics and covenant risk. Exam Takeaway: Rating withdrawals due to non-participation increase information asymmetry and can trigger restrictive debt covenants.",
+    "answerIndex": 2,
+    "explanation": "The surge in paying users in small cities indicates that the combination of digital payment infrastructure (like UPI) and the social normalization of online dating has successfully unlocked latent demand. Because these markets were previously underpenetrated, they present high marginal customer lifetime value (LTV) and rapid growth compared to mature tier-1 metros where customer acquisition costs (CAC) are rising. It does not imply tier-1 has zero LTV, nor is it a predatory pricing play to eliminate offline matchmakers. Core Concept: Market Penetration and Willingness-to-Pay (WTP). Exam Takeaway: Unlocking underpenetrated regional markets with localized digital value propositions can yield superior customer acquisition growth.",
     "type": "news"
   },
   {
-    "question": "In response to tight trading ranges on the Nifty, institutional trading desks are increasingly placing bets on 'calendar spreads' using options. From a derivatives trading and risk management perspective, what is the primary operational objective of a long calendar spread?",
+    "question": "An investor is evaluating two different corporate bonds. Bond A is a 5-year zero-coupon bond, and Bond B is a 5-year bond with a 10% annual coupon. Both bonds have the same face value and yield to maturity. Which bond will have a higher price sensitivity to interest rate fluctuations?",
     "options": [
-      "To profit from a rapid, massive breakout in the underlying index's price in either direction.",
-      "To eliminate all transaction costs and exchange-clearing fees associated with option execution.",
-      "To exploit the differential rate of time decay (theta) between short-term and long-term options of the same strike.",
-      "To hedge against a sudden, unexpected spike in near-term implied volatility."
+      "Bond B, because coupon payments increase the reinvestment risk",
+      "Bond A, because its duration is equal to its maturity",
+      "Both bonds will have the same sensitivity since they have the same maturity",
+      "Bond A, because it does not pay a coupon and therefore has a lower duration"
+    ],
+    "answerIndex": 1,
+    "explanation": "A zero-coupon bond has a duration equal to its time to maturity, whereas a coupon-paying bond has a duration shorter than its maturity because some cash flows are received earlier. Since duration measures price sensitivity to interest rate changes, Bond A (the zero-coupon bond) has a higher duration and is more sensitive to interest rate fluctuations than Bond B. Exam Takeaway: Zero-coupon bonds always have higher price sensitivity (duration) than coupon-paying bonds of the same maturity.",
+    "type": "apti"
+  },
+  {
+    "question": "A retail brand wants to assess its short-term liquidity position. It has cash of $10,000, marketable securities of $5,000, accounts receivable of $15,000, and inventory worth $20,000. If its current liabilities are $25,000, what is its Quick Ratio?",
+    "options": [
+      "2.00x",
+      "1.20x",
+      "0.60x",
+      "0.80x"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Quick Ratio measures a company's ability to meet its short-term obligations using its most liquid assets. It is calculated as (Cash + Marketable Securities + Accounts Receivable) / Current Liabilities. Here, ($10,000 + $5,000 + $15,000) / $25,000 = $30,000 / $25,000 = 1.20x. Inventory is excluded because it cannot be converted to cash immediately without significant discounts. Exam Takeaway: The Quick Ratio excludes inventory to provide a more conservative measure of short-term liquidity than the Current Ratio.",
+    "type": "apti"
+  },
+  {
+    "question": "Under SEBI guidelines, when an unlisted company plans to raise capital from the public through an Initial Public Offering (IPO), what is the minimum promoter contribution required to be locked in for a specified period post-allotment?",
+    "options": [
+      "10% of the post-issue capital",
+      "20% of the post-issue capital",
+      "50% of the post-issue capital",
+      "75% of the post-issue capital"
+    ],
+    "answerIndex": 1,
+    "explanation": "To ensure promoters remain committed to the company after going public, SEBI mandates that promoters must contribute at least 20% of the post-issue capital. This minimum contribution is subject to a lock-in period (typically 18 months or 3 years depending on the utilization of funds) during which they cannot sell their shares. Exam Takeaway: SEBI enforces a minimum 20% promoter contribution lock-in post-IPO to align promoters' interests with public shareholders.",
+    "type": "apti"
+  },
+  {
+    "question": "When building an integrated 3-statement financial model, how does a $100 increase in depreciation expense affect the Cash Flow Statement and the Balance Sheet at a 30% corporate tax rate?",
+    "options": [
+      "Net income decreases by $70, cash increases by $30, and property, plant, and equipment (PP&E) decreases by $100",
+      "Net income decreases by $100, cash increases by $30, and PP&E decreases by $100",
+      "Net income decreases by $70, cash increases by $70, and PP&E decreases by $100",
+      "Net income decreases by $70, cash increases by $30, and PP&E decreases by $70"
+    ],
+    "answerIndex": 0,
+    "explanation": "A $100 increase in depreciation reduces pre-tax income by $100. At a 30% tax rate, net income decreases by $70 ($100 * (1 - 0.30)). On the Cash Flow Statement, we start with Net Income (-$70) and add back the non-cash depreciation (+$100), leading to a net cash increase of $30. On the Balance Sheet, cash is up by $30, PP&E is down by $100 (due to accumulated depreciation), and Retained Earnings (under Equity) is down by $70, keeping the balance sheet perfectly in balance. Exam Takeaway: Non-cash expenses like depreciation act as tax shields, increasing net cash flow by the tax rate multiplied by the expense.",
+    "type": "apti"
+  },
+  {
+    "question": "In Microsoft Excel, if you are analyzing a large dataset of historical stock prices and want to calculate the arithmetic average of prices that fall only on 'Mondays', which formula is the most efficient to use?",
+    "options": [
+      "AVERAGE",
+      "VLOOKUP combined with AVERAGE",
+      "AVERAGEIF",
+      "SUMPRODUCT"
     ],
     "answerIndex": 2,
-    "explanation": "A long calendar spread involves buying a longer-term option and selling a shorter-term option with the same strike price. Because near-term options decay at a faster rate (higher theta) than longer-term options, the trader profits from this differential time decay as long as the underlying asset remains relatively stable or stays near the strike price. It is a range-bound strategy, not a breakout strategy, and it does not eliminate transaction costs or hedge against near-term volatility spikes. The core concept tested is option Greeks (Theta) and spread strategies. Exam Takeaway: Calendar spreads exploit the accelerated time decay of near-term options when market volatility is low.",
-    "type": "news"
-  },
-  {
-    "question": "Equity research analysts warn retail investors not to bank solely on the Price-to-Earnings (P/E) ratio when valuing companies. In which of the following scenarios is a low P/E ratio most likely to be a value trap rather than an indicator of an undervalued stock?",
-    "options": [
-      "A high-growth technology startup that is heavily capitalizing its research and development costs.",
-      "A cyclical manufacturing firm at the absolute peak of its macroeconomic business cycle.",
-      "A utility provider with stable, regulated cash flows and high dividend payout ratios.",
-      "A consumer goods firm experiencing temporary supply chain disruptions that depress current-quarter earnings."
-    ],
-    "answerIndex": 1,
-    "explanation": "For cyclical companies (e.g., steel, auto, chemicals), earnings are highly volatile. At the peak of the economic cycle, their earnings are temporarily unsustainably high, which artificially depresses the P/E ratio (making the stock look cheap). However, as the cycle turns downward, earnings plummet, and the stock price drops, revealing the low P/E to have been a 'value trap'. Conversely, high-growth startups or firms with temporary disruptions do not exhibit this classic cyclical trap. The core concept tested is valuation metrics and cyclicality. Exam Takeaway: A low P/E ratio at the peak of a cyclical industry's earnings cycle is often a value trap, not an undervaluation signal.",
-    "type": "news"
-  },
-  {
-    "question": "An analyst wants to compare the profitability of two companies in the same industry that have different capital structures (one is highly leveraged, the other is debt-free). Which of the following metrics is the most appropriate to use for an unbiased comparison of their operating performance?",
-    "options": [
-      "Net Profit Margin",
-      "EBITDA Margin",
-      "Return on Equity (ROE)",
-      "Earnings Per Share (EPS)"
-    ],
-    "answerIndex": 1,
-    "explanation": "EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) is independent of a company's capital structure and tax jurisdiction because it excludes interest expenses and taxes. Net Profit Margin, ROE, and EPS are all heavily influenced by the amount of debt a company carries due to interest deductions. Exam Takeaway: EBITDA margin is the gold standard for comparing operational profitability across firms with different capital structures.",
+    "explanation": "The AVERAGEIF function allows you to calculate the average of a range based on a specific criteria (e.g., matching the day of the week to 'Monday'). While other complex combinations could work, AVERAGEIF is the most direct and efficient built-in function for single-criterion conditional averaging. Exam Takeaway: Use AVERAGEIF for single-condition averages and AVERAGEIFS when multiple criteria must be met.",
     "type": "apti"
   },
   {
-    "question": "In financial modeling, if you want to pull a value from a 2D matrix based on both a specific row header and a specific column header, which combination of Excel functions is most commonly used?",
+    "question": "Which of the following macroeconomic indicators is considered a 'leading' indicator of economic activity rather than a lagging or coincident one?",
     "options": [
-      "VLOOKUP and HLOOKUP",
-      "INDEX and MATCH",
-      "OFFSET and COUNT",
-      "CHOOSE and MATCH"
-    ],
-    "answerIndex": 1,
-    "explanation": "The INDEX function returns a value from a physical location in a table, while two MATCH functions are nested inside it to dynamically find the correct row and column numbers based on the headers. VLOOKUP and HLOOKUP cannot easily be nested together for dynamic two-way lookups. Exam Takeaway: The INDEX-MATCH-MATCH formula is the industry-standard method for dynamic two-dimensional grid lookups in financial models.",
-    "type": "apti"
-  },
-  {
-    "question": "A retail investor buys shares of a company based on a tip from an online forum, only to find out that the promoter group has artificially inflated the stock price through circular trading. Under which specific regulations would SEBI investigate and penalize this market manipulation?",
-    "options": [
-      "SEBI (Substantial Acquisition of Shares and Takeovers) Regulations",
-      "SEBI (Prohibition of Fraudulent and Unfair Trade Practices) Regulations (PFUTP)",
-      "SEBI (Issue of Capital and Disclosure Requirements) Regulations (ICDR)",
-      "SEBI (Listing Obligations and Disclosure Requirements) Regulations (LODR)"
-    ],
-    "answerIndex": 1,
-    "explanation": "Circular trading and artificial price inflation constitute market manipulation and fall directly under the SEBI (Prohibition of Fraudulent and Unfair Trade Practices relating to Securities Market) Regulations, commonly known as PFUTP. Takeover, ICDR, and LODR regulations deal with acquisitions, primary issuances, and listing disclosures respectively. Exam Takeaway: Market manipulation and pump-and-dump schemes are prosecuted under SEBI's PFUTP regulations.",
-    "type": "apti"
-  },
-  {
-    "question": "Which of the following components is subtracted from Net Income when calculating Free Cash Flow to Firm (FCFF) using the indirect method?",
-    "options": [
-      "Depreciation & Amortization",
-      "Interest Expense paid to lenders",
-      "Capital Expenditures (CapEx)",
-      "Decrease in Non-Cash Working Capital"
+      "Unemployment rate",
+      "Consumer Price Index (CPI)",
+      "Purchasing Managers' Index (PMI)",
+      "Gross Domestic Product (GDP) growth rate"
     ],
     "answerIndex": 2,
-    "explanation": "Free Cash Flow to Firm (FCFF) represents cash available to all capital providers. To calculate it, we add back non-cash charges (like Depreciation) and interest (adjusted for tax), and subtract Capital Expenditures (CapEx) and the increase in working capital. Subtracted items represent cash outflows. Exam Takeaway: CapEx is always a cash outflow and must be subtracted to arrive at free cash flow.",
+    "explanation": "The Purchasing Managers' Index (PMI) is a leading indicator because it is based on monthly surveys of private sector companies regarding their expectations, new orders, and hiring intentions, reflecting future economic trends. Unemployment, CPI, and GDP are lagging or coincident indicators as they measure past performance. Exam Takeaway: Leading indicators like PMI provide early signals of economic expansion or contraction before they show up in GDP data.",
     "type": "apti"
   },
   {
-    "question": "If a commercial bank in India falls short of its priority sector lending (PSL) targets at the end of the financial year, how is the bank typically required to allocate the shortfall?",
+    "question": "If the Reserve Bank of India (RBI) conducts an Open Market Operation (OMO) involving the sale of Government Securities (G-Secs) in the secondary market, what is the primary objective and the expected impact on liquidity?",
     "options": [
-      "Pay a direct cash penalty to the Ministry of Finance",
-      "Invest the shortfall amount in the Rural Infrastructure Development Fund (RIDF) managed by NABARD",
-      "Write off an equivalent amount of existing bad loans",
-      "Issue free equity shares to rural cooperative banks"
+      "To inject liquidity into the banking system, lowering short-term interest rates",
+      "To absorb excess liquidity from the banking system, raising short-term interest rates",
+      "To help the government borrow money directly from retail investors without affecting liquidity",
+      "To devalue the Indian Rupee against major foreign currencies"
     ],
     "answerIndex": 1,
-    "explanation": "Under RBI guidelines, any shortfall in achieving priority sector lending targets must be deposited with the Rural Infrastructure Development Fund (RIDF) established with NABARD, or other financial institutions as decided by the RBI, which yields lower returns for the bank. Exam Takeaway: Non-compliance with PSL targets penalizes bank margins by forcing low-yield investments in developmental funds like RIDF.",
+    "explanation": "When the RBI sells government securities (G-Secs) in the market, commercial banks buy these securities by paying cash to the RBI. This process withdraws/absorbs rupee liquidity from the banking system, which typically puts upward pressure on short-term interest rates. Exam Takeaway: Selling securities via OMOs is an RBI tool to tighten liquidity, while buying securities injects liquidity.",
     "type": "apti"
   },
   {
-    "question": "Which of the following transactions would result in an increase in a company's Cash Flow from Operations (CFO) on the Cash Flow Statement?",
+    "question": "An analyst wants to determine the valuation of a steady-state firm using the Gordon Growth Model. The firm's next year expected dividend is $4.00, its cost of equity is 12%, and its dividends are expected to grow at a constant rate of 4% indefinitely. What is the intrinsic value of the stock?",
     "options": [
-      "Selling a piece of manufacturing machinery for cash",
-      "Issuing new corporate bonds to institutional investors",
-      "An increase in Accounts Payable during the fiscal year",
-      "An increase in Inventory levels at the warehouse"
+      "$33.33",
+      "$100.00",
+      "$50.00",
+      "$25.00"
     ],
     "answerIndex": 2,
-    "explanation": "An increase in Accounts Payable means the company has delayed payments to its suppliers, thereby conserving cash. In the indirect cash flow method, an increase in a current liability is added back to Net Income, increasing operating cash flow. Selling machinery is an investing activity, and issuing bonds is a financing activity. Exam Takeaway: Increasing payables acts as a short-term source of operating cash.",
+    "explanation": "According to the Gordon Growth Model, Value = D1 / (r - g), where D1 is the expected dividend next year ($4.00), r is the cost of equity (12% or 0.12), and g is the constant growth rate (4% or 0.04). Plugging in the numbers: Value = 4.00 / (0.12 - 0.04) = 4.00 / 0.08 = $50.00. Exam Takeaway: The Gordon Growth Model calculates equity value by capitalizing next year's expected dividend by the spread between the discount rate and the growth rate.",
     "type": "apti"
   },
   {
-    "question": "In financial analysis, if a company has a Asset Turnover Ratio of 2.0x, a Net Profit Margin of 10%, and an Equity Multiplier of 1.5x, what is its Return on Equity (ROE) according to the DuPont Analysis framework?",
+    "question": "In corporate accounting, if a company decides to change its inventory valuation method from FIFO (First-In, First-Out) to LIFO (Last-In, First-Out) during a period of steadily rising prices (inflation), what will be the immediate impact on its reported Cost of Goods Sold (COGS) and Net Income?",
     "options": [
-      "15%",
-      "20%",
-      "30%",
-      "45%"
+      "COGS will decrease, and Net Income will increase",
+      "COGS will increase, and Net Income will decrease",
+      "Both COGS and Net Income will increase",
+      "Both COGS and Net Income will decrease"
+    ],
+    "answerIndex": 1,
+    "explanation": "During periods of inflation, the costs of newer inventory items are higher than older ones. Under LIFO, the newer, more expensive items are sold first, which increases the Cost of Goods Sold (COGS). A higher COGS reduces pre-tax income, leading to lower reported Net Income. Exam Takeaway: During inflation, LIFO results in higher COGS, lower net income, and lower taxes compared to FIFO.",
+    "type": "apti"
+  },
+  {
+    "question": "Which of the following Excel formulas will display the current date and time, updating automatically every time the worksheet is recalculated?",
+    "options": [
+      "=TODAY()",
+      "=DATE()",
+      "=NOW()",
+      "=CURRENT()"
     ],
     "answerIndex": 2,
-    "explanation": "According to the DuPont framework, ROE = Net Profit Margin * Asset Turnover * Equity Multiplier. Plugging in the numbers: 10% * 2.0 * 1.5 = 30%. Exam Takeaway: DuPont analysis breaks down ROE into profitability, operational efficiency, and financial leverage.",
+    "explanation": "The =NOW() function in Excel returns the current date and time, updating dynamically upon recalculation. The =TODAY() function only returns the current date without the time. Exam Takeaway: Use NOW() for dynamic date and time stamps, and TODAY() when you only need the current date.",
     "type": "apti"
   },
   {
-    "question": "When modeling a company's debt schedule in Excel, what is the primary risk of linking the interest expense directly to the average debt of the current year, and how is it resolved?",
+    "question": "Under the concept of 'Time Value of Money', what is the future value of an ordinary annuity of $1,000 paid annually for 3 years at an annual interest rate of 10%?",
     "options": [
-      "It causes a 'Hardcoding' error; resolved by using the F4 key.",
-      "It causes a 'Circular Reference' error; resolved by enabling iterative calculations or using a macro.",
-      "It causes a 'Divide by Zero' error; resolved by using the IFERROR function.",
-      "It causes a 'Value' error; resolved by converting text cells to numbers."
-    ],
-    "answerIndex": 1,
-    "explanation": "Linking interest expense to average debt creates a circular loop: interest expense reduces net income, which reduces ending cash, which changes the amount of debt needed, which in turn changes the interest expense. This is resolved by enabling Iterative Calculations in Excel settings or building a circuit breaker. Exam Takeaway: Average debt formulas in financial models naturally trigger circular references that require iterative settings.",
-    "type": "apti"
-  },
-  {
-    "question": "If the Reserve Bank of India (RBI) decides to increase the Cash Reserve Ratio (CRR) for commercial banks, what is the most likely impact on the banking system's lending capacity and interest rates?",
-    "options": [
-      "Lending capacity increases, and interest rates fall.",
-      "Lending capacity decreases, and interest rates rise.",
-      "Lending capacity remains unchanged, but interest rates fall.",
-      "Lending capacity decreases, and interest rates remain unaffected."
-    ],
-    "answerIndex": 1,
-    "explanation": "An increase in the CRR means banks must keep a higher proportion of their deposits with the RBI as cash reserves. This reduces the loanable funds available with banks, squeezing liquidity and driving lending interest rates higher. Exam Takeaway: Raising the CRR is a contractionary monetary policy tool used to suck liquidity out of the banking system.",
-    "type": "apti"
-  },
-  {
-    "question": "Under India's insolvency framework, which of the following bodies is the primary adjudicating authority responsible for admitting or rejecting corporate insolvency resolution petitions for companies?",
-    "options": [
-      "Securities Appellate Tribunal (SAT)",
-      "National Company Law Tribunal (NCLT)",
-      "Insolvency and Bankruptcy Board of India (IBBI)",
-      "Debt Recovery Tribunal (DRT)"
-    ],
-    "answerIndex": 1,
-    "explanation": "The National Company Law Tribunal (NCLT) acts as the adjudicating authority for corporate insolvency resolution processes (CIRP) under the IBC. The IBBI is the regulator that oversees insolvency professionals, while the DRT handles individual and partnership debt recovery. Exam Takeaway: The NCLT is the judicial forum where corporate bankruptcy petitions are legally admitted and decided.",
-    "type": "apti"
-  },
-  {
-    "question": "What is the primary difference between a company's Enterprise Value (EV) and its Equity Value?",
-    "options": [
-      "Equity Value includes cash, while Enterprise Value does not.",
-      "Enterprise Value represents the value of the operating assets to all capital providers, while Equity Value represents the value available only to shareholders.",
-      "Enterprise Value is always lower than Equity Value for companies with net debt.",
-      "Equity Value is calculated using book values, while Enterprise Value is strictly a market-based metric."
-    ],
-    "answerIndex": 1,
-    "explanation": "Enterprise Value (EV) is the total value of the firm's core operations, belonging to both debt and equity holders. Equity Value is the value of the company attributable only to shareholders after subtracting net debt. Exam Takeaway: EV is capital-structure neutral, whereas Equity Value changes depending on leverage.",
-    "type": "apti"
-  },
-  {
-    "question": "In Excel, if you want to calculate the internal rate of return for a project's cash flows that occur at irregular, non-periodic intervals, which formula must you use?",
-    "options": [
-      "IRR",
-      "MIRR",
-      "XIRR",
-      "NPV"
+      "$3,000",
+      "$3,300",
+      "$3,310",
+      "$3,630"
     ],
     "answerIndex": 2,
-    "explanation": "The standard IRR and MIRR functions assume that all cash flows occur at regular, equal intervals (e.g., annually or monthly). XIRR allows you to input a specific schedule of dates alongside the cash flows to calculate an accurate annualized return for irregular intervals. Exam Takeaway: XIRR is mandatory for real-world private equity and project finance modeling where cash flows are highly irregular.",
+    "explanation": "For an ordinary annuity, payments occur at the end of each period. The first payment of $1,000 earns interest for 2 years ($1,000 * 1.10^2 = $1,210). The second payment earns interest for 1 year ($1,000 * 1.10 = $1,100). The third payment is made at the end of year 3 and earns no interest ($1,000). Total Future Value = $1,210 + $1,100 + $1,000 = $3,310. Exam Takeaway: An ordinary annuity assumes payments are made at the end of each period, compounding over the remaining periods.",
     "type": "apti"
   },
   {
-    "question": "If a company's credit rating is downgraded from 'AA' to 'BBB' by a rating agency like CRISIL, what is the most immediate operational impact on the company?",
+    "question": "A firm has an Operating Profit (EBIT) of $500,000, interest expenses of $50,000, and tax expenses of $135,000. What is the firm's Times Interest Earned (Interest Coverage) ratio?",
     "options": [
-      "Its equity shares are automatically delisted from the stock exchanges.",
-      "The cost of borrowing for new debt issuances will increase.",
-      "The company will be forced to shut down its international offices.",
-      "Its current liabilities will immediately convert into equity."
+      "10.0x",
+      "7.3x",
+      "6.3x",
+      "2.7x"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Times Interest Earned (or Interest Coverage) ratio is calculated as EBIT / Interest Expense. In this case, EBIT is $500,000 and Interest Expense is $50,000, which yields 10.0x. This indicates how easily the company can pay interest on its outstanding debt using its operating profits before taxes and interest are deducted. Exam Takeaway: Interest coverage is calculated using operating profit (EBIT), not net income, because interest is paid before taxes are applied.",
+    "type": "apti"
+  },
+  {
+    "question": "In corporate finance, if a project's Net Present Value (NPV) is exactly zero, what does this imply about the project's Internal Rate of Return (IRR)?",
+    "options": [
+      "The IRR is equal to 0%",
+      "The IRR is equal to the project's hurdle rate / discount rate",
+      "The IRR is negative",
+      "The project should be rejected because it generates no absolute value"
     ],
     "answerIndex": 1,
-    "explanation": "A credit rating downgrade indicates higher default risk. Lenders and debt investors will demand a higher yield (risk premium) to compensate for this risk, thereby increasing the company's cost of debt. Exam Takeaway: Credit downgrades directly increase interest expenses and the overall cost of capital.",
+    "explanation": "The Internal Rate of Return (IRR) is defined as the discount rate at which the Net Present Value (NPV) of a project becomes exactly zero. Therefore, if a project's NPV is zero, its IRR must be equal to the discount rate used to calculate that NPV. This means the project earns exactly its cost of capital. Exam Takeaway: An NPV of zero indicates that the project's return is exactly equal to the required cost of capital (IRR = Discount Rate).",
     "type": "apti"
   },
   {
-    "question": "Which of the following transactions will cause a company's Debt-to-Equity (D/E) ratio to decrease immediately?",
+    "question": "Which of the following financial instruments represents a contract where a buyer has the right, but not the obligation, to sell an underlying asset at a specified price on or before a certain date?",
     "options": [
-      "The company repurchases its own shares from the open market using excess cash.",
-      "The company issues new equity shares to institutional investors to raise capital.",
-      "The company borrows money from a bank to purchase new factory equipment.",
-      "The company declares and pays a cash dividend to its shareholders."
-    ],
-    "answerIndex": 1,
-    "explanation": "Issuing new equity increases the denominator (Equity) of the D/E ratio while leaving debt unchanged, which decreases the ratio. Share repurchases and cash dividends decrease equity, which would increase the D/E ratio. Exam Takeaway: Equity dilution or capital raising reduces financial leverage ratios.",
-    "type": "apti"
-  },
-  {
-    "question": "Under SEBI's mutual fund categorization rules, what is the minimum investment requirement in equity and equity-related instruments for a fund to be classified as a 'Large Cap Fund'?",
-    "options": [
-      "Minimum 50% of total assets",
-      "Minimum 65% of total assets",
-      "Minimum 80% of total assets",
-      "Minimum 95% of total assets"
+      "Futures Contract",
+      "Call Option",
+      "Put Option",
+      "Forward Contract"
     ],
     "answerIndex": 2,
-    "explanation": "According to SEBI's categorization of mutual funds, a Large Cap Fund must invest at least 80% of its total assets in equity and equity-related instruments of large-cap companies (defined as the top 100 companies by market capitalization). Exam Takeaway: SEBI enforces strict asset allocation limits to ensure mutual funds stay true to their stated mandate.",
+    "explanation": "A Put Option gives the buyer the right, but not the obligation, to sell an underlying asset at a specified strike price. A Call Option gives the right to buy. Futures and Forwards are binding obligations for both parties to transact. Exam Takeaway: Options provide rights without obligations, with 'Put' representing the right to sell and 'Call' representing the right to buy.",
     "type": "apti"
   },
   {
-    "question": "If you need to quickly locate and highlight all cells in an Excel financial model that contain hardcoded values (numbers) rather than formulas, which built-in feature should you use?",
+    "question": "When a company issues shares of stock at a price higher than their par value, which balance sheet account under Shareholder's Equity increases to record this excess amount?",
     "options": [
-      "Conditional Formatting with a VLOOKUP rule",
-      "Go To Special -> Constants",
-      "Trace Dependents",
-      "Data Validation"
-    ],
-    "answerIndex": 1,
-    "explanation": "Pressing F5 (or Ctrl+G) opens the 'Go To' dialog box. Clicking 'Special' and selecting 'Constants' (with only 'Numbers' checked) will instantly select all hardcoded numerical inputs in your worksheet, allowing you to format them (typically in blue font as per modeling standards). Exam Takeaway: Go To Special is an essential auditing tool for separating hardcoded assumptions from formulas.",
-    "type": "apti"
-  },
-  {
-    "question": "In corporate finance, what does a high 'Interest Coverage Ratio' typically indicate about a borrowing firm?",
-    "options": [
-      "The firm is highly leveraged and at risk of default.",
-      "The firm easily generates enough operating profit to meet its interest payment obligations.",
-      "The firm's assets are mostly funded by equity capital.",
-      "The firm has a low return on capital employed."
-    ],
-    "answerIndex": 1,
-    "explanation": "The Interest Coverage Ratio is calculated as EBIT divided by Interest Expense. A higher ratio means the company generates plenty of operating earnings relative to its interest burden, indicating low default risk and strong debt-servicing capability. Exam Takeaway: Credit analysts look for high interest coverage ratios to confirm debt sustainability.",
-    "type": "apti"
-  },
-  {
-    "question": "When a company capitalizes an expenditure (such as purchasing a patent) instead of expensing it immediately, how does this accounting treatment affect the current year's financial statements?",
-    "options": [
-      "It decreases current year assets and increases current year expenses.",
-      "It increases current year net income and increases total assets on the balance sheet.",
-      "It has no impact on net income but reduces cash flow from financing.",
-      "It increases operating expenses and reduces cash flow from investing."
-    ],
-    "answerIndex": 1,
-    "explanation": "Capitalizing an expenditure means recording it as an asset on the balance sheet rather than an immediate expense on the income statement. This keeps the current year's expenses lower (only the depreciation/amortization portion is recognized), thereby increasing net income and boosting total assets. Exam Takeaway: Capitalizing costs defers expense recognition, temporarily inflating profitability.",
-    "type": "apti"
-  },
-  {
-    "question": "Under the Reserve Bank of India's (RBI) Liberalised Remittance Scheme (LRS), what is the maximum amount that a resident individual can freely remit outward per financial year for permissible current or capital account transactions?",
-    "options": [
-      "USD 100,000",
-      "USD 250,000",
-      "USD 500,000",
-      "USD 1,000,000"
-    ],
-    "answerIndex": 1,
-    "explanation": "Under the LRS framework established by the RBI, resident individuals are allowed to remit up to USD 250,000 per financial year for transactions like travel, education, medical treatment, or investment in foreign shares and properties. Exam Takeaway: The LRS limit is a crucial regulatory boundary for outbound retail capital flows from India.",
-    "type": "apti"
-  },
-  {
-    "question": "Which of the following statements is true regarding the terminal value calculation in a multi-stage Discounted Cash Flow (DCF) model?",
-    "options": [
-      "The perpetual growth rate used must be higher than the country's long-term GDP growth rate.",
-      "The terminal value usually accounts for a minor fraction (under 20%) of the total enterprise value.",
-      "The terminal value represents the present value of all cash flows beyond the explicit forecast period.",
-      "Using a higher Weighted Average Cost of Capital (WACC) will increase the calculated terminal value."
+      "Retained Earnings",
+      "Treasury Stock",
+      "Securities Premium (or Additional Paid-in Capital)",
+      "Common Stock at Par Value"
     ],
     "answerIndex": 2,
-    "explanation": "Terminal value captures the value of a business's cash flows beyond the explicit forecast horizon (typically 5-10 years) assuming stable perpetual growth. It usually accounts for 60-80% of the total DCF value. A higher WACC increases the discount rate, which decreases the present value of the terminal value. Exam Takeaway: Terminal value represents the long-term steady-state value of a firm and dominates DCF valuation models.",
+    "explanation": "When shares are issued above par value, the par value is recorded in the Common Stock account, while any excess funds received are recorded in the Securities Premium (or Additional Paid-in Capital) account under Shareholder's Equity. Exam Takeaway: Capital raised from issuing stock above par value is split between Common Stock (par value) and Securities Premium (excess value).",
+    "type": "apti"
+  },
+  {
+    "question": "What is the primary difference between nominal GDP and real GDP?",
+    "options": [
+      "Nominal GDP includes net exports, while real GDP does not",
+      "Nominal GDP is adjusted for inflation, while real GDP is valued at current market prices",
+      "Nominal GDP is valued at current market prices, while real GDP is adjusted for inflation using constant prices",
+      "Nominal GDP only measures government spending, while real GDP measures total economic output"
+    ],
+    "answerIndex": 2,
+    "explanation": "Nominal GDP measures economic output using current market prices, meaning it can rise simply due to price increases (inflation). Real GDP adjusts for inflation by using a constant base-year price level, reflecting actual changes in physical production volume. Exam Takeaway: Real GDP isolates physical output growth by removing the distorting effects of price inflation.",
+    "type": "apti"
+  },
+  {
+    "question": "To protect retail investors from extreme market volatility, SEBI mandates stock exchanges to implement trading halts using circuit breakers. If the index-based circuit breaker is triggered at a 10% movement before 1:00 PM on a trading day, what happens?",
+    "options": [
+      "Trading is halted completely for the rest of the day",
+      "Trading is halted for 45 minutes across both equity and equity derivative markets",
+      "Trading continues normally, but short selling is banned for the rest of the day",
+      "Only retail orders are blocked, while institutional trading continues"
+    ],
+    "answerIndex": 1,
+    "explanation": "SEBI's index-based market-wide circuit breaker system applies to both BSE and NSE. If the index moves by 10% before 1:00 PM, it triggers a mandatory 45-minute trading halt across all equity and equity derivative markets to allow the market to cool down and digest news. Exam Takeaway: SEBI uses coordinated, market-wide circuit breakers to temporarily halt all trading during periods of extreme systemic panic or euphoria.",
+    "type": "apti"
+  },
+  {
+    "question": "If a commercial bank in India experiences a sudden, short-term liquidity mismatch and needs to borrow funds overnight from the Reserve Bank of India (RBI) against collateral of government securities, what is the interest rate charged by the RBI called?",
+    "options": [
+      "Reverse Repo Rate",
+      "Repo Rate",
+      "Bank Rate",
+      "Marginal Standing Facility (MSF) Rate"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Repo Rate (Repurchase Option) is the key policy rate at which the RBI lends short-term (typically overnight) money to commercial banks against the collateral of government securities to manage liquidity mismatches. MSF is an emergency rate above the Repo rate used when banks run out of eligible repo collateral. Exam Takeaway: The Repo Rate is the primary policy rate used by the central bank to control short-term liquidity and signal monetary policy stance.",
+    "type": "apti"
+  },
+  {
+    "question": "An analyst is calculating the Weighted Average Cost of Capital (WACC) for a firm. The firm has a target debt-to-equity ratio of 1:1, a pre-tax cost of debt of 8%, a cost of equity of 12%, and a corporate tax rate of 30%. What is the firm's WACC?",
+    "options": [
+      "10.0%",
+      "8.8%",
+      "9.4%",
+      "7.6%"
+    ],
+    "answerIndex": 1,
+    "explanation": "A debt-to-equity ratio of 1:1 means the capital structure is 50% debt and 50% equity. The after-tax cost of debt is Cost of Debt * (1 - Tax Rate) = 8% * (1 - 0.30) = 5.6%. The cost of equity is 12%. WACC = (Weight of Debt * After-tax Cost of Debt) + (Weight of Equity * Cost of Equity) = (0.50 * 5.6%) + (0.50 * 12%) = 2.8% + 6.0% = 8.8%. Exam Takeaway: Always use the after-tax cost of debt when calculating WACC because interest payments are tax-deductible.",
+    "type": "apti"
+  },
+  {
+    "question": "In Microsoft Excel, which keyboard shortcut allows you to quickly toggle between displaying formulas in the cells and displaying the resulting values across the entire worksheet?",
+    "options": [
+      "Ctrl + F",
+      "Ctrl + ` (Grave Accent / Tilde)",
+      "Alt + F11",
+      "Ctrl + Shift + Enter"
+    ],
+    "answerIndex": 1,
+    "explanation": "The shortcut Ctrl + ` (located next to the number 1 key on most keyboards) toggles Excel's display mode to show the formulas written in the cells instead of their calculated output values, which is extremely useful for auditing financial models. Exam Takeaway: Use Ctrl + ` to quickly audit and inspect formula structures across an entire Excel sheet.",
     "type": "apti"
   }
 ]
